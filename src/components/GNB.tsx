@@ -14,7 +14,7 @@ export default function GNB() {
   }, []);
 
   return (
-    <nav className="flex p-8 gap-10 shadow">
+    <nav className="flex px-8 py-4 gap-10 shadow">
       <Link href="/">logo</Link>
       {isLogin ? (
         <Link href="/posting">글쓰기</Link>
