@@ -7,6 +7,7 @@
     {
       "name": "또순이네",
       "food": "된장찌개",
+      "stars": 2,
       "latlng": {
         "lat": 37.53584,
         "lng": 126.8953699
@@ -17,9 +18,162 @@
     {
       "name": "대구반야월막창",
       "food": "막창",
+      "starts": 1,
       "latlng": { "lat": 37.6842966, "lng": 126.7751932 },
       "youtube": "https://youtu.be/2qJ--ZdSj1s?si=o_9zzSqeVGaYqoWa",
       "youtubeEmbed": "https://www.youtube.com/embed/2qJ--ZdSj1s?si=ojoob_12uRNmRtaq"
+    },
+    {
+      "name": "대박각",
+      "food": "간짜장",
+      "starts": 3,
+      "latlng": { "lat": 37.6703296, "lng": 126.7627868 },
+      "youtube": "https://youtu.be/qi9QonkfgAA?si=xbCmnIF2IqBZIlTn",
+      "youtubeEmbed": "https://www.youtube.com/embed/qi9QonkfgAA?si=xbCmnIF2IqBZIlTn"
+    },
+    {
+      "name": "서동관",
+      "food": "곰탕",
+      "starts": 3,
+      "latlng": { "lat": 37.6709739, "lng": 126.7476059 },
+      "youtube": "https://youtu.be/1xl5Fb85Hzg?si=-N6PmbztY0bc9Y3F",
+      "youtubeEmbed": "https://www.youtube.com/embed/1xl5Fb85Hzg?si=0d583IIo8jyRvyqb"
+    },
+    {
+      "name": "매니멀 스모크 하우스",
+      "food": "바비큐",
+      "starts": 2,
+      "latlng": { "lat": 37.53451860000001, "lng": 126.9884469 },
+      "youtube": "https://youtu.be/VpWlrBJ6PTw?si=LadSN9u3vzlGDJvM",
+      "youtubeEmbed": "https://www.youtube.com/embed/VpWlrBJ6PTw?si=LadSN9u3vzlGDJvM"
+    },
+    {
+      "name": "꽃게당",
+      "food": "게장",
+      "starts": 0,
+      "latlng": { "lat": 37.5194059, "lng": 127.0198627 },
+      "youtube": "https://youtu.be/VpWlrBJ6PTw?si=LadSN9u3vzlGDJvM",
+      "youtubeEmbed": "https://www.youtube.com/embed/VpWlrBJ6PTw?si=LadSN9u3vzlGDJvM"
+    },
+    {
+      "name": "하쿠텐라멘",
+      "food": "라멘",
+      "starts": 3,
+      "latlng": { "lat": 37.5628201, "lng": 126.9258144 },
+      "youtube": "https://youtu.be/lwzxb8BWmg0?si=Tm8rBgNxVlDKlLAI",
+      "youtubeEmbed": "https://www.youtube.com/embed/lwzxb8BWmg0?si=Tm8rBgNxVlDKlLAI"
+    },
+    {
+      "name": "마마수제만두",
+      "food": "굴짬뽕",
+      "starts": 3,
+      "latlng": { "lat": 37.591764, "lng": 126.9135093 },
+      "youtube": "https://youtu.be/0-ab7AvvaE8?si=u0Vhz0Fi7S2bjbkq",
+      "youtubeEmbed": "https://www.youtube.com/embed/0-ab7AvvaE8?si=u0Vhz0Fi7S2bjbkq"
+    },
+    {
+      "name": "송림식당",
+      "food": "불고기백반",
+      "starts": 2,
+      "latlng": { "lat": 37.5366898, "lng": 127.0764847 },
+      "youtube": "https://youtu.be/GzjLQnQvZdQ?si=3rUDuuf_uEOOmHeV",
+      "youtubeEmbed": "https://www.youtube.com/embed/GzjLQnQvZdQ?si=3rUDuuf_uEOOmHeV"
+    },
+    {
+      "name": "애플하우스",
+      "food": "떡볶이",
+      "starts": 2,
+      "latlng": { "lat": 37.4862393, "lng": 126.9806459 },
+      "youtube": "https://youtu.be/b7zHynNcIaU?si=1K9E7GDDTIXiIqtq",
+      "youtubeEmbed": "https://www.youtube.com/embed/b7zHynNcIaU?si=1K9E7GDDTIXiIqtq"
+    },
+    {
+      "name": "초원",
+      "food": "우설",
+      "starts": 3,
+      "latlng": { "lat": 37.5427605404136, "lng": 126.973355698925 },
+      "youtube": "https://youtu.be/c1DcQABWypk?si=zg1zAPv9gOwRvkRx",
+      "youtubeEmbed": "https://www.youtube.com/embed/c1DcQABWypk?si=zg1zAPv9gOwRvkRx"
+    },
+    {
+      "name": "이랑칼국수",
+      "food": "닭칼국수",
+      "starts": 2,
+      "latlng": { "lat": 37.5068181, "lng": 127.1085898 },
+      "youtube": "https://youtu.be/nDvGIAdkbD4?si=ORtKgi3H2gT6-mxO",
+      "youtubeEmbed": "https://www.youtube.com/embed/nDvGIAdkbD4?si=ORtKgi3H2gT6-mxO"
+    },
+    {
+      "name": "안재식당",
+      "food": "백반",
+      "starts": 2,
+      "latlng": { "lat": 37.5067428, "lng": 127.0919201 },
+      "youtube": "https://youtu.be/TcCc8Cxj8LQ?si=9IYMehdhx7KtDLZa",
+      "youtubeEmbed": "https://www.youtube.com/embed/TcCc8Cxj8LQ?si=9IYMehdhx7KtDLZa"
+    },
+    {
+      "name": "신호등 장작구이",
+      "food": "닭구이",
+      "starts": 2,
+      "latlng": { "lat": 37.6256698, "lng": 126.8970345 },
+      "youtube": "https://youtu.be/PCPwzwLhJiI?si=gCXd-yRtdAU8RcOv",
+      "youtubeEmbed": "https://www.youtube.com/embed/PCPwzwLhJiI?si=gCXd-yRtdAU8RcOv"
+    },
+    {
+      "name": "충무로쭈꾸미불고기",
+      "food": "쭈꾸미",
+      "starts": 2,
+      "latlng": { "lat": 37.5617223, "lng": 126.9921889 },
+      "youtube": "https://youtu.be/PHBPV8WBHyM?si=rVgi2el21n301sWx",
+      "youtubeEmbed": "https://www.youtube.com/embed/PHBPV8WBHyM?si=rVgi2el21n301sWx"
+    },
+    {
+      "name": "목포집",
+      "food": "닭도리탕",
+      "starts": 2,
+      "latlng": { "lat": 37.5174422, "lng": 127.0213268 },
+      "youtube": "https://youtu.be/Kln317zS0YM?si=0_ricpFaW8CWQtkk",
+      "youtubeEmbed": "https://www.youtube.com/embed/Kln317zS0YM?si=3toKMLpg2G7EWHdU"
+    },
+    {
+      "name": "가람",
+      "food": "고기짬뽕",
+      "starts": 2,
+      "latlng": { "lat": 35.8566217241732, "lng": 128.53144218163 },
+      "youtube": "https://youtu.be/bRtk8E-J318?si=U47ddlFrRk9lFkMy",
+      "youtubeEmbed": "https://www.youtube.com/embed/bRtk8E-J318?si=U47ddlFrRk9lFkMy"
+    },
+    {
+      "name": "걸리버막창",
+      "food": "막창",
+      "starts": 3,
+      "latlng": { "lat": 35.8854895, "lng": 128.5815298 },
+      "youtube": "https://youtu.be/4cqE3sp1K2U?si=zcEND-PBxRCRSMrK",
+      "youtubeEmbed": "https://www.youtube.com/embed/4cqE3sp1K2U?si=zcEND-PBxRCRSMrK"
+    },
+    {
+      "name": "용문산 중앙식당",
+      "food": "더덕불고기",
+      "starts": 2,
+      "latlng": { "lat": 37.5456175, "lng": 127.5831302 },
+      "youtube": "https://youtu.be/5TktluRTJco?si=LtMyCqZHO5B-cSYI",
+      "youtubeEmbed": "https://www.youtube.com/embed/5TktluRTJco?si=LtMyCqZHO5B-cSYI"
+    },
+    {
+      "name": "산수갑산",
+      "food": "순대국밥",
+      "starts": 2,
+      "latlng": { "lat": 37.5654116565534, "lng": 126.995323167195 },
+      "youtube": "https://youtu.be/cYHHjLQDejY?si=czZoEpJstLgyCQhU",
+      "youtubeEmbed": "https://www.youtube.com/embed/cYHHjLQDejY?si=czZoEpJstLgyCQhU"
+    },
+    {
+      "name": "희락카츠",
+      "food": "돈가스",
+      "starts": 3,
+      "latlng": { "lat": 37.6812096, "lng": 126.7741327 },
+      "youtube": "https://youtu.be/LtQK3PbDmP0?si=ABCvDArP7OTM222r",
+      "youtubeEmbed": "https://www.youtube.com/embed/LtQK3PbDmP0?si=ABCvDArP7OTM222r"
     }
   ]
 }
