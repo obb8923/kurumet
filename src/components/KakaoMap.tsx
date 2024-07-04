@@ -14,7 +14,7 @@ export default function KaKaoMap() {
     setInfoWindowState((prev) =>
       prev.map((state, i) => ({
         ...state,
-        isOpen: i === index ? true : false,
+        isOpen: i === index ? !state.isOpen : false,
       }))
     );
   };
