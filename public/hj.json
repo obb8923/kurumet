@@ -1,18 +1,25 @@
 {
+  "person": {
+    "name": "공혁준",
+    "program": "공슐랭 가이드"
+  },
   "list": [
     {
       "name": "또순이네",
-      "description": "된장찌개",
-      "lat": "37.53584",
-      "lng": "126.8953699",
-      "youtube": "https://youtu.be/zWG7SlaILOs?si=jx0RxDkqQTCvnzxN"
+      "food": "된장찌개",
+      "latlng": {
+        "lat": 37.53584,
+        "lng": 126.8953699
+      },
+      "youtube": "https://youtu.be/zWG7SlaILOs?si=jx0RxDkqQTCvnzxN",
+      "youtubeEmbed": "https://www.youtube.com/embed/zWG7SlaILOs?si=4L4SNAql-k8v3zX6"
     },
     {
       "name": "대구반야월막창",
-      "description": "막창",
-      "lat": "37.6842966 ",
-      "lng": "126.7751932",
-      "youtube": "https://youtu.be/2qJ--ZdSj1s?si=o_9zzSqeVGaYqoWa"
+      "food": "막창",
+      "latlng": { "lat": 37.6842966, "lng": 126.7751932 },
+      "youtube": "https://youtu.be/2qJ--ZdSj1s?si=o_9zzSqeVGaYqoWa",
+      "youtubeEmbed": "https://www.youtube.com/embed/2qJ--ZdSj1s?si=ojoob_12uRNmRtaq"
     }
   ]
 }
