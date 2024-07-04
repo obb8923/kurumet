@@ -1,7 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-
+import Image from "next/image";
+import userProfile from "../../public/userProfile.svg";
 export default function GNB() {
   const [isLogin, setIsLogin] = useState(false);
 
@@ -14,13 +15,14 @@ export default function GNB() {
   }, []);
 
   return (
-    <nav className="flex px-8 py-4 gap-10 shadow">
-      <Link href="/">logo</Link>
-      {isLogin ? (
-        <Link href="/posting">글쓰기</Link>
-      ) : (
-        <Link href="/login">로그인</Link>
-      )}
+    <nav className="flex shadow">
+      <div className="my-1 py-1 px-8 border-r border-black border-solid">
+        <Link href="/">logo</Link>
+      </div>
+      <div className="bg-blue-600 flex-1 my-1 py-1 px-8">2</div>
+      <div className="bg-red-600 my-1 py-1 px-8 flex justify-end">
+        <Image src={userProfile} alt="userProfile"></Image>
+      </div>
     </nav>
   );
 }

@@ -1,7 +1,7 @@
 export default function SNB() {
   return (
-    <div className="flex flex-col gap-10">
+    <aside className="flex flex-col px-4 py-8 gap-10 shadow">
       <></>
-    </div>
+    </aside>
   );
 }
