@@ -1,13 +1,23 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Script from "next/script";
 import { Map, ZoomControl, MapMarker } from "react-kakao-maps-sdk";
 import list from "@/../public/hj.json";
 const KAKAO_SDK_URL = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAO_APP_JS_KEY}&autoload=false`;
 
 export default function KaKaoMap() {
-  const [isOpen, setIsOpen] = useState(false);
   const positions = list.list;
+  const [infoWindowState, setInfoWindowState] = useState(
+    positions.map(() => ({ isOpen: false }))
+  );
+  const handleMarkerClick = (index: number) => {
+    setInfoWindowState((prev) =>
+      prev.map((state, i) => ({
+        ...state,
+        isOpen: i === index ? true : false,
+      }))
+    );
+  };
   return (
     <>
       <Script src={KAKAO_SDK_URL} strategy="beforeInteractive" />
@@ -17,17 +27,15 @@ export default function KaKaoMap() {
         level={10}
       >
         <ZoomControl position={"RIGHT"} />
-        {positions.map((position) => (
+        {positions.map((position, index) => (
           <MapMarker
             key={`${position.name} - ${position.latlng}`}
             position={position.latlng}
             title={position.name}
             clickable={true} // 마커를 클릭했을 때 지도의 클릭 이벤트가 발생하지 않도록 설정합니다
-            onClick={() =>
-              isOpen ? setIsOpen((prev) => false) : setIsOpen((prev) => true)
-            }
+            onClick={() => handleMarkerClick(index)}
           >
-            {isOpen && (
+            {infoWindowState[index].isOpen && (
               <div className="p-3 h-auto">
                 <p>이름: {position.name}</p>
                 <p>음식: {position.food}</p>
