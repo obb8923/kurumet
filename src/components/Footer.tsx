@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div>
+    <footer>
       <hr />
       <div className="flex justify-center gap-10 py-10 text-gray-500">
         <p>About</p>
@@ -13,6 +13,6 @@ export default function Footer() {
       <p className="mb-10 text-center text-sm text-gray-500">
         © 2020 Your Company, Inc. All rights reserved.
       </p>
-    </div>
+    </footer>
   );
 }
