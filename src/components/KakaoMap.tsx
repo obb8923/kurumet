@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Script from "next/script";
-import { useStore } from "@/store/StateCon";
+import { useList, useActions } from "@/store/StateCon";
 import { Map as KakaoMap, ZoomControl, MapMarker } from "react-kakao-maps-sdk";
 import hj from "@/../public/hj.json";
 const KAKAO_SDK_URL = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAO_APP_JS_KEY}&autoload=false`;
@@ -14,28 +14,36 @@ type listType = {
   youtubeEmbed: string;
 };
 export default function KaKaoMap() {
-  const { findList } = useStore();
-  const [listState, setListState] = useState(useStore.getState().list);
+  const { findList } = useActions();
+  //전역 상태-선택된 유튭콘
+  const l = useList();
+  //마커를 만들 array
   const [items, setItems] = useState<listType[]>([]);
+  //program명과 list로 구성된 Map - 비교용도
   const [list, setList] = useState<Map<string, listType[]>>();
-  useStore.subscribe((state) => {
-    console.log("!!", state);
-  });
+  //infowindow 열기 설정 array
+  const [infoWindowState, setInfoWindowState] = useState(
+    items?.map(() => ({ isOpen: false }))
+  );
   useEffect(() => {
-    console.log("2@", listState);
-  }, [listState]);
-  useEffect(() => {
+    //initial 값으로 모든 program의 정보를 Map에 저장
     setList((prev) => new Map(prev).set(hj.program, hj.list));
-    list?.forEach((value, key) => {
-      if (findList(key)) setItems((prev) => [...prev, value[0]]);
-    });
   }, []);
   useEffect(() => {
-    console.log(">>\n", items, "\n", list);
-  }, [items, list]);
-  const [infoWindowState, setInfoWindowState] = useState(
-    items.map(() => ({ isOpen: false }))
-  );
+    //모든 program의 이름으로 전역상태 검사 같은게 있다면 items에 저장
+    const newItems: listType[] = [];
+    list?.forEach((value, key) => {
+      if (findList(key)) {
+        value.forEach((v) => {
+          newItems.push(v);
+        });
+      }
+    });
+    setItems(newItems);
+    //items 에 인포위도우 isOpen값 연결
+    setInfoWindowState(newItems.map(() => ({ isOpen: false })));
+  }, [l]);
+
   const handleMarkerClick = (index: number) => {
     setInfoWindowState((prev) =>
       prev.map((state, i) => ({
