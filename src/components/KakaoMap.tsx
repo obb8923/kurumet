@@ -3,7 +3,8 @@ import { useEffect, useState } from "react";
 import Script from "next/script";
 import { useList, useActions } from "@/store/StateCon";
 import { Map as KakaoMap, ZoomControl, MapMarker } from "react-kakao-maps-sdk";
-import hj from "@/../public/hj.json";
+import gonghyeokjun from "@/../public/list/gonghyeokjun.json";
+import seongsikyeong from "@/../public/list/seongsikyeong.json";
 const KAKAO_SDK_URL = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAO_APP_JS_KEY}&autoload=false`;
 type listType = {
   name: string;
@@ -17,6 +18,7 @@ export default function KaKaoMap() {
   const { findList } = useActions();
   //전역 상태-선택된 유튭콘
   const l = useList();
+  console.log(l);
   //마커를 만들 array
   const [items, setItems] = useState<listType[]>([]);
   //program명과 list로 구성된 Map - 비교용도
@@ -27,10 +29,15 @@ export default function KaKaoMap() {
   );
   useEffect(() => {
     //initial 값으로 모든 program의 정보를 Map에 저장
-    setList((prev) => new Map(prev).set(hj.program, hj.list));
+    setList((prev) => {
+      const tmpMap = new Map(prev);
+      tmpMap.set(gonghyeokjun.program, gonghyeokjun.list);
+      tmpMap.set(seongsikyeong.program, seongsikyeong.list);
+      return tmpMap;
+    });
   }, []);
   useEffect(() => {
-    //모든 program의 이름으로 전역상태 검사 같은게 있다면 items에 저장
+    //모든 program의 이름으로 전역상태 검사, 같은게 있다면 items에 저장
     const newItems: listType[] = [];
     list?.forEach((value, key) => {
       if (findList(key)) {
@@ -54,6 +61,11 @@ export default function KaKaoMap() {
   };
   return (
     <>
+      <div>
+        {Array.from(l).map((v) => (
+          <p key={v}>{v}</p>
+        ))}
+      </div>
       <Script src={KAKAO_SDK_URL} strategy="beforeInteractive" />
       <KakaoMap
         center={{ lat: 37.574187, lng: 126.976882 }} //위도(latitude), 경도(longitude)
@@ -63,7 +75,7 @@ export default function KaKaoMap() {
         <ZoomControl position={"RIGHT"} />
         {items.map((position, index) => (
           <MapMarker
-            key={`${position.name} - ${position.latlng}`}
+            key={`${position.name} - ${position.latlng} - ${position.youtubeEmbed}`}
             position={position.latlng}
             title={position.name}
             clickable={true} // 마커를 클릭했을 때 지도의 클릭 이벤트가 발생하지 않도록 설정합니다
