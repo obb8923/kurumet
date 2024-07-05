@@ -24,6 +24,7 @@ export default function GNB() {
       {/* youtuberCon Section */}
       <div className="flex gap-10 flex-1 my-1 py-1 px-8">
         <YoutuberCon name="공슐랭 가이드"></YoutuberCon>
+        <YoutuberCon name="먹을텐데"></YoutuberCon>
       </div>
       {/* login Section */}
       <div className="bg-red-600 my-1 py-1 px-8 flex justify-end">
