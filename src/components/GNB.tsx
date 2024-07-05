@@ -16,10 +16,13 @@ export default function GNB() {
 
   return (
     <nav className="flex shadow">
+      {/* logo Section */}
       <div className="my-1 py-1 px-8 border-r border-black border-solid">
         <Link href="/">logo</Link>
       </div>
-      <div className="bg-blue-600 flex-1 my-1 py-1 px-8">2</div>
+      {/* youtuberCon Section */}
+      <div className="bg-blue-600 flex-1 my-1 py-1 px-8"></div>
+      {/* login Section */}
       <div className="bg-red-600 my-1 py-1 px-8 flex justify-end">
         <Image src={userProfile} alt="userProfile"></Image>
       </div>
