@@ -1,12 +1,11 @@
-import { useStore } from "@/store/StateCon";
+import { useActions } from "@/store/StateCon";
 type props = {
   name: string;
 };
 export default function YoutuberCon(props: props) {
-  const { pushList, popList, findList } = useStore();
+  const { pushList, popList, findList } = useActions();
   const clickHandler = (name: string) => {
     findList(name) ? popList(name) : pushList(name);
-    console.log("list:", useStore.getState().list);
   };
   return (
     <div
