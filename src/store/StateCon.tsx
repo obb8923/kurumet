@@ -1,11 +1,13 @@
 import { create } from "zustand";
 type storeState = {
   list: Set<string>;
+};
+type action = {
   pushList: (item: string) => void;
   findList: (item: string) => boolean;
   popList: (item: string) => void;
 };
-const useStore = create<storeState>((set) => ({
+export const useStore = create<storeState & action>((set) => ({
   list: new Set(),
   pushList: (item) =>
     set((state) => {
