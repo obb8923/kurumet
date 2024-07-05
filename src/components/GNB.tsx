@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import userProfile from "../../public/userProfile.svg";
+import YoutuberCon from "./youtuberCon";
 export default function GNB() {
   const [isLogin, setIsLogin] = useState(false);
 
@@ -21,7 +22,9 @@ export default function GNB() {
         <Link href="/">logo</Link>
       </div>
       {/* youtuberCon Section */}
-      <div className="bg-blue-600 flex-1 my-1 py-1 px-8"></div>
+      <div className="flex gap-10 flex-1 my-1 py-1 px-8">
+        <YoutuberCon name="공슐랭 가이드"></YoutuberCon>
+      </div>
       {/* login Section */}
       <div className="bg-red-600 my-1 py-1 px-8 flex justify-end">
         <Image src={userProfile} alt="userProfile"></Image>
