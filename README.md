@@ -1,6 +1,4 @@
-# next.js mini project : kurumet
-
-# 캡스톤 디자인 43팀 : 문향
+# kurumet
 
 ## 👋프로젝트 소개
 
@@ -11,8 +9,6 @@
 ### 운영자 매뉴얼
 
 #### 요구사항
-
-`react`,`mySQL`,`node`,`express`,`ckeditor5`,`mecab-ya`
 
 #### 환경설정
 
@@ -28,7 +24,7 @@
 
 - ### IDE
 
-  <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+  <img src="https://img.shields.io/badge/vscode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
 
 - ### LANGUAGE
 
