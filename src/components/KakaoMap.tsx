@@ -60,12 +60,7 @@ export default function KaKaoMap() {
     );
   };
   return (
-    <>
-      <div>
-        {Array.from(l).map((v) => (
-          <p key={v}>{v}</p>
-        ))}
-      </div>
+    <section>
       <Script src={KAKAO_SDK_URL} strategy="beforeInteractive" />
       <KakaoMap
         center={{ lat: 37.574187, lng: 126.976882 }} //위도(latitude), 경도(longitude)
@@ -101,6 +96,6 @@ export default function KaKaoMap() {
           </MapMarker>
         ))}
       </KakaoMap>
-    </>
+    </section>
   );
 }
