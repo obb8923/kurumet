@@ -60,7 +60,7 @@ export default function KaKaoMap() {
     );
   };
   return (
-    <section>
+    <section className="w-full h-full">
       <Script src={KAKAO_SDK_URL} strategy="beforeInteractive" />
       <KakaoMap
         center={{ lat: 37.574187, lng: 126.976882 }} //위도(latitude), 경도(longitude)
