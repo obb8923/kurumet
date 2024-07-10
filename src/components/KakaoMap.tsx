@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import Script from "next/script";
 import { useList, useActions } from "@/store/StateCon";
 import { Map as KakaoMap, ZoomControl, MapMarker } from "react-kakao-maps-sdk";
-import gonghyeokjun from "@/../public/list/gonghyeokjun.json";
-import seongsikyeong from "@/../public/list/seongsikyeong.json";
 const KAKAO_SDK_URL = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAO_APP_JS_KEY}&autoload=false`;
 type listType = {
   name: string;
@@ -15,13 +13,10 @@ type listType = {
   youtubeEmbed: string;
 };
 export default function KaKaoMap() {
-  const { findList } = useActions();
   //전역 상태-선택된 유튭콘
   const l = useList();
   //마커를 만들 array
   const [items, setItems] = useState<listType[]>([]);
-  //program명과 list로 구성된 Map - 비교용도
-  const [list, setList] = useState<Map<string, listType[]>>();
   //infowindow 열기 설정 array
   const [infoWindowState, setInfoWindowState] = useState(
     items?.map(() => ({ isOpen: false }))
@@ -30,7 +25,6 @@ export default function KaKaoMap() {
   //json파일의 list들을 가져옴
   //마커도 추가
   useEffect(() => {
-    console.log(l, JSON.stringify({ l: Array.from(l) }));
     async function getincon() {
       const options = {
         method: "POST",
