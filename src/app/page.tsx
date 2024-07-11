@@ -7,7 +7,7 @@ import List from "@/components/List";
 export default function Home() {
   const mapState = useMapState();
   return (
-    <main className="flex flex-col justify-center items-center">
+    <main className="flex flex-col items-center">
       <div className="m-2 flex justify-end" style={{ width: "90vw" }}>
         <Dropdown />
       </div>

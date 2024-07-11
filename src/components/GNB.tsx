@@ -1,21 +1,16 @@
 "use client";
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import userProfile from "../../public/userProfile.svg";
 import YoutuberCon from "./youtuberCon";
 import Search from "./Search";
+import { useList } from "@/store/StateCon";
+import { useEffect } from "react";
 export default function GNB() {
-  const [isLogin, setIsLogin] = useState(false);
-
+  const l = useList();
   useEffect(() => {
-    const loginStatus = sessionStorage.getItem("id");
-    console.log();
-    if (loginStatus?.length != undefined) {
-      setIsLogin(true);
-    }
-  }, []);
-
+    console.log("l: ", l);
+  }, [l]);
   return (
     <nav className="flex shadow">
       {/* logo Section */}

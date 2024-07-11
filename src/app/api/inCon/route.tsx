@@ -1,9 +1,6 @@
-import gonghyeokjun from "@/../public/list/gonghyeokjun.json";
-import seongsikyeong from "@/../public/list/seongsikyeong.json";
 import { NextResponse } from "next/server";
 import path from "path";
 import fs from "fs/promises";
-import { useList } from "@/store/StateCon";
 
 type listType = {
   name: string;
