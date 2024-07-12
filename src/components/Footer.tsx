@@ -1,8 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      <hr />
-      <div className="flex justify-center gap-10 py-10 text-gray-500">
+      <div className="flex justify-center gap-10 py-10 text-gray-500 mt-10 border-t ">
         <p>About</p>
         <p>Blog</p>
         <p>Jobs</p>
