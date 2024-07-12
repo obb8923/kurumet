@@ -1,7 +1,24 @@
+/* Oooo Baby */
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap");
+/* Noto Sans Korean */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Oooh+Baby&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.logo {
+  font-family: "Oooh Baby", cursive;
+  font-size: large;
+  font-weight: 400;
+  font-style: normal;
+}
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,4 +42,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
