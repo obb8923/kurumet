@@ -13,9 +13,9 @@ export default function GNB() {
     <nav className="flex shadow">
       {/* logo Section */}
       <div className="flex justify-center items-center my-1 py-1 px-8 border-r border-black border-solid hover:cursor-pointer">
-        <Link href="/" className="logo">
+        <div className="logo" onClick={() => window.location.reload()}>
           kurumet
-        </Link>
+        </div>
       </div>
       {/* youtuberCon Section */}
       <div className="flex gap-4 flex-1 my-2 px-8">
