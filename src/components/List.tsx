@@ -55,10 +55,10 @@ export default function List() {
   }, [items]);
 
   return (
-    <section className="bg-gray-200 h-full w-full flex flex-col">
+    <section className=" h-full w-full flex flex-col">
       {items.length == 0 && (
         <div
-          className="w-96 h-96 flex justify-center items-center"
+          className="bg-gray-200 w-96 h-96 flex justify-center items-center"
           style={{ width: "90vw", height: "90vh" }}
         >
           <small>선택된 프로그램이 없습니다.</small>
