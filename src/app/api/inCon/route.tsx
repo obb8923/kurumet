@@ -30,9 +30,7 @@ export async function POST(request: Request) {
         try {
           const jsonData = JSON.parse(data);
           list.forEach((v: string) => {
-            console.log(1, jsonData.program, v);
             if (jsonData.program === v) {
-              console.log(2, jsonData.program, v);
               Array.prototype.push.apply(listArray, jsonData.list);
             }
           });
