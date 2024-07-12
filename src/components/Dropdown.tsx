@@ -16,7 +16,7 @@ export default function Dropdown() {
       <button
         id="dropdownDefaultButton"
         data-dropdown-toggle="dropdown"
-        className="textWhite bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        className="textWhite bg-white hover:bg-gray-100 border border-gray-300 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         type="button"
         onClick={() => {
           toggleDropdown("");
