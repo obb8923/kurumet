@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Map from "../components/KakaoMap";
 import Dropdown from "@/components/Dropdown";
 import { useMapState } from "@/store/StateMap";
@@ -17,7 +16,7 @@ export default function Home() {
         </div>
       )}
       {mapState === "리스트" && (
-        <div style={{ maxWidth: "90vw", maxHeight: "90vh" }}>
+        <div style={{ maxWidth: "90vw" }}>
           <List />
         </div>
       )}
