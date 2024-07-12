@@ -92,8 +92,22 @@ export default function KaKaoMap() {
             onClick={() => handleMarkerClick(index)}
           >
             {infoWindowState[index].isOpen && (
-              <div className="p-3 h-auto">
-                <p>이름: {position.name}</p>
+              <div className="flex flex-col justify-around p-4 w-full h-full">
+                <div className="flex justify-between">
+                  <p>이름: {position.name}</p>
+                  <button
+                    onClick={() => {
+                      setInfoWindowState((prev) =>
+                        prev.map((v, i) =>
+                          i === index ? { isOpen: false } : v
+                        )
+                      );
+                    }}
+                  >
+                    X
+                  </button>
+                </div>
+
                 <p>음식: {position.food}</p>
                 <p>별점: {position.stars}</p>
                 <iframe
