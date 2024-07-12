@@ -8,11 +8,12 @@ export default function YoutuberCon(props: props) {
     findList(name) ? popList(name) : pushList(name);
   };
   return (
-    <div
-      className="rounded-full bg-blue-300 hover:cursor-pointer"
-      onClick={() => clickHandler(props.name)}
-    >
-      <p>{props.name}</p>
+    <div className="flex flex-col items-center hover:cursor-pointer">
+      <div
+        className="rounded-full w-8 h-8 bg-gray-300 "
+        onClick={() => clickHandler(props.name)}
+      ></div>
+      <small>{props.name}</small>
     </div>
   );
 }
