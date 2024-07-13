@@ -109,7 +109,7 @@ export default function KaKaoMap() {
                 </div>
 
                 <p>음식: {position.food}</p>
-                <p>별점: {position.stars}</p>
+                {/* <p>별점: {position.stars}</p> */}
                 <iframe
                   width="auto"
                   height="auto"
