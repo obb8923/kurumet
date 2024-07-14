@@ -52,6 +52,7 @@ export default function List() {
 
   useEffect(() => {
     setFragment([]);
+    setKey(0);
   }, [items]);
 
   return (
