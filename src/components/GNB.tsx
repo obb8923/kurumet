@@ -13,7 +13,7 @@ export default function GNB() {
     <nav className="flex shadow">
       {/* logo Section */}
       <div className="flex justify-center items-center my-1 py-1 px-8 border-r border-black border-solid hover:cursor-pointer">
-        <div className="logo" onClick={() => window.location.reload()}>
+        <div className="logo text-xl" onClick={() => window.location.reload()}>
           kurumet
         </div>
       </div>
