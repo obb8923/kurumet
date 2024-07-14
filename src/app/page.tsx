@@ -18,11 +18,14 @@ export default function Home() {
           style={{ width: "90vw", height: "90vh" }}
         >
           {l.size == 0 && (
-            <div className="absolute w-full h-full z-10 bg-gray-200  flex justify-center items-center">
+            <div
+              className="absolute w-full h-full bg-gray-200  flex justify-center items-center"
+              style={{ zIndex: "0" }}
+            >
               <small>보고싶은 유튜버를 클릭해보세요</small>
             </div>
           )}
-          <div className="absolute w-full h-full z-0">
+          <div className="absolute w-full h-full z-0" style={{ zIndex: "-1" }}>
             <Map />
           </div>
         </div>
