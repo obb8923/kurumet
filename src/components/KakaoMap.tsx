@@ -92,10 +92,19 @@ export default function KaKaoMap() {
             onClick={() => handleMarkerClick(index)}
           >
             {infoWindowState[index].isOpen && (
-              <div className="flex flex-col justify-around p-4 w-full h-full">
-                <div className="flex justify-between">
-                  <p>이름: {position.name}</p>
+              <div className="flex flex-col pb-4 gap-1 rounded">
+                <iframe
+                  src={position.youtubeEmbed}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
+                <div className="flex justify-between pt-2">
+                  <p className="pl-4 text-lg font-medium">{position.name}</p>
                   <button
+                    className="pr-4"
                     onClick={() => {
                       setInfoWindowState((prev) =>
                         prev.map((v, i) =>
@@ -104,22 +113,21 @@ export default function KaKaoMap() {
                       );
                     }}
                   >
-                    X
+                    닫기
                   </button>
                 </div>
-
-                <p>음식: {position.food}</p>
+                <p className="pl-4 font-normal">{position.food}</p>
+                <p className="pl-4">
+                  <a
+                    href={`https://map.kakao.com/link/search/${position.name}`}
+                    target="_blank"
+                    rel="nooppener noreferrer"
+                    className="hover:bg-gray-100 rounded-full"
+                  >
+                    카카오 지도로 보기
+                  </a>
+                </p>
                 {/* <p>별점: {position.stars}</p> */}
-                <iframe
-                  width="auto"
-                  height="auto"
-                  src={position.youtubeEmbed}
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
               </div>
             )}
           </MapMarker>
