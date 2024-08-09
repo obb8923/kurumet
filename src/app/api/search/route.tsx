@@ -13,11 +13,8 @@ export async function POST(request: Request) {
   });
 
   if (foundProgram) {
-    return NextResponse.json(
-      { message: "found", program: foundProgram },
-      { status: 200 }
-    );
+    return NextResponse.json({ program: foundProgram }, { status: 200 });
   } else {
-    return NextResponse.json({ message: "not found" }, { status: 200 });
+    return NextResponse.json({ program: null }, { status: 404 });
   }
 }
