@@ -128,6 +128,7 @@ export default function Search() {
                 isSubmitted ? (errors.search ? true : false) : undefined
               }
             />
+
             {/* 검색 결과 */}
             {isSearchResultOpen && (
               <div className="absolute top-12 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
@@ -172,7 +173,12 @@ export default function Search() {
           </div>
         </div>
       </form>
-      {errors.search && <small role="alert">{errors.search.message}</small>}
+      {isSubmitted && toggleSellected === "카테고리" && (
+        <small>카테고리를 선택해 주세요</small>
+      )}
+      {errors.search && toggleSellected !== "카테고리" && (
+        <small role="alert">{errors.search.message}</small>
+      )}
     </div>
   );
 }
