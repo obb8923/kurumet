@@ -2,42 +2,53 @@
 import { useEffect, useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { useActions } from "@/store/StateCon";
-
+import axios from "axios";
 type searchType = {
   search: string;
 };
 export default function Search() {
+  const { pushList, popList, findList } = useActions();
   const [isToggleOpen, setIsToggleOpen] = useState(false);
-  const [togleSelected, setTogleSelected] = useState("카테고리");
+  const [toggleSellected, setToggleSellected] = useState("카테고리");
   const [searchResult, setSearchResult] = useState("");
   const [isSearchResultOpen, setIsSearchResultOpen] = useState(false);
-  const { pushList, popList, findList } = useActions();
+  const [isSearchError, setIsSearchError] = useState(false);
 
   const {
     register,
     handleSubmit,
     formState: { isSubmitting, isSubmitted, errors },
   } = useForm<searchType>();
+
   const onSubmit: SubmitHandler<searchType> = async (formData) => {
-    const options = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    };
-    const res = await fetch("/api/search", options);
-    const data = await res.json();
-    if (data.message === "found") setSearchResult(data.program);
-    setIsSearchResultOpen(true);
+    if (toggleSellected === "카테고리") return;
+    try {
+      const response = await axios.post("/api/search", formData);
+      setIsSearchError(false);
+      setSearchResult(response.data.program);
+    } catch (e) {
+      setSearchResult("검색에 실패했습니다.");
+      setIsSearchError(true);
+      console.log(e);
+    } finally {
+      setIsSearchResultOpen(true);
+    }
   };
+
   //   카테고리,검색결과 둘 중 하나만 열리도록 제어
   useEffect(() => {
+    console.log("토글", isToggleOpen);
     if (isToggleOpen) setIsSearchResultOpen(false);
   }, [isToggleOpen]);
   useEffect(() => {
+    console.log("검색", isSearchResultOpen);
     if (isSearchResultOpen) setIsToggleOpen(false);
   }, [isSearchResultOpen]);
+
+  const toggleDropdown = (v: string) => {
+    setIsToggleOpen(!isToggleOpen);
+    if (v !== "") setToggleSellected(v);
+  };
   return (
     <div className="flex flex-col">
       <form className="max-w-lg mx-auto" onSubmit={handleSubmit(onSubmit)}>
@@ -50,13 +61,13 @@ export default function Search() {
           <button
             id="dropdown-button"
             onClick={() => {
-              setIsToggleOpen((prev) => !prev);
+              toggleDropdown("");
             }}
             data-dropdown-toggle="#dropdown"
-            className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200  focus:outline-none dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600"
+            className="relative flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200  focus:outline-none dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600"
             type="button"
           >
-            {togleSelected}
+            {toggleSellected}
             <svg
               className="w-2.5 h-2.5 ms-2.5"
               aria-hidden="true"
@@ -72,44 +83,36 @@ export default function Search() {
                 d="m1 1 4 4 4-4"
               />
             </svg>
-          </button>
-          {/* 카테고리 토글 */}
-          {isToggleOpen && (
-            <div
-              id="dropdown"
-              className="absolute top-12 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
-            >
-              <ul
-                className="py-2 text-sm text-gray-700 dark:text-gray-200"
-                aria-labelledby="dropdown-button"
+            {/* 카테고리 내용 */}
+            {isToggleOpen && (
+              <div
+                id="dropdown"
+                className="absolute top-full left-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
               >
-                <li>
-                  <button
-                    type="button"
+                <ul
+                  className="py-2 text-sm text-gray-700 dark:text-gray-200"
+                  aria-labelledby="dropdown-button"
+                >
+                  <li
                     className="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                    onClick={(e) => {
-                      setIsToggleOpen((prev) => !prev);
-                      setTogleSelected("프로그램 이름");
+                    onClick={() => {
+                      toggleDropdown("프로그램 이름");
                     }}
                   >
                     프로그램 이름
-                  </button>
-                </li>
-                <li>
-                  <button
-                    type="button"
+                  </li>
+                  <li
                     className="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     onClick={() => {
-                      setIsToggleOpen((prev) => !prev);
-                      setTogleSelected("지역명");
+                      toggleDropdown("지역명");
                     }}
                   >
                     지역명
-                  </button>
-                </li>
-              </ul>
-            </div>
-          )}
+                  </li>
+                </ul>
+              </div>
+            )}
+          </button>
 
           <div className="relative w-full">
             {/* 검색 */}
@@ -133,9 +136,10 @@ export default function Search() {
                   className="inline-flex w-full px-4 py-2 hover:bg-gray-100 hover:rounded-lg dark:hover:bg-gray-600 dark:hover:text-white"
                   onClick={() => {
                     setIsSearchResultOpen(false);
-                    findList(searchResult)
-                      ? popList(searchResult)
-                      : pushList(searchResult);
+                    if (!isSearchError)
+                      findList(searchResult)
+                        ? popList(searchResult)
+                        : pushList(searchResult);
                   }}
                 >
                   {searchResult}
@@ -145,7 +149,7 @@ export default function Search() {
             {/* Submit */}
             <button
               type="submit"
-              disabled={isSubmitting && togleSelected === "카테고리"}
+              disabled={isSubmitting}
               className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-white rounded-e-lg border border-gray-300 hover:bg-gray-100 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               <svg

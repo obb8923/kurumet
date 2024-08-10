@@ -5,6 +5,7 @@ export default function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
   const mapState = useMapState();
   const { changeState } = useActions();
+
   const toggleDropdown = (v: string) => {
     setIsOpen(!isOpen);
     if (v !== "") changeState(v);
@@ -40,10 +41,7 @@ export default function Dropdown() {
         </svg>
         {/* 내용 */}
         {isOpen && (
-          <div
-            id="dropdown"
-            className="absolute text-start top-full right-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
-          >
+          <div className="absolute text-start top-full right-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
             <ul
               className="py-2 text-sm text-gray-700 dark:text-gray-200"
               aria-labelledby="dropdownDefaultButton"
