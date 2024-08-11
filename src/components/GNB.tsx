@@ -1,19 +1,21 @@
 "use client";
-import Link from "next/link";
 import YoutuberCon from "./youtuberCon";
 import Search from "./Search";
-import { useList } from "@/store/StateCon";
-import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+
 export default function GNB() {
-  const l = useList();
-  useEffect(() => {
-    console.log("l: ", l);
-  }, [l]);
+  const router = useRouter();
+
   return (
     <nav className="flex shadow">
       {/* logo Section */}
       <div className="flex justify-center items-center my-1 py-1 px-8 border-r border-black border-solid hover:cursor-pointer">
-        <div className="logo text-xl" onClick={() => window.location.reload()}>
+        <div
+          className="logo text-xl"
+          onClick={() => {
+            router.push("/");
+          }}
+        >
           kurumet
         </div>
       </div>
@@ -31,8 +33,11 @@ export default function GNB() {
         <button
           type="button"
           className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+          onClick={() => {
+            router.push("/suggestion");
+          }}
         >
-          로그인
+          건의사항
         </button>
       </div>
     </nav>
