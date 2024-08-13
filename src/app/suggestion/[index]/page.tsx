@@ -8,17 +8,17 @@ const Page = () => {
   const { index } = useParams();
   const [data, setData] = useState<listIndexType>();
 
-  const fetchData = async () => {
-    try {
-      const response = await axios.get("/api/suggestion", {
-        params: { index: index },
-      });
-      setData(response.data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get("/api/suggestion", {
+          params: { index: index },
+        });
+        setData(response.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
     fetchData();
   }, []);
   return (
