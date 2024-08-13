@@ -50,8 +50,8 @@ export default function Search() {
     if (v !== "") setToggleSellected(v);
   };
   return (
-    <div className="flex flex-col">
-      <form className="max-w-lg mx-auto" onSubmit={handleSubmit(onSubmit)}>
+    <div className="w-full flex flex-col">
+      <form className="w-full mx-auto" onSubmit={handleSubmit(onSubmit)}>
         <div className="flex">
           <label
             htmlFor="search-dropdown"
