@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { useActions } from "@/store/StateCon";
-type props = {
+
+type Props = {
   name: string;
 };
-export default function YoutuberCon(props: props) {
+
+export default function YoutuberCon(props: Props) {
   const { pushList, popList, findList } = useActions();
   const clickHandler = (name: string) => {
     findList(name) ? popList(name) : pushList(name);
@@ -19,9 +21,9 @@ export default function YoutuberCon(props: props) {
           src={require(`../../public/profileImg/${props.name}.jpg`)}
           alt={`프로필사진 ${props.name}}`}
           className="rounded-full w-8 h-8 bg-gray-300 object-cover"
-        ></Image>
+        />
       </div>
-      <small>{props.name}</small>
+      <small className="hidden lg:block">{props.name}</small>
     </div>
   );
 }
