@@ -1,0 +1,20 @@
+{
+  "list": [
+    {
+      "id": "admin",
+      "password": "adnim",
+      "header": "비밀글 1",
+      "text": "비밀내용.. ",
+      "answer": "비밀 답변...",
+      "secret": "1"
+    },
+    {
+      "id": "admin",
+      "password": "adnim",
+      "header": "kurumet에 원하는 것을 알려주세요!",
+      "text": "예를  들어서, 업데이트 필요한 정보나 원하는 유튜버등을 알려주세요! ",
+      "answer": "최대한 빨리 확인하여 답변하겠습니다!",
+      "secret": "0"
+    }
+  ]
+}
