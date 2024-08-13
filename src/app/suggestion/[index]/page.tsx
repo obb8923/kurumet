@@ -2,13 +2,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "next/navigation";
-type listIndexType = {
-  id: string;
-  password: string;
-  header: string;
-  text: string;
-  answer: string;
-};
+import { listIndexType } from "@/app/type/listIndexType";
+
 const Page = () => {
   const { index } = useParams();
   const [data, setData] = useState<listIndexType>();

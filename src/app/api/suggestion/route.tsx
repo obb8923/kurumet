@@ -1,13 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import fs from "fs/promises";
-type listIndexType = {
-  id: string;
-  password: string;
-  header: string;
-  text: string;
-  answer: string;
-};
+import { listIndexType } from "@/app/type/listIndexType";
+
 type listType = {
   list: listIndexType[];
 };

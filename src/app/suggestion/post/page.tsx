@@ -2,13 +2,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
-type listIndexType = {
-  id: string;
-  password: string;
-  header: string;
-  text: string;
-  answer: string;
-};
+import { listIndexType } from "@/app/type/listIndexType";
 
 const Page = () => {
   const router = useRouter();
@@ -18,6 +12,7 @@ const Page = () => {
     header: "",
     text: "",
     answer: "",
+    secret: "",
   });
 
   const postData = async () => {
