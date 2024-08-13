@@ -36,45 +36,54 @@ const Suggestion = () => {
         </div>
         {/* table */}
         <table className="block table-fixed max-w-full w-11/12 text-sm text-left text-gray-500 dark:text-gray-400">
-          <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-              <th scope="col" className="px-6 py-3 w-1/12">
+          <thead className="block w-full text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr className="block w-full">
+              <th
+                scope="col"
+                className="inline-block px-1 py-1 md:px-3 lg:px-6 md:py-3  w-1/12 truncate"
+              >
                 순서
               </th>
-              <th scope="col" className="px-6 py-3 w-8/12">
+              <th
+                scope="col"
+                className="inline-block px-1 md:px-6 py-3 w-8/12 truncate"
+              >
                 제목
               </th>
-              <th scope="col" className="px-6 py-3 w-2/12">
+              <th
+                scope="col"
+                className="inline-block px-1 md:px-6 py-3 w-2/12 truncate"
+              >
                 작성자
               </th>
-              <th scope="col" className="px-6 py-3 w-1/12">
+              <th
+                scope="col"
+                className="inline-block px-1 md:px-6 py-3 w-1/12 truncate"
+              >
                 답변 여부
               </th>
             </tr>
           </thead>
-          <tbody
-            className="w-full overflow-y-auto block"
-            style={{ width: "100%", maxHeight: "70vh" }}
-          >
+          <tbody className="w-full overflow-y-auto block">
             {listdata.map((v: listIndexType, index: number) => (
               <tr
                 key={`${index}-${v.id}-${v.header}`}
-                className="block w-full border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 hover:cursor-pointer dark:hover:bg-gray-600"
+                className="block border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 hover:cursor-pointer dark:hover:bg-gray-600"
                 onClick={() => {
                   router.push(`/suggestion/${index}`);
                 }}
               >
-                <td className="inline-block w-1/12 px-6 py-4 truncate">
-                  {index}
+                <td className="inline-block w-1/12 px-1 md:px-6 py-3 truncate">
+                  {listdata.length - index - 1}
                 </td>
 
-                <td className="inline-block w-8/12 px-6 py-4 font-medium text-gray-900 truncate dark:text-white">
+                <td className="inline-block w-8/12 px-1 md:px-6 py-3 font-medium text-gray-900 truncate dark:text-white">
                   {v.header}
                 </td>
-                <td className="inline-block w-2/12 px-6 py-4 truncate">
+                <td className="inline-block w-2/12 px-1 md:px-6 py-3 truncate">
                   {v.id}
                 </td>
-                <td className="inline-block w-1/12 px-6 py-4 truncate">
+                <td className="inline-block w-1/12 px-1 md:px-6 py-3 truncate">
                   {v.answer === "" ? "N" : "Y"}
                 </td>
               </tr>
