@@ -1,13 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { google } from "googleapis";
-
-type listIndexType = {
-  id: string;
-  password: string;
-  header: string;
-  text: string;
-  answer: string;
-};
+import { listIndexType } from "@/app/type/listIndexType";
 
 export async function POST(req: NextRequest) {
   try {
