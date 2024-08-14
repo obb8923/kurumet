@@ -119,12 +119,21 @@ export default function KaKaoMap() {
                 <p className="pl-4 font-normal">{position.food}</p>
                 <p className="pl-4">
                   <a
-                    href={`https://map.kakao.com/link/search/${position.name}`}
+                    href={`https://map.kakao.com/link/map/${position.name},${position.latlng.lat},${position.latlng.lng}`}
                     target="_blank"
                     rel="nooppener noreferrer"
                     className="hover:bg-gray-100 rounded-full"
                   >
-                    카카오 지도로 보기
+                    카카오 지도에서 보기
+                  </a>
+                  <span>{"  |  "}</span>
+                  <a
+                    href={`https://map.kakao.com/link/to/${position.name},${position.latlng.lat},${position.latlng.lng}`}
+                    target="_blank"
+                    rel="nooppener noreferrer"
+                    className="hover:bg-gray-100 rounded-full"
+                  >
+                    길찾기
                   </a>
                 </p>
                 {/* <p>별점: {position.stars}</p> */}
