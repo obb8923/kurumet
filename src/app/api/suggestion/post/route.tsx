@@ -1,6 +1,5 @@
-import { NextResponse } from "next/server";
-import path from "path";
-import fs from "fs/promises";
+import { NextRequest, NextResponse } from "next/server";
+import { google } from "googleapis";
 
 type listIndexType = {
   id: string;
@@ -10,36 +9,53 @@ type listIndexType = {
   answer: string;
 };
 
-export async function POST(request: Request) {
-  const { data } = await request.json();
-  const dirPath = path.join(process.cwd(), "public", "suggestion");
+export async function POST(req: NextRequest) {
   try {
-    const files = await fs.readdir(dirPath);
-    for (const file of files) {
-      if (path.extname(file) === ".json") {
-        const filePath = path.join(dirPath, file);
-        try {
-          const fileData = await fs.readFile(filePath, "utf-8");
-          const jsonData = JSON.parse(fileData);
+    const { data } = await req.json();
 
-          if (Array.isArray(jsonData.list)) {
-            // 새로운 데이터를 리스트의 앞에 추가합니다.
-            jsonData.list.unshift(data as listIndexType);
+    // JWT 인증 설정
+    const authorize = new google.auth.JWT(
+      process.env.GOOGLE_CLIENT_EMAIL,
+      "",
+      process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, "\n"),
+      ["https://www.googleapis.com/auth/spreadsheets"]
+    );
 
-            // 수정된 데이터를 다시 파일에 씁니다.
-            await fs.writeFile(
-              filePath,
-              JSON.stringify(jsonData, null, 2),
-              "utf-8"
-            );
-          }
-        } catch (err) {
-          console.error(`파일 처리 중 오류가 발생했습니다 (${file}):`, err);
-        }
-      }
-    }
+    // Google Sheets API 가져오기
+    const googleSheet = google.sheets({ version: "v4", auth: authorize });
+
+    // 새로운 데이터를 추가할 스프레드시트와 시트 지정
+    const spreadsheetId = process.env.GOOGLE_SHEET_ID;
+    const range = "A:F"; // 데이터를 추가할 범위 설정
+
+    // 추가할 데이터 준비
+    const newData = [
+      [
+        (data as listIndexType).id,
+        (data as listIndexType).password,
+        (data as listIndexType).header,
+        (data as listIndexType).text,
+        (data as listIndexType).answer,
+        "0", // 여기에 비어 있는 'secret' 열을 추가합니다.
+      ],
+    ];
+
+    // 데이터 추가 요청
+    await googleSheet.spreadsheets.values.append({
+      spreadsheetId,
+      range,
+      valueInputOption: "RAW",
+      requestBody: {
+        values: newData,
+      },
+    });
+
+    return NextResponse.json(
+      { message: "Data added successfully" },
+      { status: 200 }
+    );
   } catch (err) {
-    console.error("디렉토리 읽기 중 오류가 발생했습니다:", err);
+    console.error("오류 발생:", err);
+    return NextResponse.json({ message: "An error occurred" }, { status: 500 });
   }
-  return NextResponse.json({ message: "good" }, { status: 200 });
 }

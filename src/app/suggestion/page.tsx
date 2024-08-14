@@ -10,6 +10,7 @@ const Suggestion = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get("/api/suggestion");
+      // console.log(response.data);
       setListData(response.data);
     } catch (error) {
       console.log(error);
@@ -65,29 +66,32 @@ const Suggestion = () => {
             </tr>
           </thead>
           <tbody className="w-full overflow-y-auto block">
-            {listdata.map((v: listIndexType, index: number) => (
-              <tr
-                key={`${index}-${v.id}-${v.header}`}
-                className="block border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 hover:cursor-pointer dark:hover:bg-gray-600"
-                onClick={() => {
-                  router.push(`/suggestion/${index}`);
-                }}
-              >
-                <td className="inline-block w-1/12 px-1 md:px-6 py-3 truncate">
-                  {listdata.length - index - 1}
-                </td>
+            {listdata
+              .slice()
+              .reverse()
+              .map((v: listIndexType, index: number) => (
+                <tr
+                  key={`${index}-${v.id}-${v.header}`}
+                  className="block border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 hover:cursor-pointer dark:hover:bg-gray-600"
+                  onClick={() => {
+                    router.push(`/suggestion/${listdata.length - index - 1}`);
+                  }}
+                >
+                  <td className="inline-block w-1/12 px-1 md:px-6 py-3 truncate">
+                    {listdata.length - index - 1}
+                  </td>
 
-                <td className="inline-block w-8/12 px-1 md:px-6 py-3 font-medium text-gray-900 truncate dark:text-white">
-                  {v.header}
-                </td>
-                <td className="inline-block w-2/12 px-1 md:px-6 py-3 truncate">
-                  {v.id}
-                </td>
-                <td className="inline-block w-1/12 px-1 md:px-6 py-3 truncate">
-                  {v.answer === "" ? "N" : "Y"}
-                </td>
-              </tr>
-            ))}
+                  <td className="inline-block w-8/12 px-1 md:px-6 py-3 font-medium text-gray-900 truncate dark:text-white">
+                    {v.header}
+                  </td>
+                  <td className="inline-block w-2/12 px-1 md:px-6 py-3 truncate">
+                    {v.id}
+                  </td>
+                  <td className="inline-block w-1/12 px-1 md:px-6 py-3 truncate">
+                    {v.answer === "" ? "N" : "Y"}
+                  </td>
+                </tr>
+              ))}
           </tbody>
         </table>
       </div>

@@ -14,7 +14,7 @@ const Page = () => {
         const response = await axios.get("/api/suggestion", {
           params: { index: index },
         });
-        setData(response.data);
+        setData(response.data[0]);
       } catch (error) {
         console.log(error);
       }
