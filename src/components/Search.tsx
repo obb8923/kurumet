@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { useActions } from "@/store/StateCon";
 import axios from "axios";
@@ -13,7 +13,23 @@ export default function Search() {
   const [searchResult, setSearchResult] = useState("");
   const [isSearchResultOpen, setIsSearchResultOpen] = useState(false);
   const [isSearchError, setIsSearchError] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
+  // MouseEvent 타입으로 명시하고, event.target을 Node로 단언
+  const handleClickOutside = (event: MouseEvent) => {
+    if (
+      dropdownRef.current &&
+      !dropdownRef.current.contains(event.target as Node)
+    ) {
+      setIsToggleOpen(false);
+    }
+  };
 
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
   const {
     register,
     handleSubmit,
@@ -87,6 +103,7 @@ export default function Search() {
             {isToggleOpen && (
               <div
                 id="dropdown"
+                ref={dropdownRef}
                 className="absolute top-full left-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
               >
                 <ul
