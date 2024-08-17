@@ -1,11 +1,27 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useMapState, useActions } from "@/store/StateMap";
 export default function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
   const mapState = useMapState();
   const { changeState } = useActions();
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
+  // MouseEvent 타입으로 명시하고, event.target을 Node로 단언
+  const handleClickOutside = (event: MouseEvent) => {
+    if (
+      dropdownRef.current &&
+      !dropdownRef.current.contains(event.target as Node)
+    ) {
+      setIsOpen(false);
+    }
+  };
 
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
   const toggleDropdown = (v: string) => {
     setIsOpen(!isOpen);
     if (v !== "") changeState(v);
@@ -41,7 +57,10 @@ export default function Dropdown() {
         </svg>
         {/* 내용 */}
         {isOpen && (
-          <div className="absolute text-start top-full right-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+          <div
+            ref={dropdownRef}
+            className="absolute text-start top-full right-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
+          >
             <ul
               className="py-2 text-sm text-gray-700 dark:text-gray-200"
               aria-labelledby="dropdownDefaultButton"
