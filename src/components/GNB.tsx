@@ -30,10 +30,10 @@ export default function GNB() {
       <div className="hidden lg:block flex justify-center items-center mx-4">
         <Search />
       </div>
-      {/* login Section */}
-      <div className="hidden lg:block flex justify-center items-center mx-4">
+      {/* Suggestion Section */}
+      {/*<div className="hidden lg:block flex justify-center items-center mx-4">
         <SuggestionButton />
-      </div>
+      </div>*/}
       {/* 모바일에서만 보이는 햄버거 Section */}
       <div className="relative lg:hidden">
         {/* 햄버거 버튼 */}
@@ -68,7 +68,7 @@ export default function GNB() {
           <div className="w-[95vw] md:w-[55vw] border border-gray-300 bg-white px-8 py-4 absolute top-full right-0 z-20 lg:hidden">
             <div className=" flex flex-col gap-5 items-center max-w-full max-h-full min-w-full min-h-full">
               <Search />
-              <SuggestionButton />
+              {/* <SuggestionButton />*/}
             </div>
           </div>
         )}
