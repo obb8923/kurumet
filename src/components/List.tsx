@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import ListArticle from "./ListArticle";
 import { useInView } from "react-intersection-observer";
-import { useList, useActions } from "@/store/StateCon";
+import { useList } from "@/store/StateCon";
+
 type listType = {
   name: string;
   food: string;
@@ -11,6 +12,7 @@ type listType = {
   youtube: string;
   youtubeEmbed: string;
 };
+
 export default function List() {
   const l = useList();
   const [items, setItems] = useState<listType[]>([]);
@@ -20,8 +22,9 @@ export default function List() {
   const [fragment, setFragment] = useState<React.ReactNode[]>([]);
   const [key, setKey] = useState<number>(0);
 
-  useEffect(() => {
-    async function getincon() {
+  // API에서 데이터 가져오는 함수
+  const fetchItems = async () => {
+    try {
       const options = {
         method: "POST",
         headers: {
@@ -31,24 +34,30 @@ export default function List() {
       };
       const res = await fetch("/api/inCon", options);
       const data = await res.json();
-      setItems((prev) => data.listArray);
+      setItems(data.listArray);
+    } catch (error) {
+      console.error("Error fetching items:", error);
     }
-    getincon();
-  }, [l, ref]);
+  };
+
+  useEffect(() => {
+    fetchItems();
+  }, [l]);
 
   useEffect(() => {
     if (inView && items.length > 0 && items[key]) {
-      const newF = (
+      const newFragment = (
         <ListArticle
           key={`${key} - ${items[key].name}-${items[key].latlng}`}
+          name={items[key].name}
           food={items[key].food}
           youtubeEmbedd={items[key].youtubeEmbed}
-        ></ListArticle>
+        />
       );
+      setFragment((prev) => [...prev, newFragment]);
       setKey((prev) => prev + 1);
-      setFragment((prev) => [...prev, newF]);
     }
-  }, [inView, fragment, items, key]);
+  }, [inView, items, key]);
 
   useEffect(() => {
     setFragment([]);
@@ -56,8 +65,8 @@ export default function List() {
   }, [items]);
 
   return (
-    <section className=" h-full w-full flex flex-col">
-      {items.length == 0 && (
+    <section className="h-full w-full flex flex-col">
+      {items.length === 0 && (
         <div
           className="bg-gray-200 w-96 h-96 flex justify-center items-center"
           style={{ width: "90vw", height: "90vh" }}
