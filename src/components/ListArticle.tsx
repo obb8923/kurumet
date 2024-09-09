@@ -36,8 +36,12 @@ export default function ListArticle({ name, food, youtubeEmbedd }: propsType) {
           className="w-full h-64 cursor-pointer object-cover"
         />
       )}
-      <p>{name}</p>
-      <p>{food}</p>
+      <div className="flex gap-2">
+        <p>
+          <strong>{name}</strong>
+        </p>
+        <p>{food}</p>
+      </div>
     </article>
   );
 }
