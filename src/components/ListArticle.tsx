@@ -18,7 +18,7 @@ export default function ListArticle({ name, food, youtubeEmbedd }: propsType) {
   };
 
   return (
-    <article className="flex flex-col w-full max-w-md">
+    <article className="flex flex-col">
       {isVideoVisible ? (
         <iframe
           src={youtubeEmbedd}
@@ -26,7 +26,7 @@ export default function ListArticle({ name, food, youtubeEmbedd }: propsType) {
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
-          className="w-full h-64"
+          style={{ width: "300px", height: "150.286px" }}
         />
       ) : (
         <img
@@ -34,6 +34,7 @@ export default function ListArticle({ name, food, youtubeEmbedd }: propsType) {
           alt="YouTube Thumbnail"
           onClick={handleThumbnailClick}
           className="w-full h-64 cursor-pointer object-cover"
+          style={{ width: "300px", height: "150.286px" }}
         />
       )}
       <div className="flex gap-2">
