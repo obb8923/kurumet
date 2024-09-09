@@ -7,855 +7,1140 @@
       "food": "닭볽음탕",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 35.2942666545469, "lng": 126.880658428365 },
+      "latlng": {
+        "lat": 35.2942666545469,
+        "lng": 126.880658428365
+      },
       "youtube": "https://youtu.be/DbkkQTWZDUA?si=yr0MqTNAegFDJLcl",
-      "youtubeEmbed": "https://www.youtube.com/embed/DbkkQTWZDUA?si=bLpaVujvoDUjcaMO"
+      "youtubeEmbed": "https://www.youtube.com/embed/DbkkQTWZDUA"
     },
     {
       "name": "하남 숯불닭갈비",
       "food": "숯불닭갈비",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5659847328844, "lng": 127.205579270342 },
+      "latlng": {
+        "lat": 37.5659847328844,
+        "lng": 127.205579270342
+      },
       "youtube": "https://youtu.be/4tcBe6L8uzI?si=IXYGSLxwgEY9t4eE",
-      "youtubeEmbed": "https://www.youtube.com/embed/4tcBe6L8uzI?si=IXYGSLxwgEY9t4eE"
+      "youtubeEmbed": "https://www.youtube.com/embed/4tcBe6L8uzI"
     },
     {
       "name": "풍성감자탕",
       "food": "감자탕",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5375769086631, "lng": 127.083844149774 },
+      "latlng": {
+        "lat": 37.5375769086631,
+        "lng": 127.083844149774
+      },
       "youtube": "https://youtu.be/wKNO7zfr8JQ?si=94rbIzXEDnG9YLCm",
-      "youtubeEmbed": "https://www.youtube.com/embed/wKNO7zfr8JQ?si=94rbIzXEDnG9YLCm"
+      "youtubeEmbed": "https://www.youtube.com/embed/wKNO7zfr8JQ"
     },
     {
       "name": "효제루",
       "food": "중식",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.572688168981, "lng": 127.002193692012 },
+      "latlng": {
+        "lat": 37.572688168981,
+        "lng": 127.002193692012
+      },
       "youtube": "https://youtu.be/iA84pSaU_G8?si=M_yBQZ8Klu7boi2T",
-      "youtubeEmbed": "https://www.youtube.com/embed/iA84pSaU_G8?si=M_yBQZ8Klu7boi2T"
+      "youtubeEmbed": "https://www.youtube.com/embed/iA84pSaU_G8"
     },
     {
       "name": "전원식당",
       "food": "두루치기",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 38.2129588244246, "lng": 128.598068148553 },
+      "latlng": {
+        "lat": 38.2129588244246,
+        "lng": 128.598068148553
+      },
       "youtube": "https://youtu.be/IJwIJZ3G-pw?si=7u0IgTamUXTJP9qc",
-      "youtubeEmbed": "https://www.youtube.com/embed/IJwIJZ3G-pw?si=7u0IgTamUXTJP9qc"
+      "youtubeEmbed": "https://www.youtube.com/embed/IJwIJZ3G-pw"
     },
     {
       "name": "이품",
       "food": "중식",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5675446845976, "lng": 126.930062500433 },
+      "latlng": {
+        "lat": 37.5675446845976,
+        "lng": 126.930062500433
+      },
       "youtube": "https://youtu.be/C3E86BioldA?si=Ucm0D-fp4UwwECpT",
-      "youtubeEmbed": "https://www.youtube.com/embed/C3E86BioldA?si=Ucm0D-fp4UwwECpT"
+      "youtubeEmbed": "https://www.youtube.com/embed/C3E86BioldA"
     },
     {
       "name": "매치스",
       "food": "와인바",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5413178745918, "lng": 127.058020155628 },
+      "latlng": {
+        "lat": 37.5413178745918,
+        "lng": 127.058020155628
+      },
       "youtube": "https://youtu.be/YEUXJ9lBk2E?si=r10bHiSbBWT67H6e",
-      "youtubeEmbed": "https://www.youtube.com/embed/YEUXJ9lBk2E?si=r10bHiSbBWT67H6e"
+      "youtubeEmbed": "https://www.youtube.com/embed/YEUXJ9lBk2E"
     },
     {
       "name": "초원",
       "food": "우설",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5427605404136, "lng": 126.973355698925 },
+      "latlng": {
+        "lat": 37.5427605404136,
+        "lng": 126.973355698925
+      },
       "youtube": "https://youtu.be/3OpdevZyzrs?si=z4nyHh9xUALVGiVo",
-      "youtubeEmbed": "https://www.youtube.com/embed/3OpdevZyzrs?si=z4nyHh9xUALVGiVo"
+      "youtubeEmbed": "https://www.youtube.com/embed/3OpdevZyzrs"
     },
     {
       "name": "잔비워",
       "food": "치킨",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5266735389328, "lng": 127.046196583355 },
+      "latlng": {
+        "lat": 37.5266735389328,
+        "lng": 127.046196583355
+      },
       "youtube": "https://youtu.be/UFN682fRiWQ?si=Kgqp-0X6h3u_BW16",
-      "youtubeEmbed": "https://www.youtube.com/embed/UFN682fRiWQ?si=Kgqp-0X6h3u_BW16"
+      "youtubeEmbed": "https://www.youtube.com/embed/UFN682fRiWQ"
     },
     {
       "name": "이남장",
       "food": "수육",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5136041356779, "lng": 127.064458979826 },
+      "latlng": {
+        "lat": 37.5136041356779,
+        "lng": 127.064458979826
+      },
       "youtube": "https://youtu.be/UFN682fRiWQ?si=Kgqp-0X6h3u_BW16",
-      "youtubeEmbed": "https://www.youtube.com/embed/UFN682fRiWQ?si=Kgqp-0X6h3u_BW16"
+      "youtubeEmbed": "https://www.youtube.com/embed/UFN682fRiWQ"
     },
     {
       "name": "가담",
       "food": "난자완스 고추탕수육",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5263661402159, "lng": 127.030258157623 },
+      "latlng": {
+        "lat": 37.5263661402159,
+        "lng": 127.030258157623
+      },
       "youtube": "https://youtu.be/Pdq4VoNf7tI?si=sD7HaUHBl8QsZGwI",
-      "youtubeEmbed": "https://www.youtube.com/embed/Pdq4VoNf7tI?si=sD7HaUHBl8QsZGwI"
+      "youtubeEmbed": "https://www.youtube.com/embed/Pdq4VoNf7tI"
     },
     {
       "name": "진동세꼬시",
       "food": "세꼬시",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5500358913535, "lng": 126.97658725684 },
+      "latlng": {
+        "lat": 37.5500358913535,
+        "lng": 126.97658725684
+      },
       "youtube": "https://youtu.be/vbgOayi86Dg?si=FvZSb6ZydKSIieq1",
-      "youtubeEmbed": "https://www.youtube.com/embed/vbgOayi86Dg?si=FvZSb6ZydKSIieq1"
+      "youtubeEmbed": "https://www.youtube.com/embed/vbgOayi86Dg"
     },
     {
       "name": "충북순대",
       "food": "곱창전골",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5078713792896, "lng": 126.963822451667 },
+      "latlng": {
+        "lat": 37.5078713792896,
+        "lng": 126.963822451667
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/TUbvswTagLg?si=v6KswHyYaX3btIdm"
+      "youtubeEmbed": "https://www.youtube.com/embed/TUbvswTagLg"
     },
     {
       "name": "진미순대",
       "food": "순대국밥",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5066369329911, "lng": 126.962729487098 },
+      "latlng": {
+        "lat": 37.5066369329911,
+        "lng": 126.962729487098
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/3LSQH7ULyaE?si=ofmQx_zs6KRTpx-E"
+      "youtubeEmbed": "https://www.youtube.com/embed/3LSQH7ULyaE"
     },
     {
       "name": "오소록",
       "food": "순대국밥",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5679441329777, "lng": 127.056584923393 },
+      "latlng": {
+        "lat": 37.5679441329777,
+        "lng": 127.056584923393
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/kV8BKO9VKdQ?si=IyNLN2tjZXISzEzS"
+      "youtubeEmbed": "https://www.youtube.com/embed/kV8BKO9VKdQ"
     },
     {
       "name": "스테이지 바이 고디바",
       "food": "디저트 코스",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5238779875217, "lng": 127.037023763409 },
+      "latlng": {
+        "lat": 37.5238779875217,
+        "lng": 127.037023763409
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/nDYvEJb5QeY?si=774RqMxiX6RN5xRl"
+      "youtubeEmbed": "https://www.youtube.com/embed/nDYvEJb5QeY"
     },
     {
       "name": "향미",
       "food": "중식",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5621198047309, "lng": 126.981717024453 },
+      "latlng": {
+        "lat": 37.5621198047309,
+        "lng": 126.981717024453
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/X5QLs6bflT4?si=yJkxsS9wBzn2Buy6"
+      "youtubeEmbed": "https://www.youtube.com/embed/X5QLs6bflT4"
     },
     {
       "name": "개화",
       "food": "중식",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5621137, "lng": 126.9818132 },
+      "latlng": {
+        "lat": 37.5621137,
+        "lng": 126.9818132
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/X5QLs6bflT4?si=yJkxsS9wBzn2Buy6"
+      "youtubeEmbed": "https://www.youtube.com/embed/X5QLs6bflT4"
     },
     {
       "name": "함덕골목",
       "food": "해장국 내장탕",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 33.5393574441934, "lng": 126.641158316654 },
+      "latlng": {
+        "lat": 33.5393574441934,
+        "lng": 126.641158316654
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/8iDE8whsJpU?si=DP5tpV3gK7Unwxhj"
+      "youtubeEmbed": "https://www.youtube.com/embed/8iDE8whsJpU"
     },
     {
       "name": "해녀촌",
       "food": "회국수 성게국수",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 33.55366594917, "lng": 126.709888469555 },
+      "latlng": {
+        "lat": 33.55366594917,
+        "lng": 126.709888469555
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/glQ2P0B-EwE?si=YmJU0mr4LO1P4KRt"
+      "youtubeEmbed": "https://www.youtube.com/embed/glQ2P0B-EwE"
     },
     {
       "name": "돌다메",
       "food": "돼지고기",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 33.4914464423885, "lng": 126.428783678989 },
+      "latlng": {
+        "lat": 33.4914464423885,
+        "lng": 126.428783678989
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/glQ2P0B-EwE?si=YmJU0mr4LO1P4KRt"
+      "youtubeEmbed": "https://www.youtube.com/embed/glQ2P0B-EwE"
     },
     {
       "name": "굴과찜사랑",
       "food": "바지락칼국수 석화",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5603529338675, "lng": 127.032905160456 },
+      "latlng": {
+        "lat": 37.5603529338675,
+        "lng": 127.032905160456
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/RDcRtNT-bm0?si=4ZNcOHMIT2mCX5nz"
+      "youtubeEmbed": "https://www.youtube.com/embed/RDcRtNT-bm0"
     },
     {
       "name": "권영수 대가전골",
       "food": "곱창전골",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5790377655561, "lng": 127.039142935818 },
+      "latlng": {
+        "lat": 37.5790377655561,
+        "lng": 127.039142935818
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/UhlyCAVklLE?si=TvJ_RPxGK8n0El3d"
+      "youtubeEmbed": "https://www.youtube.com/embed/UhlyCAVklLE"
     },
     {
       "name": "돈키돈까스",
       "food": "돈까스",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.4825912, "lng": 126.9832251 },
+      "latlng": {
+        "lat": 37.4825912,
+        "lng": 126.9832251
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/AwQ4g5o1F4Y?si=PmXi0UwN42ykVa6W"
+      "youtubeEmbed": "https://www.youtube.com/embed/AwQ4g5o1F4Y"
     },
     {
       "name": "도량",
       "food": "중식",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5779680592302, "lng": 126.972504517859 },
+      "latlng": {
+        "lat": 37.5779680592302,
+        "lng": 126.972504517859
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/83rTZdp9ty8?si=n78E4xcvc01q_M0l"
+      "youtubeEmbed": "https://www.youtube.com/embed/83rTZdp9ty8"
     },
     {
       "name": "오쁘띠베르",
       "food": "까페",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5802603634986, "lng": 126.970979516515 },
+      "latlng": {
+        "lat": 37.5802603634986,
+        "lng": 126.970979516515
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/83rTZdp9ty8?si=n78E4xcvc01q_M0l"
+      "youtubeEmbed": "https://www.youtube.com/embed/83rTZdp9ty8"
     },
     {
       "name": "파이브가이즈",
       "food": "햄버거",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5011776111829, "lng": 127.025561030522 },
+      "latlng": {
+        "lat": 37.5011776111829,
+        "lng": 127.025561030522
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/ofqOn5PUqbs?si=tDFJhc1vNfJUwfOJ"
+      "youtubeEmbed": "https://www.youtube.com/embed/ofqOn5PUqbs"
     },
     {
       "name": "윤밀원",
       "food": "족발",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.372662879865, "lng": 127.114985989481 },
+      "latlng": {
+        "lat": 37.372662879865,
+        "lng": 127.114985989481
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/Mlh01V0vxeI?si=_dMfTgOWUA_yW1dl"
+      "youtubeEmbed": "https://www.youtube.com/embed/Mlh01V0vxeI"
     },
     {
       "name": "로코스 비비큐",
       "food": "쪽갈비",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5409871411854, "lng": 126.995540359983 },
+      "latlng": {
+        "lat": 37.5409871411854,
+        "lng": 126.995540359983
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/Hmje6h1lcuQ?si=NJkHPalTtsvzLhwW"
+      "youtubeEmbed": "https://www.youtube.com/embed/Hmje6h1lcuQ"
     },
     {
       "name": "야스노야",
       "food": "양고기",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.546726600027, "lng": 126.978409378518 },
+      "latlng": {
+        "lat": 37.546726600027,
+        "lng": 126.978409378518
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/PjRz1aL-3Z8?si=J9yV6BZ09w9FLEz5"
+      "youtubeEmbed": "https://www.youtube.com/embed/PjRz1aL-3Z8"
     },
     {
       "name": "청화집",
       "food": "순대국밥",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 36.7623467490991, "lng": 127.299220238358 },
+      "latlng": {
+        "lat": 36.7623467490991,
+        "lng": 127.299220238358
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/UHembfdHJn8?si=Kp2mnIq269yjCjen"
+      "youtubeEmbed": "https://www.youtube.com/embed/UHembfdHJn8"
     },
     {
       "name": "묵호회집",
       "food": "회",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5627128537817, "lng": 126.978088868479 },
+      "latlng": {
+        "lat": 37.5627128537817,
+        "lng": 126.978088868479
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/n5Zpld_kH0o?si=0i9Leg5_sPIwySL8"
+      "youtubeEmbed": "https://www.youtube.com/embed/n5Zpld_kH0o"
     },
     {
       "name": "안동집",
       "food": "수육",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5790377655561, "lng": 127.039142935818 },
+      "latlng": {
+        "lat": 37.5790377655561,
+        "lng": 127.039142935818
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/6T7fWf5EA0s?si=L2v4rqOfegw3SWvE"
+      "youtubeEmbed": "https://www.youtube.com/embed/6T7fWf5EA0s"
     },
     {
       "name": "김제식당",
       "food": "아귀탕",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5790377655561, "lng": 127.039142935818 },
+      "latlng": {
+        "lat": 37.5790377655561,
+        "lng": 127.039142935818
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/6T7fWf5EA0s?si=L2v4rqOfegw3SWvE"
+      "youtubeEmbed": "https://www.youtube.com/embed/6T7fWf5EA0s"
     },
     {
       "name": "남원통닭",
       "food": "치킨",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5804162833524, "lng": 127.042785999351 },
+      "latlng": {
+        "lat": 37.5804162833524,
+        "lng": 127.042785999351
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/jhAV4lWMlm8?si=2Ex3wWHGu1UEc_Sr"
+      "youtubeEmbed": "https://www.youtube.com/embed/jhAV4lWMlm8"
     },
     {
       "name": "별미순대국",
       "food": "순대국",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.7370656518487, "lng": 127.040247939434 },
+      "latlng": {
+        "lat": 37.7370656518487,
+        "lng": 127.040247939434
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/UipN-iww9FE?si=6cdz5lzupuiO79il"
+      "youtubeEmbed": "https://www.youtube.com/embed/UipN-iww9FE"
     },
     {
       "name": "월드양념통닭",
       "food": "치킨",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 35.0809322673242, "lng": 128.967738567386 },
+      "latlng": {
+        "lat": 35.0809322673242,
+        "lng": 128.967738567386
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/EMEROo6ZX6E?si=SQaWr3vIn0RubrUy"
+      "youtubeEmbed": "https://www.youtube.com/embed/EMEROo6ZX6E"
     },
     {
       "name": "원조신촌설렁탕",
       "food": "설렁탕",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5482869552281, "lng": 126.95627603557 },
+      "latlng": {
+        "lat": 37.5482869552281,
+        "lng": 126.95627603557
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/XO-UqGjZomc?si=DarcZVh3sHEkpEls"
+      "youtubeEmbed": "https://www.youtube.com/embed/XO-UqGjZomc"
     },
     {
       "name": "와일드버팔로",
       "food": "버팔로윙",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5272184688508, "lng": 127.03920827101 },
+      "latlng": {
+        "lat": 37.5272184688508,
+        "lng": 127.03920827101
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/wJL-V0MCgJ8?si=SOL84DQ2xID9afBt"
+      "youtubeEmbed": "https://www.youtube.com/embed/wJL-V0MCgJ8"
     },
     {
       "name": "진미식당",
       "food": "비빈밥",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 36.0058655389872, "lng": 126.944902346145 },
+      "latlng": {
+        "lat": 36.0058655389872,
+        "lng": 126.944902346145
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/Pj61du5bEiY?si=55-WRXzxv0ZvVhtQ"
+      "youtubeEmbed": "https://www.youtube.com/embed/Pj61du5bEiY"
     },
     {
       "name": "딸랏",
       "food": "태국음식",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5268588307107, "lng": 127.037696098344 },
+      "latlng": {
+        "lat": 37.5268588307107,
+        "lng": 127.037696098344
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/rTHlGX3-obY?si=MiPUPURgUVq2Deul"
+      "youtubeEmbed": "https://www.youtube.com/embed/rTHlGX3-obY"
     },
     {
       "name": "삼호짱뚱이",
       "food": "홍어삼합",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5196323891314, "lng": 127.031023065458 },
+      "latlng": {
+        "lat": 37.5196323891314,
+        "lng": 127.031023065458
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/9XLtqkJt1wY?si=Gv7XJ47omqghRbLK"
+      "youtubeEmbed": "https://www.youtube.com/embed/9XLtqkJt1wY"
     },
     {
       "name": "오띠젤리",
       "food": "브런치",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.5332553510698, "lng": 126.989357050611 },
+      "latlng": {
+        "lat": 37.5332553510698,
+        "lng": 126.989357050611
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/1ms4Gaqvbx8?si=r9rPiM43pwZoiAMk"
+      "youtubeEmbed": "https://www.youtube.com/embed/1ms4Gaqvbx8"
     },
     {
       "name": "야래향",
       "food": "중식",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.520847506274, "lng": 126.974753411637 },
+      "latlng": {
+        "lat": 37.520847506274,
+        "lng": 126.974753411637
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/yI88OaPRMhA?si=LW9yjLPie5d8KKN4"
+      "youtubeEmbed": "https://www.youtube.com/embed/yI88OaPRMhA"
     },
     {
       "name": "진영면옥",
       "food": "평양냉면",
       "stars": 0,
       "address": "",
-      "latlng": { "lat": 37.4715699238483, "lng": 126.90039992595 },
+      "latlng": {
+        "lat": 37.4715699238483,
+        "lng": 126.90039992595
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/u4WD7bWkMus?si=y-o_zqdNGbZeLFR-"
+      "youtubeEmbed": "https://www.youtube.com/embed/u4WD7bWkMus"
     },
     {
       "name": "원조추어탕",
       "food": "추어탕",
       "stars": 0,
       "address": "서울 동작구 동작대로33가길 4 석원빌딩 (사당동 89-15)",
-      "latlng": { "lat": 37.4896346549597, "lng": 126.981867567636 },
+      "latlng": {
+        "lat": 37.4896346549597,
+        "lng": 126.981867567636
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/HZrFCIt3oYY?si=qpik9aEjoWgWn4uk"
+      "youtubeEmbed": "https://www.youtube.com/embed/HZrFCIt3oYY"
     },
     {
       "name": "이가네가마솥설렁탕",
       "food": "꼬리찜전골",
       "stars": 0,
       "address": "서울 은평구 진흥로 130 (녹번동 141-39)",
-      "latlng": { "lat": 37.6075120898331, "lng": 126.92465592312 },
+      "latlng": {
+        "lat": 37.6075120898331,
+        "lng": 126.92465592312
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/4zBBUw-VDnU?si=4Lbi7X8l2lc1Yu-i"
+      "youtubeEmbed": "https://www.youtube.com/embed/4zBBUw-VDnU"
     },
     {
       "name": "미남옥",
       "food": "곰탕 수육",
       "stars": 0,
       "address": "서울 강남구 언주로153길 12 1층 (신사동 626-70)",
-      "latlng": { "lat": 37.522945604676, "lng": 127.032190748216 },
+      "latlng": {
+        "lat": 37.522945604676,
+        "lng": 127.032190748216
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/4zBBUw-VDnU?si=4Lbi7X8l2lc1Yu-i"
+      "youtubeEmbed": "https://www.youtube.com/embed/4zBBUw-VDnU"
     },
     {
       "name": "금천문&오향족발",
       "food": "오향족발 유린기",
       "stars": 0,
       "address": "서울 용산구 한강대로 268 1층 (남영동 84-8)",
-      "latlng": { "lat": 37.5422078947316, "lng": 126.973079575138 },
+      "latlng": {
+        "lat": 37.5422078947316,
+        "lng": 126.973079575138
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/xE1gqk1Q3uA?si=zKEdpFP08_EjUkPW"
+      "youtubeEmbed": "https://www.youtube.com/embed/xE1gqk1Q3uA"
     },
     {
       "name": "진미식당",
       "food": "콩국수",
       "stars": 0,
       "address": "서울 용산구 백범로90길 46 (문배동 33-3)",
-      "latlng": { "lat": 37.5366958702301, "lng": 126.970177576899 },
+      "latlng": {
+        "lat": 37.5366958702301,
+        "lng": 126.970177576899
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/Nz0jI_Lck0U?si=I2f_OXd7moBPhZCB"
+      "youtubeEmbed": "https://www.youtube.com/embed/Nz0jI_Lck0U"
     },
     {
       "name": "홍탁 목포집",
       "food": "콩국수",
       "stars": 0,
       "address": "서울 중구 청구로 86-1 (신당동 307-19)",
-      "latlng": { "lat": 37.5606996570554, "lng": 127.012777716358 },
+      "latlng": {
+        "lat": 37.5606996570554,
+        "lng": 127.012777716358
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/Nz0jI_Lck0U?si=I2f_OXd7moBPhZCB"
+      "youtubeEmbed": "https://www.youtube.com/embed/Nz0jI_Lck0U"
     },
     {
       "name": "신촌 즉석 생우동",
       "food": "콩국수",
       "stars": 0,
       "address": "서울 마포구 대흥로 38 (대흥동 801-13)",
-      "latlng": { "lat": 37.5441384384603, "lng": 126.938739126805 },
+      "latlng": {
+        "lat": 37.5441384384603,
+        "lng": 126.938739126805
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/Nz0jI_Lck0U?si=I2f_OXd7moBPhZCB"
+      "youtubeEmbed": "https://www.youtube.com/embed/Nz0jI_Lck0U"
     },
     {
       "name": "농부와닭동네",
       "food": "치킨",
       "stars": 0,
       "address": "서울 영등포구 여의나루로 113 (여의도동 21-4)",
-      "latlng": { "lat": 37.5260558187275, "lng": 126.930769729764 },
+      "latlng": {
+        "lat": 37.5260558187275,
+        "lng": 126.930769729764
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/m5QDgJ3zWsY?si=i79ofe2FmmaIyLVM"
+      "youtubeEmbed": "https://www.youtube.com/embed/m5QDgJ3zWsY"
     },
     {
       "name": "옛날칼국수",
       "food": "바지락칼국수",
       "stars": 0,
       "address": "서울 노원구 동일로 1417 (상계동 711-13)",
-      "latlng": { "lat": 37.6550688080345, "lng": 127.059980216361 },
+      "latlng": {
+        "lat": 37.6550688080345,
+        "lng": 127.059980216361
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/oCVgwsJbFpk?si=keG1u23oBKeL-BXM"
+      "youtubeEmbed": "https://www.youtube.com/embed/oCVgwsJbFpk"
     },
     {
       "name": "홍명",
       "food": "중식",
       "stars": 0,
       "address": "서울 강남구 논현로131길 10 미현빌딩 1층 홍명 (논현동 37-9 홍명)",
-      "latlng": { "lat": 37.514527434771, "lng": 127.029454131234 },
+      "latlng": {
+        "lat": 37.514527434771,
+        "lng": 127.029454131234
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/zCYgokuaenY?si=ZVbCo02QUKQUM9Jp"
+      "youtubeEmbed": "https://www.youtube.com/embed/zCYgokuaenY"
     },
     {
       "name": "이조순대국",
       "food": "수육 편육 순대국",
       "stars": 0,
       "address": "서울 용산구 원효로41길 54 이조순대국 (원효로2가 91-10 이조순대국)",
-      "latlng": { "lat": 37.5352349684248, "lng": 126.960314369206 },
+      "latlng": {
+        "lat": 37.5352349684248,
+        "lng": 126.960314369206
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/Q9p4sWtOkec?si=Hh2l5smI8vakchS0"
+      "youtubeEmbed": "https://www.youtube.com/embed/Q9p4sWtOkec"
     },
     {
       "name": "해남순대국",
       "food": "수육 순대국",
       "stars": 0,
       "address": "서울 중구 다산로8길 8 (신당동 366-9)",
-      "latlng": { "lat": 37.5528759445731, "lng": 127.009869056829 },
+      "latlng": {
+        "lat": 37.5528759445731,
+        "lng": 127.009869056829
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/W-W42TwYUGw?si=EcaYgLg3ymNa-3P5"
+      "youtubeEmbed": "https://www.youtube.com/embed/W-W42TwYUGw"
     },
     {
       "name": "춘향미엔",
       "food": "비빔면 온면",
       "stars": 0,
       "address": "서울 성동구 왕십리로21길 26 1층 (행당동 299-1)",
-      "latlng": { "lat": 37.5605553626977, "lng": 127.03201349575 },
+      "latlng": {
+        "lat": 37.5605553626977,
+        "lng": 127.03201349575
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/kHpd-p6y1x0?si=SYRlnVPN7eoc-0zL"
+      "youtubeEmbed": "https://www.youtube.com/embed/kHpd-p6y1x0"
     },
     {
       "name": "한옥정",
       "food": "삼겹살",
       "stars": 0,
       "address": "서울 동대문구 답십리로 146-4 (답십리동 246-12)",
-      "latlng": { "lat": 37.5725856773053, "lng": 127.056255742304 },
+      "latlng": {
+        "lat": 37.5725856773053,
+        "lng": 127.056255742304
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/nhZOWlhBDms?si=1eTvQHbSynkkTO2c"
+      "youtubeEmbed": "https://www.youtube.com/embed/nhZOWlhBDms"
     },
     {
       "name": "함흥면옥",
       "food": "함흥냉면",
       "stars": 0,
       "address": "서울 강남구 논현로 826 제이와이빌딩 (신사동 592-4)",
-      "latlng": { "lat": 37.5222271811671, "lng": 127.028546629528 },
+      "latlng": {
+        "lat": 37.5222271811671,
+        "lng": 127.028546629528
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/KD_5o8xsn_c?si=Z9zUExHQUPrQK9pq"
+      "youtubeEmbed": "https://www.youtube.com/embed/KD_5o8xsn_c"
     },
     {
       "name": "우미26",
       "food": "한우",
       "stars": 0,
       "address": "서울 서대문구 통일로 155-1 (냉천동 218)",
-      "latlng": { "lat": 37.5679361176982, "lng": 126.96413446976 },
+      "latlng": {
+        "lat": 37.5679361176982,
+        "lng": 126.96413446976
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/XcNDK6NAwIM?si=3Ev-48Ci_XIYpooI"
+      "youtubeEmbed": "https://www.youtube.com/embed/XcNDK6NAwIM"
     },
     {
       "name": "남영돈",
       "food": "돼지고기",
       "stars": 0,
       "address": "서울 용산구 한강대로80길 17 (남영동 52-2)",
-      "latlng": { "lat": 37.5427493719708, "lng": 126.973775844291 },
+      "latlng": {
+        "lat": 37.5427493719708,
+        "lng": 126.973775844291
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/0b2vSvwVra8?si=zUqQxopArv_nkKa-"
+      "youtubeEmbed": "https://www.youtube.com/embed/0b2vSvwVra8"
     },
     {
       "name": "주은감자탕",
       "food": "감자탕",
       "stars": 0,
       "address": "서울 송파구 삼학사로 71 (삼전동 132-14)",
-      "latlng": { "lat": 37.5036784041247, "lng": 127.096792714937 },
+      "latlng": {
+        "lat": 37.5036784041247,
+        "lng": 127.096792714937
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/Kt1kbC2KBN4?si=PW-tpk-F2Ha6-VhE"
+      "youtubeEmbed": "https://www.youtube.com/embed/Kt1kbC2KBN4"
     },
     {
       "name": "바바라스키친",
       "food": "바지락찜 순대볶음",
       "stars": 0,
       "address": "서울 용산구 대사관로5길 17 1층 (한남동 685-13)",
-      "latlng": { "lat": 37.5349726865538, "lng": 127.00055892351 },
+      "latlng": {
+        "lat": 37.5349726865538,
+        "lng": 127.00055892351
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/hVbs-5rv0Fw?si=XLEbUzTBFMu5hwxJ"
+      "youtubeEmbed": "https://www.youtube.com/embed/hVbs-5rv0Fw"
     },
     {
       "name": "서부감자국",
       "food": "감자국",
       "stars": 0,
       "address": "서울 은평구 서오릉로 8 (녹번동 181)",
-      "latlng": { "lat": 37.602260750611, "lng": 126.926933124828 },
+      "latlng": {
+        "lat": 37.602260750611,
+        "lng": 126.926933124828
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/KujD94niMrI?si=109ueafAz-wKvqo6"
+      "youtubeEmbed": "https://www.youtube.com/embed/KujD94niMrI"
     },
     {
       "name": "주막",
       "food": "전 막걸리",
       "stars": 0,
       "address": "서울 강북구 월계로7나길 30-3 (미아동 54-259)",
-      "latlng": { "lat": 37.6127653759564, "lng": 127.032008454525 },
+      "latlng": {
+        "lat": 37.6127653759564,
+        "lng": 127.032008454525
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/3tc3F4M607s?si=qOfrGYAYwEbmvzcY"
+      "youtubeEmbed": "https://www.youtube.com/embed/3tc3F4M607s"
     },
     {
       "name": "영동장어",
       "food": "갯벌장어",
       "stars": 0,
       "address": "서울 강남구 언주로148길 8 (논현동 98-8)",
-      "latlng": { "lat": 37.5203167504681, "lng": 127.035336964145 },
+      "latlng": {
+        "lat": 37.5203167504681,
+        "lng": 127.035336964145
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/B5rp9kCcqmw?si=0HC8lO0V3GbVv8Qs"
+      "youtubeEmbed": "https://www.youtube.com/embed/B5rp9kCcqmw"
     },
     {
       "name": "대운식당",
       "food": "갑오징어제육볶음 동태전 생태탕",
       "stars": 0,
       "address": "서울 강남구 역삼로5길 6 (역삼동 830-54)",
-      "latlng": { "lat": 37.4943033103841, "lng": 127.032459231063 },
+      "latlng": {
+        "lat": 37.4943033103841,
+        "lng": 127.032459231063
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/WE8M1jVA9QM?si=AX7GVU5RQX69NvMf"
+      "youtubeEmbed": "https://www.youtube.com/embed/WE8M1jVA9QM"
     },
     {
       "name": "첼시스하이볼",
       "food": "하이볼 피쉬앤칩스 칠리핫도그",
       "stars": 0,
       "address": "서울 강남구 도산대로85길 14 1층 (청담동 122-7)",
-      "latlng": { "lat": 37.5254308344451, "lng": 127.049201853961 },
+      "latlng": {
+        "lat": 37.5254308344451,
+        "lng": 127.049201853961
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/XJywuH-AAf8?si=lsj4RJjZJSKAqx5F"
+      "youtubeEmbed": "https://www.youtube.com/embed/XJywuH-AAf8"
     },
     {
       "name": "진미평양냉면",
       "food": "어복쟁반",
       "stars": 0,
       "address": "서울 강남구 학동로 305-3 (논현동 115-10)",
-      "latlng": { "lat": 37.5161452524981, "lng": 127.036042298778 },
+      "latlng": {
+        "lat": 37.5161452524981,
+        "lng": 127.036042298778
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/H_Aw-akvQPQ?si=C1UPxmCEqsKE_OoE"
+      "youtubeEmbed": "https://www.youtube.com/embed/H_Aw-akvQPQ"
     },
     {
       "name": "왕스덕",
       "food": "북경오리 꿔바로우 공심채볶음",
       "stars": 0,
       "address": "서울 강남구 도산대로 130 하림타워 지하 1층 (논현동 4-18)",
-      "latlng": { "lat": 37.5171894466777, "lng": 127.022974108726 },
+      "latlng": {
+        "lat": 37.5171894466777,
+        "lng": 127.022974108726
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/-e6zzDqCS6E?si=CBlZX8Z74SnrVK7T"
+      "youtubeEmbed": "https://www.youtube.com/embed/-e6zzDqCS6E"
     },
     {
       "name": "춘천막국수",
       "food": "닭죽 닭도리탕",
       "stars": 0,
       "address": "서울 중구 다산로10길 6 1층 골목길 (신당동 368-86)",
-      "latlng": { "lat": 37.5534393895316, "lng": 127.010327244592 },
+      "latlng": {
+        "lat": 37.5534393895316,
+        "lng": 127.010327244592
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/XvmK69zZJOo?si=UN4an4G7l2u0D7-7"
+      "youtubeEmbed": "https://www.youtube.com/embed/XvmK69zZJOo"
     },
     {
       "name": "발산한우진곱창",
       "food": "소곱창",
       "stars": 0,
       "address": "서울 강서구 강서로 395 1층 109~110호 (마곡동 793-9)",
-      "latlng": { "lat": 37.561058561996, "lng": 126.838610552611 },
+      "latlng": {
+        "lat": 37.561058561996,
+        "lng": 126.838610552611
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/Xz1QAlQGz5s?si=aD0Ksj2VOwYJ1owx"
+      "youtubeEmbed": "https://www.youtube.com/embed/Xz1QAlQGz5s"
     },
     {
       "name": "편의방",
       "food": "탕수육 중식",
       "stars": 0,
       "address": "서울 서대문구 연희로 36 (연희동 353-94)",
-      "latlng": { "lat": 37.5618289324287, "lng": 126.927501079858 },
+      "latlng": {
+        "lat": 37.5618289324287,
+        "lng": 126.927501079858
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/fk_BFKQ3UI8?si=XygruECylMDgHGmO"
+      "youtubeEmbed": "https://www.youtube.com/embed/fk_BFKQ3UI8"
     },
     {
       "name": "강남 진해장",
       "food": "내장탕",
       "stars": 0,
       "address": "서울 강남구 테헤란로5길 11(역삼동 819-4)",
-      "latlng": { "lat": 37.4994948439229, "lng": 127.029264003855 },
+      "latlng": {
+        "lat": 37.4994948439229,
+        "lng": 127.029264003855
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/u4Ci7OW5ES0?si=wA7WFZfG7lBbUQQx"
+      "youtubeEmbed": "https://www.youtube.com/embed/u4Ci7OW5ES0"
     },
     {
       "name": "부자피자",
       "food": "피자",
       "stars": 0,
       "address": "서울 용산구 이태원로55가길 28 (한남동 743-33)",
-      "latlng": { "lat": 37.537264562943, "lng": 126.999802560451 },
+      "latlng": {
+        "lat": 37.537264562943,
+        "lng": 126.999802560451
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/U5WHtm6Yhj0?si=Lgm1o7S8mLje--cu"
+      "youtubeEmbed": "https://www.youtube.com/embed/U5WHtm6Yhj0"
     },
     {
       "name": "서대문 양꼬치",
       "food": "돼지쪽갈비",
       "stars": 0,
       "address": "서울 마포구 동교로 251 2층 (연남동 255-20)",
-      "latlng": { "lat": 37.5624010661205, "lng": 126.924202913917 },
+      "latlng": {
+        "lat": 37.5624010661205,
+        "lng": 126.924202913917
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/OHPgGihCSZQ?si=swlCn3EcG8WCECiT"
+      "youtubeEmbed": "https://www.youtube.com/embed/OHPgGihCSZQ"
     },
     {
       "name": "동강나루터",
       "food": "민물매운탕",
       "stars": 0,
       "address": "서울 중구 삼일대로12길 13 백양빌딩 (수표동 56-10)",
-      "latlng": { "lat": 37.5668468441493, "lng": 126.988582577064 },
+      "latlng": {
+        "lat": 37.5668468441493,
+        "lng": 126.988582577064
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/AxYI-p5wzYw?si=L5_rka1hKTLGefgb"
+      "youtubeEmbed": "https://www.youtube.com/embed/AxYI-p5wzYw"
     },
     {
       "name": "이남장",
       "food": "설렁탕",
       "stars": 0,
       "address": "서울 강남구 봉은사로108길 21 (삼성동 165-12)",
-      "latlng": { "lat": 37.5136041356779, "lng": 127.064458979826 },
+      "latlng": {
+        "lat": 37.5136041356779,
+        "lng": 127.064458979826
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/YJpv-lwKPNg?si=-gxf-nq3plvl63K0"
+      "youtubeEmbed": "https://www.youtube.com/embed/YJpv-lwKPNg"
     },
     {
       "name": "부흥왕족발",
       "food": "족발 멸치된장국 쟁반막국수",
       "stars": 0,
       "address": "서울 강남구 도산대로89길 9 (청담동 124-15)",
-      "latlng": { "lat": 37.5253082820986, "lng": 127.050520391143 },
+      "latlng": {
+        "lat": 37.5253082820986,
+        "lng": 127.050520391143
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/lO1qFusLkTQ?si=ShBDhkfu4TqjEBK_"
+      "youtubeEmbed": "https://www.youtube.com/embed/lO1qFusLkTQ"
     },
     {
       "name": "미소의 집",
       "food": "떡볶이",
       "stars": 0,
       "address": "서울 서초구 신반포로 27-6 (반포본동 885)",
-      "latlng": { "lat": 37.502007409189, "lng": 126.987786107024 },
+      "latlng": {
+        "lat": 37.502007409189,
+        "lng": 126.987786107024
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/b3-Bf1JRscM?si=VINpQdrDC8TR0YLE"
+      "youtubeEmbed": "https://www.youtube.com/embed/b3-Bf1JRscM"
     },
     {
       "name": "신림정",
       "food": "생고기",
       "stars": 0,
       "address": "서울 관악구 봉천로 248 (신림동 1428-5)",
-      "latlng": { "lat": 37.4886506348622, "lng": 126.928851389475 },
+      "latlng": {
+        "lat": 37.4886506348622,
+        "lng": 126.928851389475
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/yTNgSj_0zIM?si=V7R3OVH2xlD3nRQG"
+      "youtubeEmbed": "https://www.youtube.com/embed/yTNgSj_0zIM"
     },
     {
       "name": "진미언양불고기",
       "food": "언양불고기",
       "stars": 0,
       "address": "부산 수영구 남천바다로33번길 7(광안동)",
-      "latlng": { "lat": 35.1488789299552, "lng": 129.114107640045 },
+      "latlng": {
+        "lat": 35.1488789299552,
+        "lng": 129.114107640045
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/MvX_vWtm8P0?si=j1raIhiv3dNdOko5"
+      "youtubeEmbed": "https://www.youtube.com/embed/MvX_vWtm8P0"
     },
     {
       "name": "군위식당",
       "food": "순대국밥",
       "stars": 0,
       "address": "대구 중구 경상감영길 101 중앙상가 (포정동 21-3)",
-      "latlng": { "lat": 35.8723692432573, "lng": 128.593108158821 },
+      "latlng": {
+        "lat": 35.8723692432573,
+        "lng": 128.593108158821
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/KEeGBUHnJsc?si=jczdBKTaXRy_WBA_"
+      "youtubeEmbed": "https://www.youtube.com/embed/KEeGBUHnJsc"
     },
     {
       "name": "산동교자",
       "food": "오향장육",
       "stars": 0,
       "address": "서울 중구 명동2길 26 (명동2가 105)",
-      "latlng": { "lat": 37.5622822740445, "lng": 126.982439889015 },
+      "latlng": {
+        "lat": 37.5622822740445,
+        "lng": 126.982439889015
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/AmZ5ceHhkG8?si=dc3OCjdhB8P_zrjb"
+      "youtubeEmbed": "https://www.youtube.com/embed/AmZ5ceHhkG8"
     },
     {
       "name": "참조은 생고기",
       "food": "뭉태기",
       "stars": 0,
       "address": "대구 북구 복현로 78 (복현2동 266-9)",
-      "latlng": { "lat": 35.8987216383657, "lng": 128.623277869241 },
+      "latlng": {
+        "lat": 35.8987216383657,
+        "lng": 128.623277869241
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/8KZrrZWoRDc?si=FVjOfTEMvMByBilQ"
+      "youtubeEmbed": "https://www.youtube.com/embed/8KZrrZWoRDc"
     },
     {
       "name": "복춘식당",
       "food": "아귀탕",
       "stars": 0,
       "address": "전남 여수시 교동남1길 5-8 (교동 472)",
-      "latlng": { "lat": 34.7395742584956, "lng": 127.734075814333 },
+      "latlng": {
+        "lat": 34.7395742584956,
+        "lng": 127.734075814333
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/ZZAqSGZjiPo?si=_pX01UZ4bz1MkK0K"
+      "youtubeEmbed": "https://www.youtube.com/embed/ZZAqSGZjiPo"
     },
     {
       "name": "나진국밥",
       "food": "수육 돼지국밥",
       "stars": 0,
       "address": "전남 여수시 화양면 화양로 1391 나진국밥 (나진리 430-4)",
-      "latlng": { "lat": 34.7069293210192, "lng": 127.613225880767 },
+      "latlng": {
+        "lat": 34.7069293210192,
+        "lng": 127.613225880767
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/9M30E6sf90g?si=1FicLkrDRkM_jWMb"
+      "youtubeEmbed": "https://www.youtube.com/embed/9M30E6sf90g"
     },
     {
       "name": "태화장",
       "food": "중식",
       "stars": 0,
       "address": "대전 동구 중앙로203번길 78 (정동 36-32)",
-      "latlng": { "lat": 36.3338483103715, "lng": 127.429361384555 },
+      "latlng": {
+        "lat": 36.3338483103715,
+        "lng": 127.429361384555
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/S3EsbtdFe_g?si=XHcN4e9SPVNlZlyk"
+      "youtubeEmbed": "https://www.youtube.com/embed/S3EsbtdFe_g"
     },
     {
       "name": "신촌즉석생우동",
       "food": "우동",
       "stars": 0,
       "address": "서울 마포구 대흥로 38 (대흥동 801-13)",
-      "latlng": { "lat": 37.5441384384603, "lng": 126.938739126805 },
+      "latlng": {
+        "lat": 37.5441384384603,
+        "lng": 126.938739126805
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/M06R491YFF4?si=uqdkeQHQ8lrdoTnp"
+      "youtubeEmbed": "https://www.youtube.com/embed/M06R491YFF4"
     },
     {
       "name": "녹동뻘낙지",
       "food": "연포탕",
       "stars": 0,
       "address": "서울 중구 다산로 159 (신당동 370-46)",
-      "latlng": { "lat": 37.557988621045, "lng": 127.012171076316 },
+      "latlng": {
+        "lat": 37.557988621045,
+        "lng": 127.012171076316
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/C38dKDRH10U?si=PwA65GQaTGq24sRh"
+      "youtubeEmbed": "https://www.youtube.com/embed/C38dKDRH10U"
     },
     {
       "name": "스시스미레",
       "food": "오마카세",
       "stars": 0,
       "address": "서울 강남구 도산대로55길 18 4층 (청담동 88-6)",
-      "latlng": { "lat": 37.5246288889829, "lng": 127.040570885332 },
+      "latlng": {
+        "lat": 37.5246288889829,
+        "lng": 127.040570885332
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/6vxReM3m_Tg?si=Fmsn4q_lYgWdsmAk"
+      "youtubeEmbed": "https://www.youtube.com/embed/6vxReM3m_Tg"
     },
     {
       "name": "을지칼국수",
       "food": "칼국수",
       "stars": 0,
       "address": "서울 중구 충무로 54-3 (을지로3가 291-45)",
-      "latlng": { "lat": 37.5660351259604, "lng": 126.993083336867 },
+      "latlng": {
+        "lat": 37.5660351259604,
+        "lng": 126.993083336867
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/1Q-_xTROMkE?si=0f8xaqWslj9lP_Dz"
+      "youtubeEmbed": "https://www.youtube.com/embed/1Q-_xTROMkE"
     },
     {
       "name": "만포막국수",
       "food": "이북식찜닭 막국수",
       "stars": 0,
       "address": "서울 중구 동호로14길 2 (신당동 425-18)",
-      "latlng": { "lat": 37.5557964004471, "lng": 127.010318629116 },
+      "latlng": {
+        "lat": 37.5557964004471,
+        "lng": 127.010318629116
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/7ICHM1GSgtc?si=NvoHojgt4v_nGtRe"
+      "youtubeEmbed": "https://www.youtube.com/embed/7ICHM1GSgtc"
     },
     {
       "name": "영미오리탕",
       "food": "오리탕",
       "stars": 0,
       "address": "서울 광진구 동일로60길 53 (군자동 467-16)",
-      "latlng": { "lat": 37.5576742981063, "lng": 127.076292878482 },
+      "latlng": {
+        "lat": 37.5576742981063,
+        "lng": 127.076292878482
+      },
       "youtube": "",
-      "youtubeEmbed": "https://www.youtube.com/embed/vvGnYVFWrMc?si=jBZPvXIawRBh_ryx"
+      "youtubeEmbed": "https://www.youtube.com/embed/vvGnYVFWrMc"
     }
   ]
 }
