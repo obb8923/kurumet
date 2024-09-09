@@ -1,9 +1,10 @@
 type propsType = {
+  name: string;
   food: string;
   youtubeEmbedd: string;
 };
 
-export default function ListArticle({ food, youtubeEmbedd }: propsType) {
+export default function ListArticle({ name, food, youtubeEmbedd }: propsType) {
   return (
     <article className="flex flex-col">
       <iframe
@@ -13,6 +14,7 @@ export default function ListArticle({ food, youtubeEmbedd }: propsType) {
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
       />
+      <p>{name}</p>
       <p>{food}</p>
     </article>
   );
