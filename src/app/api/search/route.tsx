@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import programs from "@/../public/list/programs.json";
-
+//띄어쓰기 없애주는 함수
 const removeSpaces = (v: string): string => {
   return v.replace(/\s+/g, "");
 };
