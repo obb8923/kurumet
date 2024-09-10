@@ -4,6 +4,8 @@ import Search from "./Search";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import SuggestionButton from "./SuggestionButton";
+import AddConButton from "./AddConButton";
+import SelectedConList from "./SelectedConList";
 export default function GNB() {
   const router = useRouter();
   const [ham, setHam] = useState(false);
@@ -23,8 +25,11 @@ export default function GNB() {
       </div>
       {/* youtuberCon Section */}
       <div className="flex gap-4 flex-1 my-2 px-4 lg:px-8">
-        <YoutuberCon name="공슐랭 가이드"></YoutuberCon>
-        <YoutuberCon name="먹을텐데"></YoutuberCon>
+        <SelectedConList />
+      </div>
+      {/* add Con Section */}
+      <div className="hidden lg:block flex justify-center items-center mx-4">
+        <AddConButton />
       </div>
       {/* search Section */}
       <div className="hidden lg:block flex justify-center items-center mx-4">
@@ -69,6 +74,7 @@ export default function GNB() {
             <div className=" flex flex-col gap-5 items-center max-w-full max-h-full min-w-full min-h-full">
               <Search />
               {/* <SuggestionButton />*/}
+              <AddConButton />
             </div>
           </div>
         )}
