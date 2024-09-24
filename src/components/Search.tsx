@@ -6,20 +6,19 @@ import axios from "axios";
 type searchType = {
   search: string;
 };
+type searchResult = { name: string };
+
 export default function Search() {
   const { pushList, popList, findList } = useActions();
   const [isToggleOpen, setIsToggleOpen] = useState(false);
   const [toggleSellected, setToggleSellected] = useState("카테고리");
-  const [searchResult, setSearchResult] = useState("");
+  const [searchResult, setSearchResult] = useState<searchResult[]>([{ name: "" }]);
   const [isSearchResultOpen, setIsSearchResultOpen] = useState(false);
   const [isSearchError, setIsSearchError] = useState(false);
   const dropdownRef = useRef<HTMLDivElement | null>(null);
   // MouseEvent 타입으로 명시하고, event.target을 Node로 단언
   const handleClickOutside = (event: MouseEvent) => {
-    if (
-      dropdownRef.current &&
-      !dropdownRef.current.contains(event.target as Node)
-    ) {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
       setIsToggleOpen(false);
     }
   };
@@ -30,6 +29,7 @@ export default function Search() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
   const {
     register,
     handleSubmit,
@@ -39,11 +39,15 @@ export default function Search() {
   const onSubmit: SubmitHandler<searchType> = async (formData) => {
     if (toggleSellected === "카테고리") return;
     try {
-      const response = await axios.post("/api/search", formData);
+      const response = await axios.post("/api/search", {
+        ...formData,
+        type: toggleSellected,
+      });
       setIsSearchError(false);
       setSearchResult(response.data.program);
+      console.log(response.data.program);
     } catch (e) {
-      setSearchResult("검색에 실패했습니다.");
+      setSearchResult([{ name: "검색에 실패했습니다." }]);
       setIsSearchError(true);
       console.log(e);
     } finally {
@@ -64,6 +68,18 @@ export default function Search() {
   const toggleDropdown = (v: string) => {
     setIsToggleOpen(!isToggleOpen);
     if (v !== "") setToggleSellected(v);
+  };
+
+  // 검색결과 클릭 핸들러
+  const searchResultClickHandler = () => {
+    setIsSearchResultOpen(false);
+    if (!isSearchError && searchResult.length < 2)
+      findList(searchResult[0].name)
+        ? popList(searchResult[0].name)
+        : pushList(searchResult[0].name);
+    else if (searchResult.length >= 2) {
+      //어떻게 리스트를 추가 시킬건지 생각해보세요!
+    }
   };
   return (
     <div className="w-full flex flex-col">
@@ -141,26 +157,24 @@ export default function Search() {
               {...register("search", {
                 required: "검색어를 입력해주세요",
               })}
-              aria-invalid={
-                isSubmitted ? (errors.search ? true : false) : undefined
-              }
+              aria-invalid={isSubmitted ? (errors.search ? true : false) : undefined}
             />
 
             {/* 검색 결과 */}
             {isSearchResultOpen && (
-              <div className="absolute top-12 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+              <div className="absolute top-12 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
                 <button
                   type="button"
                   className="inline-flex w-full px-4 py-2 hover:bg-gray-100 hover:rounded-lg dark:hover:bg-gray-600 dark:hover:text-white"
-                  onClick={() => {
-                    setIsSearchResultOpen(false);
-                    if (!isSearchError)
-                      findList(searchResult)
-                        ? popList(searchResult)
-                        : pushList(searchResult);
-                  }}
+                  onClick={searchResultClickHandler}
                 >
-                  {searchResult}
+                  {searchResult.length < 2 ? (
+                    <p>{searchResult[0].name} 추가하기</p>
+                  ) : (
+                    <p>
+                      {searchResult[0].name}외 {searchResult.length - 1}개 추가하기
+                    </p>
+                  )}
                 </button>
               </div>
             )}
