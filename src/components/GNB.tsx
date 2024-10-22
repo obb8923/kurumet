@@ -77,6 +77,7 @@ export default function GNB() {
         {ham && (
           <div className="w-[95vw] md:w-[55vw] border border-gray-300 bg-white px-8 py-4 absolute top-full right-0 z-20 lg:hidden">
             <div className=" flex flex-col gap-5 items-center max-w-full max-h-full min-w-full min-h-full">
+              <LoginButton />
               <Search />
               {/* <SuggestionButton />*/}
               <AddConButton />
