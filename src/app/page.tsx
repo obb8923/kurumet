@@ -9,9 +9,11 @@ export default function Home() {
   const mapState = useMapState();
   return (
     <main className="flex flex-col items-center">
+      {/* 지도 위 메뉴 */}
       <div className="m-2 flex justify-end" style={{ width: "90vw" }}>
         <Dropdown />
       </div>
+      {/* 지도 화면 */}
       {mapState === "지도" && (
         <div
           className="relative w-96 h-96"
@@ -30,6 +32,7 @@ export default function Home() {
           </div>
         </div>
       )}
+      {/* 리스트 화면 */}
       {mapState === "리스트" && (
         <div style={{ maxWidth: "90vw" }}>
           <List />
