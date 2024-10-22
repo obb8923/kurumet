@@ -1,9 +1,9 @@
 "use client";
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import axios from "axios";
 import { useSearchParams } from "next/navigation";
 
-const KakaoCallback = () => {
+const KakaoCallbackComponent = () => {
   const searchParams = useSearchParams();
   const code = searchParams.get("code");
 
@@ -58,6 +58,14 @@ const KakaoCallback = () => {
   }, [code]);
 
   return <div>로그인 중...</div>;
+};
+
+const KakaoCallback = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <KakaoCallbackComponent />
+    </Suspense>
+  );
 };
 
 export default KakaoCallback;
