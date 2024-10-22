@@ -6,6 +6,7 @@ import { useState } from "react";
 import SuggestionButton from "./SuggestionButton";
 import AddConButton from "./AddConButton";
 import SelectedConList from "./SelectedConList";
+import LoginButton from "./LoginButton";
 export default function GNB() {
   const router = useRouter();
   const [ham, setHam] = useState(false);
@@ -34,6 +35,10 @@ export default function GNB() {
       {/* search Section */}
       <div className="hidden lg:block flex justify-center items-center mx-4">
         <Search />
+      </div>
+      {/* Login Section */}
+      <div className="hidden lg:block flex justify-center items-center mx-4">
+        <LoginButton />
       </div>
       {/* Suggestion Section */}
       {/*<div className="hidden lg:block flex justify-center items-center mx-4">
