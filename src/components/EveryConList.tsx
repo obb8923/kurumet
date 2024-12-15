@@ -1,9 +1,11 @@
 import YoutuberCon from "./youtuberCon";
+import { programs } from "@/constants/programs";
 const EveryConList = () => {
   return (
     <div className="w-full h-full flex gap-2">
-      <YoutuberCon name="공슐랭 가이드" />
-      <YoutuberCon name="먹을텐데" />
+      {programs.map((program) => (
+        <YoutuberCon key={program} name={program} />
+      ))}
     </div>
   );
 };

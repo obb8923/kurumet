@@ -1,12 +1,19 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import { useMapState, useActions } from "@/store/StateMap";
-export default function Dropdown() {
+
+// 지도,리스트 상태를 정하는 드롭다운 컴포넌트
+const Dropdown = () => {
+  // 드롭다운 열림/닫힘 상태 관리
   const [isOpen, setIsOpen] = useState(false);
+  // 지도/리스트 상태값 가져오기
   const mapState = useMapState();
+  // 상태 변경 액션 가져오기
   const { changeState } = useActions();
+  // 드롭다운 요소에 대한 ref
   const dropdownRef = useRef<HTMLDivElement | null>(null);
-  // MouseEvent 타입으로 명시하고, event.target을 Node로 단언
+  
+  // 드롭다운 외부 클릭 감지 핸들러
   const handleClickOutside = (event: MouseEvent) => {
     if (
       dropdownRef.current &&
@@ -16,12 +23,15 @@ export default function Dropdown() {
     }
   };
 
+  // 외부 클릭 이벤트 리스너 등록 및 정리
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  // 드롭다운 토글 및 상태 변경 함수
   const toggleDropdown = (v: string) => {
     setIsOpen(!isOpen);
     if (v !== "") changeState(v);
@@ -29,7 +39,7 @@ export default function Dropdown() {
 
   return (
     <>
-      {/* 버튼 */}
+      {/* 드롭다운 버튼 */}
       <button
         id="dropdownDefaultButton"
         data-dropdown-toggle="dropdown"
@@ -40,6 +50,7 @@ export default function Dropdown() {
         }}
       >
         {mapState}
+        {/* 드롭다운 화살표 아이콘 */}
         <svg
           className="w-2.5 h-2.5 ms-3"
           aria-hidden="true"
@@ -55,7 +66,7 @@ export default function Dropdown() {
             d="m1 1 4 4 4-4"
           />
         </svg>
-        {/* 내용 */}
+        {/* 드롭다운 메뉴 */}
         {isOpen && (
           <div
             ref={dropdownRef}
@@ -65,6 +76,7 @@ export default function Dropdown() {
               className="py-2 text-sm text-gray-700 dark:text-gray-200"
               aria-labelledby="dropdownDefaultButton"
             >
+              {/* 지도 메뉴 아이템 */}
               <li
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:textWhite"
                 onClick={() => {
@@ -73,6 +85,7 @@ export default function Dropdown() {
               >
                 지도
               </li>
+              {/* 리스트 메뉴 아이템 */}
               <li
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:textWhite"
                 onClick={() => {
@@ -87,4 +100,6 @@ export default function Dropdown() {
       </button>
     </>
   );
-}
+};
+
+export default Dropdown;
