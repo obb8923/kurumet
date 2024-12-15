@@ -31,6 +31,8 @@ const KakaoCallbackComponent = () => {
           );
 
           const accessToken = tokenResponse.data.access_token;
+          const data = tokenResponse.data;
+          console.log("data", data);
           console.log("Access Token:", accessToken);
 
           // 사용자 정보 요청
