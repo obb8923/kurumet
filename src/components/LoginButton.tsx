@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 const LoginButton = () => {
   const id = localStorage.getItem("id");
