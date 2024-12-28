@@ -69,19 +69,6 @@ export default function KaKaoMap() {
             title={position.name}
             clickable={true} // 마커를 클릭했을 때 지도의 클릭 이벤트가 발생하지 않도록 설정합니다
             onClick={() => handleMarkerClick(index)}
-            image={{
-              src: `../../public/profileImg/${encodeURIComponent(position.program)}.jpg`,
-              size: {
-                width: 64,
-                height: 69,
-              }, // 마커이미지의 크기입니다
-              options: {
-                offset: {
-                  x: 27,
-                  y: 69,
-                }, // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
-              },
-            }}
           >
             {infoWindowState[index].isOpen && (
               <div className="flex flex-col pb-4 gap-1 rounded">
@@ -128,7 +115,6 @@ export default function KaKaoMap() {
                     길찾기
                   </a>
                 </p>
-                {/* <p>별점: {position.stars}</p> */}
               </div>
             )}
           </MapMarker>
