@@ -1142,5 +1142,414 @@
       "youtube": "",
       "youtubeEmbed": "https://www.youtube.com/embed/vvGnYVFWrMc"
     }
+    ,
+    {
+      "name": "일광쪽갈비",
+      "food": "쪽갈비",
+      "stars": 0,
+      "address": "서울 동대문구 전농로 48 (답십리동 265-1)",
+      "latlng": {
+        "lat": 37.5690633562141,
+        "lng": 127.05731836127
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/nUj86InQ6dM"
+    },
+    {
+      "name": "청실홍실",
+      "food": "감자국",
+      "stars": 0,
+      "address": "서울 서초구 서래로10길 9",
+      "latlng": {
+        "lat": 37.4995386480963 ,
+        "lng": 126.998876348435
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/3rWCk9M9MQY"
+    },
+    {
+      "name": "코치",
+      "food": "야키토리",
+      "stars": 0,
+      "address": "서울 성동구 성덕정17길 11",
+      "latlng": {
+        "lat": 37.5382493640186 ,
+        "lng": 127.055147682392
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/77dousCT2Fs"
+    },
+    {
+      "name": "넘버원양꼬치",
+      "food": "양꼬치",
+      "stars": 0,
+      "address": "서울 용산구 우사단로 2",
+      "latlng": {
+        "lat": 37.530478094133 ,
+        "lng": 126.996935834829
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/JROht0PS8FA"
+    },
+    {
+      "name": "시골집",
+      "food": "LA갈비",
+      "stars": 0,
+      "address": "서울 중구 을지로20길 36 ",
+      "latlng": {
+        "lat": 37.5648374542597 ,
+        "lng": 126.99538828594
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/KJSKPIrDcSw"
+    },
+    {
+      "name": "샤오롱바오",
+      "food": "만두",
+      "stars": 0,
+      "address": "서울 광진구 자양번영로 20",
+      "latlng": {
+        "lat": 37.5313918517588 ,
+        "lng": 127.075360551131
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/13JU5821Xd0"
+    },
+    {
+      "name": "현대순대국",
+      "food": "순대국",
+      "stars": 0,
+      "address": "서울 강남구 강남대로124길 20 ",
+      "latlng": {
+        "lat": 37.5090490769969  ,
+        "lng": 127.02421631512
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/AeZaYlJBWuI"
+    },
+    {
+      "name": "성천막국수",
+      "food": "막국수",
+      "stars": 0,
+      "address": "서울 서초구 강남대로 545-12",
+      "latlng": {
+        "lat": 37.5104317043076,
+        "lng": 127.020712079242
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/V0QUgTpLTwo"
+    },
+    {
+      "name": "서이 축산",
+      "food": "삼겹살",
+      "stars": 0,
+      "address": "서울 서초구 서래로 29 ",
+      "latlng": {
+        "lat": 37.4975866985411 ,
+        "lng": 126.998133063523
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/LQOYruD7sek"
+    },
+    {
+      "name": "완도 전복",
+      "food": "전복",
+      "stars": 0,
+      "address": "서울 중구 동호로5길 2",
+      "latlng": {
+        "lat": 37.5526859078184 ,
+        "lng": 127.01199140662
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/ZKOYAQXVhaA"
+    },
+    {
+      "name": "영동 설렁탕",
+      "food": "설렁탕",
+      "stars": 0,
+      "address": "서울 서초구 강남대로101안길 24",
+      "latlng": {
+        "lat": 37.5161529888478,
+        "lng": 127.017366051804
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/fR2z8JyBb44"
+    },
+    {
+      "name": "필동면옥",
+      "food": "평양냉면",
+      "stars": 0,
+      "address": "서울 중구 서애로 26",
+      "latlng": {
+        "lat": 37.5603931606505,
+        "lng": 126.997004329544
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/EnMwZlMLPWY"
+    },
+    {
+      "name": "서린낙지",
+      "food": "낙지볶음",
+      "stars": 0,
+      "address": "서울 종로구 종로 19 ",
+      "latlng": {
+        "lat": 37.5708444878121,
+        "lng": 126.979923668151
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/YfEY2fPIw8s"
+    },
+    {
+      "name": "반구정나루터집",
+      "food": "장어",
+      "stars": 0,
+      "address": "경기 파주시 문산읍 반구정로85번길 13 ",
+      "latlng": {
+        "lat": 37.8684147965013,
+        "lng": 126.751784188971
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/0TaXOZFxmn4"
+    },
+    {
+      "name": "교동짬뽕",
+      "food": "짬뽕",
+      "stars": 0,
+      "address": "서울 강서구 금낭화로24나길 21 ",
+      "latlng": {
+        "lat": 37.5773240954771,
+        "lng": 126.815755208466
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/l4bgfC2WlUY"
+    },
+    {
+      "name": "맛 좋은 순대국",
+      "food": "순대국",
+      "stars": 0,
+      "address": "서울 광진구 자양번영로1길 22",
+      "latlng": {
+        "lat": 37.5308786947476,
+        "lng": 127.07370575729
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/P6sEVRj87gQ"
+    },
+    {
+      "name": "히말라야 어죽",
+      "food": "어죽",
+      "stars": 0,
+      "address": "서울 마포구 도화길 20-6",
+      "latlng": {
+        "lat":  37.5400690217844,
+        "lng": 126.948231676084
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/mfOg_DvzijY"
+    },
+    {
+      "name": "버거스낵",
+      "food": "햄버거",
+      "stars": 0,
+      "address": "서울 용산구 녹사평대로46길 13",
+      "latlng": {
+        "lat":  37.5373177051739,
+        "lng":  126.987632015804
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/bkdYYIBe0PM"
+    },
+    {
+      "name": "우정",
+      "food": "등골 우개장 수육",
+      "stars": 0,
+      "address": "서울 강남구 도산대로55길 23",
+      "latlng": {
+        "lat":  37.5250678429106 ,
+        "lng":  127.040349845762
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/vzq1jF3sRtY"
+    },
+    {
+      "name": "가연",
+      "food": "북어구이 국수",
+      "stars": 0,
+      "address": "서울 강남구 테헤란로51길 15 ",
+      "latlng": {
+        "lat":  37.5048973343193 ,
+        "lng": 127.046037379947
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/pGNZyAYzvD4"
+    },
+    {
+      "name": "육개옥",
+      "food": "한우육개장",
+      "stars": 0,
+      "address": "서울 강남구 봉은사로 167 ",
+      "latlng": {
+        "lat":  37.507246947003,
+        "lng": 127.032257860617
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/aliPr4O2T5s"
+    },
+    {
+      "name": "소문난성수감자탕",
+      "food": "감자탕",
+      "stars": 0,
+      "address": "서울 성동구 연무장길 45 ",
+      "latlng": {
+        "lat": 37.5428826481781 ,
+        "lng":127.054408010395
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/MAIrp4WYAx4"
+    },
+    {
+      "name": "부영각",
+      "food": "중식",
+      "stars": 0,
+      "address": "서울 마포구 토정로 268 ",
+      "latlng": {
+        "lat": 37.5425186574132 ,
+        "lng":126.939507295452
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/iPVLZhuog-g"
+    },
+    {
+      "name": "이태원숯불구이",
+      "food": "숯불구이",
+      "stars": 0,
+      "address": "서울 용산구 녹사평대로32길 43 ",
+      "latlng": {
+        "lat": 37.5328479505042 ,
+        "lng": 126.99081275746
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/qfRHMGywHVQ"
+    },
+    {
+      "name": "안동국시",
+      "food": "국수 수육",
+      "stars": 0,
+      "address": "서울 강남구 언주로167길 46 ",
+      "latlng": {
+        "lat": 37.5266063858882  ,
+        "lng": 127.02939202001
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/AHPEiQSyezo"
+    },
+    {
+      "name": "경원식당",
+      "food": "부대찌개",
+      "stars": 0,
+      "address": "경기도 의정부시 둔야로49번길 21 ",
+      "latlng": {
+        "lat": 37.7402781723324,
+        "lng": 127.038284085468
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/s1ToTcCXgy0"
+    },
+    {
+      "name": "옥경이네 건생선",
+      "food": "갑오징어",
+      "stars": 0,
+      "address": "서울 중구 퇴계로85길 7 ",
+      "latlng": {
+        "lat": 37.5661001157126 ,
+        "lng": 127.019535484292
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/QakFqXFK2Xs"
+    },
+    {
+      "name": "산전",
+      "food": "어묵",
+      "stars": 0,
+      "address": "서울특별시 중구 퇴계로85길 27",
+      "latlng": {
+        "lat": 37.5670107551452  ,
+        "lng":127.019518290717
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/QakFqXFK2Xs"
+    },
+    {
+      "name": "영미식당",
+      "food": "백반",
+      "stars": 0,
+      "address": "서울 중구 퇴계로83길 10-19",
+      "latlng": {
+        "lat": 37.5662637124854  ,
+        "lng": 127.019132458425
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/QakFqXFK2Xs"
+    },
+    {
+      "name": "신미식당",
+      "food": "감자탕",
+      "stars": 0,
+      "address": "서울 강남구 압구정로 214 ",
+      "latlng": {
+        "lat": 37.5662637124854  ,
+        "lng": 127.019132458425
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/a4IFiQUf3D4"
+    },
+    {
+      "name": "화목순대국",
+      "food": "순대국",
+      "stars": 0,
+      "address": "서울 영등포구 여의대방로 383",
+      "latlng": {
+        "lat":  37.5193436883433  ,
+        "lng": 126.931504190261
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/DpGJEDKsf1o"
+    },
+    {
+      "name": "약수순대",
+      "food": "순대국",
+      "stars": 0,
+      "address": "서울 중구 다산로8길 7",
+      "latlng": {
+        "lat":  37.5530172068858   ,
+        "lng": 127.010037245607
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/p52CSWUXQMk"
+    },
+    {
+      "name": "어머니 대성집",
+      "food": "해장국",
+      "stars": 0,
+      "address": "서울 동대문구 왕산로11길 4",
+      "latlng": {
+        "lat": 37.5774742408426   ,
+        "lng":  127.028564198078
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/28pXe1a9yrA"
+    },
+    {
+      "name": "대성집",
+      "food": "도가니탕",
+      "stars": 0,
+      "address": "서울 종로구 행촌동 209-35 ",
+      "latlng": {
+        "lat": 37.5727060585216   ,
+        "lng":  126.960952409475
+      },
+      "youtube": "",
+      "youtubeEmbed": "https://www.youtube.com/embed/wu1fOmsPEr8"
+    }
   ]
 }
