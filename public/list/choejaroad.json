@@ -1,0 +1,30 @@
+{
+    "name": "최자",
+    "program": "최자로드",
+    "list": [
+      {
+        "name": "산골막국수",
+        "food": "막국수",
+        "program": "최자로드",
+        "address": "서울 종로구 종로56길 5-7",
+        "latlng": {
+          "lat": 37.5729106853636,
+          "lng": 127.016979400951
+        },
+        "youtube": "",
+        "youtubeEmbed": "https://www.youtube.com/embed/jpKAf-y3psg"
+      },
+      {
+        "name": "Restaurant RIPE",
+        "food": "한우 오마카세",
+        "program": "최자로드",
+        "address": "서울 강남구 영동대로96길 26",
+        "latlng": {
+          "lat": 37.53584,
+          "lng": 126.8953699
+        },
+        "youtube": "",
+        "youtubeEmbed": "https://www.youtube.com/embed/11NdeW0SWeA"
+      }
+    ]
+}
