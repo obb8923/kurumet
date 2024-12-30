@@ -6,10 +6,8 @@ const KAKAO_SDK_URL = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT
 type listType = {
   name: string;
   food: string;
-  stars: number;
   address: string;
   latlng: { lat: number; lng: number };
-  youtube: string;
   youtubeEmbed: string;
   program: string;
 };

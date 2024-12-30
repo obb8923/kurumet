@@ -6,10 +6,8 @@ import fs from "fs/promises";
 type listType = {
   name: string; // 가게 이름
   food: string; // 음식 종류
-  stars: number; // 별점
   address: string; // 주소
   latlng: { lat: number; lng: number }; // 위도, 경도 좌표
-  youtube: string; // 유튜브 링크
   youtubeEmbed: string; // 임베드용 유튜브 링크
 };
 
