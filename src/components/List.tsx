@@ -6,10 +6,8 @@ import { useList } from "@/store/StateCon";
 type listType = {
   name: string;
   food: string;
-  stars: number;
   address: string;
   latlng: { lat: number; lng: number };
-  youtube: string;
   youtubeEmbed: string;
 };
 

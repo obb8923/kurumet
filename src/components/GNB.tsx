@@ -40,10 +40,6 @@ export default function GNB() {
       <div className="hidden lg:block flex justify-center items-center mx-4">
         <LoginButton />
       </div>
-      {/* Suggestion Section */}
-      {/*<div className="hidden lg:block flex justify-center items-center mx-4">
-        <SuggestionButton />
-      </div>*/}
       {/* 모바일에서만 보이는 햄버거 Section */}
       <div className="relative lg:hidden">
         {/* 햄버거 버튼 */}

@@ -6,11 +6,10 @@ const KAKAO_SDK_URL = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT
 type listType = {
   name: string;
   food: string;
-  stars: number;
   address: string;
   latlng: { lat: number; lng: number };
-  youtube: string;
   youtubeEmbed: string;
+  program: string;
 };
 export default function KaKaoMap() {
   //전역 상태-선택된 유튭콘
@@ -42,30 +41,7 @@ export default function KaKaoMap() {
     getincon();
   }, [l]);
 
-  // useEffect(() => {
-  //   //initial 값으로 모든 program의 정보를 Map에 저장
-  //   setList((prev) => {
-  //     const tmpMap = new Map(prev);
-  //     tmpMap.set(gonghyeokjun.program, gonghyeokjun.list);
-  //     tmpMap.set(seongsikyeong.program, seongsikyeong.list);
-  //     return tmpMap;
-  //   });
-  // }, []);
-  // useEffect(() => {
-  //   //모든 program의 이름으로 전역상태 검사, 같은게 있다면 items에 저장
-  //   const newItems: listType[] = [];
-  //   list?.forEach((value, key) => {
-  //     if (findList(key)) {
-  //       value.forEach((v) => {
-  //         newItems.push(v);
-  //       });
-  //     }
-  //   });
-  //   setItems(newItems);
-  //   //items 에 인포위도우 isOpen값 연결
-  //   setInfoWindowState(newItems.map(() => ({ isOpen: false })));
-  // }, [l]);
-
+  //인포윈도우 열기 닫기
   const handleMarkerClick = (index: number) => {
     setInfoWindowState((prev) =>
       prev.map((state, i) => ({
@@ -74,6 +50,7 @@ export default function KaKaoMap() {
       }))
     );
   };
+
   return (
     <section className="w-full h-full">
       <Script src={KAKAO_SDK_URL} strategy="beforeInteractive" />
@@ -136,7 +113,6 @@ export default function KaKaoMap() {
                     길찾기
                   </a>
                 </p>
-                {/* <p>별점: {position.stars}</p> */}
               </div>
             )}
           </MapMarker>

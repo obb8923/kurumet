@@ -31,6 +31,13 @@ const KakaoCallbackComponent = () => {
           );
 
           const accessToken = tokenResponse.data.access_token;
+          const data = tokenResponse.data;
+          console.log("data", data);
+          localStorage.setItem("kakao_access_token", accessToken);
+          localStorage.setItem("kakao_refresh_token", data.refresh_token);
+          localStorage.setItem("kakao_access_token_expires_in", data.expires_in);
+          localStorage.setItem("kakao_refresh_token_expires_in", data.scope);
+
           console.log("Access Token:", accessToken);
 
           // 사용자 정보 요청
@@ -41,6 +48,13 @@ const KakaoCallbackComponent = () => {
           });
 
           console.log("User Info:", userResponse.data);
+          localStorage.setItem("connected_at", userResponse.data.connected_at);
+          localStorage.setItem("id", userResponse.data.id);
+          localStorage.setItem("nickname", userResponse.data.properties.nickname);
+          localStorage.setItem("profile_image", userResponse.data.properties.profile_image);
+          localStorage.setItem("thumbnail_image", userResponse.data.properties.thumbnail_image);
+
+          window.location.href = "/";
         } catch (error) {
           if (axios.isAxiosError(error)) {
             console.error(
