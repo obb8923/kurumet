@@ -2,10 +2,19 @@ import type { Metadata } from "next";
 import "./globals.css";
 import GNB from "../components/GNB";
 import Footer from "../components/Footer";
-
+export const viewport = {
+  themeColor: "#ffffff",
+};
 export const metadata: Metadata = {
   title: "kurumet",
   description: "kurumet main page",
+  viewport:
+    "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
+  icons: [
+    { rel: "icon", url: "/icons/kurumet-logo-192.png", sizes: "192x192" }
+  ],
+  manifest: "/manifest.json",
+
 };
 
 export default function RootLayout({

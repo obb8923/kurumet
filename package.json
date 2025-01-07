@@ -20,6 +20,7 @@
     "react-hook-form": "^7.52.1",
     "react-intersection-observer": "^9.10.3",
     "react-kakao-maps-sdk": "^1.1.27",
+    "webpack": "^5.97.1",
     "zustand": "^4.5.4"
   },
   "devDependencies": {
