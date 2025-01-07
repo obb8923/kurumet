@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import programs from "@/../public/list/programs.json";
+import { programs } from "@/constants/programs";
 import gonghyeokjun from "@/../public/list/gonghyeokjun.json";
 import seongsikyeong from "@/../public/list/seongsikyeong.json";
 
@@ -11,7 +11,7 @@ export async function POST(request: Request) {
   const { search, type } = await request.json();
 
   if (type === "프로그램 이름") {
-    const foundProgram = programs.programs.find((v) => {
+    const foundProgram = programs.find((v) => {
       return removeSpaces(v) === removeSpaces(search);
     });
 
