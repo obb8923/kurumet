@@ -6,7 +6,8 @@
       "name": "또순이네",
       "food": "된장찌개",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 영등포구 양평동4가",
       "latlng": {
         "lat": 37.53584,
@@ -19,7 +20,8 @@
       "name": "대구반야월막창",
       "food": "막창",
       "stars": 1,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "경기도 고양시 일산서구 일산동",
       "latlng": {
         "lat": 37.6842966,
@@ -32,7 +34,8 @@
       "name": "대박각",
       "food": "간짜장",
       "stars": 3,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "경기도 고양시 일산서구 주엽동",
       "latlng": {
         "lat": 37.6703296,
@@ -45,7 +48,8 @@
       "name": "서동관",
       "food": "곰탕",
       "stars": 3,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "경기도 고양시 일산서구 대화동",
       "latlng": {
         "lat": 37.6709739,
@@ -58,7 +62,8 @@
       "name": "매니멀 스모크 하우스",
       "food": "바비큐",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 용산구 이태원동",
       "latlng": {
         "lat": 37.53451860000001,
@@ -71,7 +76,8 @@
       "name": "꽃게당",
       "food": "게장",
       "stars": 0,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 강남구 신사동",
       "latlng": {
         "lat": 37.5194059,
@@ -84,7 +90,8 @@
       "name": "하쿠텐라멘",
       "food": "라멘",
       "stars": 3,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 마포구 연남동",
       "latlng": {
         "lat": 37.5628201,
@@ -97,7 +104,8 @@
       "name": "마마수제만두",
       "food": "굴짬뽕",
       "stars": 3,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 은평구 신사동",
       "latlng": {
         "lat": 37.591764,
@@ -110,7 +118,8 @@
       "name": "송림식당",
       "food": "불고기백반",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 광진구 자양동",
       "latlng": {
         "lat": 37.5366898,
@@ -123,7 +132,8 @@
       "name": "애플하우스",
       "food": "떡볶이",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 동작구 사당동",
       "latlng": {
         "lat": 37.4862393,
@@ -136,7 +146,8 @@
       "name": "초원",
       "food": "우설",
       "stars": 3,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 용산구 남영동",
       "latlng": {
         "lat": 37.5427605404136,
@@ -149,7 +160,8 @@
       "name": "이랑칼국수",
       "food": "닭칼국수",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 송파구 송파동",
       "latlng": {
         "lat": 37.5068181,
@@ -162,7 +174,8 @@
       "name": "안재식당",
       "food": "백반",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 송파구 삼전동",
       "latlng": {
         "lat": 37.5067428,
@@ -175,7 +188,8 @@
       "name": "신호등 장작구이",
       "food": "닭구이",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "경기도 고양시 덕양구 용두동",
       "latlng": {
         "lat": 37.6256698,
@@ -188,7 +202,8 @@
       "name": "충무로쭈꾸미불고기",
       "food": "쭈꾸미",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 중구 필동1가",
       "latlng": {
         "lat": 37.5617223,
@@ -201,7 +216,8 @@
       "name": "목포집",
       "food": "닭도리탕",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 강남구 신사동",
       "latlng": {
         "lat": 37.5174422,
@@ -214,7 +230,8 @@
       "name": "가람",
       "food": "고기짬뽕",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "대구광역시 달서구 용산동",
       "latlng": {
         "lat": 35.8566217241732,
@@ -227,7 +244,8 @@
       "name": "걸리버막창",
       "food": "막창",
       "stars": 3,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "대구광역시 북구 노원동1가",
       "latlng": {
         "lat": 35.8854895,
@@ -240,7 +258,8 @@
       "name": "용문산 중앙식당",
       "food": "더덕불고기",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "경기도 양평군 용문면",
       "latlng": {
         "lat": 37.5456175,
@@ -253,7 +272,8 @@
       "name": "산수갑산",
       "food": "순대국밥",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울특별시 중구 인현동1가",
       "latlng": {
         "lat": 37.5654116565534,
@@ -266,7 +286,8 @@
       "name": "희락카츠",
       "food": "돈가스",
       "stars": 3,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "경기도 고양시 일산서구 일산동",
       "latlng": {
         "lat": 37.6812096,
@@ -279,7 +300,8 @@
       "name": "소문난뼈해장국",
       "food": "뼈해장국",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "경기도 고양시 일산서구 일산동 627-57",
       "latlng": {
         "lat": 37.6844520681936,
@@ -292,7 +314,8 @@
       "name": "양수면옥",
       "food": "청국장",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "경기도 고양시 일산서구 풍동 573-15",
       "latlng": {
         "lat": 37.6707441,
@@ -305,7 +328,8 @@
       "name": "한판승부",
       "food": "모둠회",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "서울 은평구 통일로83길 11-6",
       "latlng": {
         "lat": 37.6205113924756,
@@ -318,7 +342,8 @@
       "name": "할매국밥",
       "food": "돼지국밥",
       "stars": 2,
-      "program": "공슐랭 가이드",
+      "program": "gonghyeokjun",
+      "programKor": "공슐랭 가이드",
       "address": "부산광역시 동구 범일동 28-5",
       "latlng": {
         "lat": 35.1410110387426,

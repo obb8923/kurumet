@@ -1,11 +1,13 @@
 {
     "name": "최자",
-    "program": "최자로드",
+    "program" : "choeja",
+    "programKor" : "최자로드",
     "list": [
       {
         "name": "산골막국수",
         "food": "막국수",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 종로구 종로56길 5-7",
         "latlng": {
           "lat": 37.5729106853636,
@@ -16,7 +18,8 @@
       {
         "name": "Restaurant RIPE",
         "food": "한우 오마카세",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 강남구 영동대로96길 26",
         "latlng": {
           "lat": 37.53584,
@@ -28,7 +31,8 @@
       {
         "name": "하나모코시",
         "food": "토리소바",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 용산구 백범로87길 50-1",
         "latlng": {
           "lat": 37.5394245536516,
@@ -40,7 +44,8 @@
       {
         "name": "줘마양다리구이",
         "food": "양다리구이",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 영등포구 도림천로11길 13",
         "latlng": {
           "lat": 37.4915644787973 ,
@@ -51,7 +56,8 @@
       {
         "name": "월래순교자관",
         "food": "소룡포",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 구로구 디지털로19길 12",
         "latlng": {
           "lat": 37.4802874 ,
@@ -63,7 +69,8 @@
       {
         "name": "새로나커리치킨",
         "food": "카레치킨",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 강남구 도산대로 522",
         "latlng": {
           "lat": 37.5242015  ,
@@ -75,7 +82,8 @@
       {
         "name": "오복수산시장 도산",
         "food": "해산물",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 강남구 언주로168길 37",
         "latlng": {
           "lat": 37.5259956,
@@ -87,7 +95,8 @@
       {
         "name": "뫼촌",
         "food": "닭볽음탕",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 마포구 새창로6길 18",
         "latlng": {
           "lat": 37.5412673 ,
@@ -99,7 +108,8 @@
       {
         "name": "야스노야 지로",
         "food": "양고기",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 용산구 백범로87길 19",
         "latlng": {
           "lat": 37.5385331 ,
@@ -111,7 +121,8 @@
       {
         "name": "옥경이네건생선",
         "food": "반건조 생선",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 중구 퇴계로85길 7",
         "latlng": {
           "lat": 37.5661001157126 ,
@@ -123,7 +134,8 @@
       {
         "name": "남영돈",
         "food": "항정살",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 용산구 한강대로80길 17",
         "latlng": {
           "lat": 37.5427516 ,
@@ -134,7 +146,8 @@
       {
         "name": "경주박가국밥",
         "food": "돼지국밥",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "부산광역시 연제구 고분로 232",
         "latlng": {
           "lat": 35.1843509186821 ,
@@ -146,7 +159,8 @@
       {
         "name": "대성갈치찌개",
         "food": "갈치구이 멸치회",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "부산 기장군 기장읍 대변2길 9",
         "latlng": {
           "lat": 35.2237505589442 ,
@@ -157,7 +171,8 @@
       {
         "name": "빨간떡볶이",
         "food": "떡볶이",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "부산 해운대구 우동 558-8",
         "latlng": {
           "lat": 35.1653221927946  ,
@@ -168,7 +183,8 @@
       {
         "name": "의령식당",
         "food": "돼지국밥",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "부산 해운대구 우동1로50번길 15",
         "latlng": {
           "lat": 35.1664135166188  ,
@@ -179,7 +195,8 @@
       {
         "name": "등대할매집",
         "food": "장어구이",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "부산 서구 등대로 107",
         "latlng": {
           "lat": 35.0853763451919   ,
@@ -190,7 +207,8 @@
       {
         "name": "내고기",
         "food": "한우",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 마포구 월드컵로25길 99",
         "latlng": {
           "lat": 37.5572661,
@@ -201,7 +219,8 @@
       {
         "name": "창신동매운족발",
         "food": "매운족발",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 종로구 종로51길 23",
         "latlng": {
           "lat": 37.5730232516528,
@@ -212,7 +231,8 @@
       {
         "name": "봉자마라탕",
         "food": "마라탕",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 광진구 동일로18길 22",
         "latlng": {
           "lat": 37.5396666,
@@ -223,7 +243,8 @@
       {
         "name": "미성옥",
         "food": "설렁탕",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 중구 명동길 25-11",
         "latlng": {
           "lat": 37.5641637662639,
@@ -234,7 +255,8 @@
       {
         "name": "맥파이",
         "food": "페퍼로니피자",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 용산구 녹사평대로 244-1",
         "latlng": {
           "lat": 37.5393094 ,
@@ -245,7 +267,8 @@
       {
         "name": "오시오떡볶이",
         "food": "떡볶이",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 동작구 양녕로 278-2",
         "latlng": {
           "lat": 37.5040901 ,
@@ -256,7 +279,8 @@
       {
         "name": "Fatboy Sandwiches",
         "food": "햄버거",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 강남구 논현로163길 9-4",
         "latlng": {
           "lat": 37.52386509999999 ,
@@ -267,7 +291,8 @@
       {
         "name": "다운타우너",
         "food": "햄버거",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 용산구 대사관로5길 12",
         "latlng": {
           "lat": 37.5348321 ,
@@ -278,7 +303,8 @@
       {
         "name": "브루클린더버거조인트",
         "food": "햄버거",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 강남구 도산대로15길 12",
         "latlng": {
           "lat": 37.5190912  ,
@@ -289,7 +315,8 @@
       {
         "name": "원스타 올드패션드 햄버거",
         "food": "햄버거",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 강남구 논현로26길 23",
         "latlng": {
           "lat": 37.4828713  ,
@@ -300,7 +327,8 @@
       {
         "name": "노스트레스버거",
         "food": "햄버거",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 용산구 신흥로 62",
         "latlng": {
           "lat": 37.5438492097492 ,
@@ -311,7 +339,8 @@
       {
         "name": "카와카츠",
         "food": "돈카츠",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 마포구 동교로 126",
         "latlng": {
           "lat": 37.5547412384639 ,
@@ -322,7 +351,8 @@
       {
         "name": "당골식당",
         "food": "산닭구이",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "전남 구례군 산동면 당골길 86-31",
         "latlng": {
           "lat": 35.3142124626713 ,
@@ -333,7 +363,8 @@
       {
         "name": "우정양곱창",
         "food": "양곱창",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 강남구 도산대로30길 23",
         "latlng": {
           "lat": 37.5184382 ,
@@ -344,7 +375,8 @@
       {
         "name": "대화정 진짜해장국",
         "food": "해장국",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 중구 장충단로 249-20",
         "latlng": {
           "lat": 37.5675598 ,
@@ -355,7 +387,8 @@
       {
         "name": "로바다야끼아라도",
         "food": "이자카야",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 강남구 논현로175길 25",
         "latlng": {
           "lat": 37.5254304  ,
@@ -366,7 +399,8 @@
       {
         "name": "두레국수",
         "food": "전골국수",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 강남구 도산대로37길 28",
         "latlng": {
           "lat": 37.5228568  ,
@@ -377,7 +411,8 @@
       {
         "name": "백학정",
         "food": "떡갈비",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "전북 정읍시 태인면 태인로 29-3",
         "latlng": {
           "lat": 35.6519013927466,
@@ -388,7 +423,8 @@
       {
         "name": "진주집",
         "food": "떡갈비",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 중구 남대문시장4길 6-1",
         "latlng": {
           "lat": 37.5598897,
@@ -399,7 +435,8 @@
       {
         "name": "명화식육식당",
         "food": "애호박국밥",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "광주 광산구 평동로 421",
         "latlng": {
           "lat": 35.1230002096416,
@@ -410,7 +447,8 @@
       {
         "name": "88포장마차",
         "food": "애호박국밥",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "전남 목포시 영산로329번길 3-1",
         "latlng": {
           "lat": 34.8060456074472,
@@ -421,7 +459,8 @@
       {
         "name": "꿉당",
         "food": "돼지고기 오마카세",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 성동구 성수이로20길 10",
         "latlng": {
           "lat": 37.5432444,
@@ -432,7 +471,8 @@
       {
         "name": "고미태",
         "food": "라멘",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 마포구 월드컵로 41",
         "latlng": {
           "lat": 37.5530021431202,
@@ -443,7 +483,8 @@
       {
         "name": "고미태",
         "food": "라멘",
-        "program": "최자로드",
+        "program" : "choeja",
+        "programKor" : "최자로드",
         "address": "서울 마포구 월드컵로 41",
         "latlng": {
           "lat": 37.5530021431202,

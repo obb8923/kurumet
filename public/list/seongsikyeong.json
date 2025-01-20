@@ -1,11 +1,14 @@
 {
   "name": "성시경",
-  "program": "먹을텐데",
-  "list": [
+"program": "seongsikyeong",
+      "programKor": "먹을텐데",
+        "list": [
     {
       "name": "해봉정육",
       "food": "한우",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 강남구 테헤란로108길 25 ",
       "latlng": {
         "lat": 37.5077460789185 ,
@@ -18,6 +21,8 @@
       "name": "한국횟집",
       "food": "회",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 중랑구 중랑역로 34 ",
       "latlng": {
         "lat": 37.5970796029997 ,
@@ -30,6 +35,8 @@
       "name": "남도보쌈파전",
       "food": "보쌈",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 동대문구 장한로27가길 28",
       "latlng": {
         "lat": 37.5743253947157 ,
@@ -42,6 +49,8 @@
       "name": "신천지대반점",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "울산 중구 당산4길 11 ",
       "latlng": {
         "lat": 35.5540228645787 ,
@@ -54,6 +63,8 @@
       "name": "크리스피포크타운",
       "food": "타코",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 용산구 녹사평대로40길 47  ",
       "latlng": {
         "lat": 37.5345209941094 ,
@@ -66,6 +77,8 @@
       "name": "이식당",
       "food": "한우",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 종로구 평창동 152-2 ",
       "latlng": {
         "lat":  37.6069241701879 ,
@@ -78,6 +91,8 @@
       "name": "전라도시네마",
       "food": "백순대 곱창",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 관악구 신림로59길 14 ",
       "latlng": {
         "lat": 37.4832898616637 ,
@@ -90,6 +105,8 @@
       "name": "실비식당",
       "food": "백반",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 중구 마른내로6길 14 ",
       "latlng": {
         "lat": 37.5635781246395  ,
@@ -102,6 +119,8 @@
       "name": "만우장",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "부산 수영구 수영로594번길 28-2 ",
       "latlng": {
         "lat": 35.1585071325002  ,
@@ -114,6 +133,8 @@
       "name": "해진아나고",
       "food": "아나고",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "부산 수영구 광서로10번길 47",
       "latlng": {
         "lat": 35.1662792941698  ,
@@ -126,6 +147,8 @@
       "name": "이선장네",
       "food": "가자미조림",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "강원 속초시 먹거리4길 18-1",
       "latlng": {
         "lat": 38.1953880677414 ,
@@ -138,6 +161,8 @@
       "name": "옛날감자전",
       "food": "감자전",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 용산구 한강대로84길 11-9 ",
       "latlng": {
         "lat": 37.5439702599647 ,
@@ -150,6 +175,8 @@
       "name": "삼계탕마을",
       "food": "삼계탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 서초구 반포대로 287",
       "latlng": {
         "lat": 37.5043279449175 ,
@@ -162,6 +189,8 @@
       "name": "고다이",
       "food": "양고기",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 용산구 한남대로18길 28 ",
       "latlng": {
         "lat": 37.5346111494099 ,
@@ -174,6 +203,8 @@
       "name": "함평국밥",
       "food": "우거지국밥",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 중랑구 봉우재로33길 73 ",
       "latlng": {
         "lat": 37.5954703227436 ,
@@ -186,6 +217,8 @@
       "name": "먹거리집",
       "food": "순대국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 중랑구 면목로91길 8 ",
       "latlng": {
         "lat": 37.594576216919,
@@ -198,6 +231,8 @@
       "name": "한재골가든",
       "food": "닭볽음탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "전라남도 담양군 대전면",
       "latlng": {
         "lat": 35.2942666545469,
@@ -210,6 +245,8 @@
       "name": "하남 숯불닭갈비",
       "food": "숯불닭갈비",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "경기도 하남시 미사동",
       "latlng": {
         "lat": 37.5659847328844,
@@ -222,6 +259,8 @@
       "name": "풍성감자탕",
       "food": "감자탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 광진구 구의동",
       "latlng": {
         "lat": 37.5375769086631,
@@ -234,6 +273,8 @@
       "name": "효제루",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 종로구 효제동",
       "latlng": {
         "lat": 37.572688168981,
@@ -246,6 +287,8 @@
       "name": "전원식당",
       "food": "두루치기",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "강원특별자치도 속초시 동명동",
       "latlng": {
         "lat": 38.2129588244246,
@@ -258,6 +301,8 @@
       "name": "이품",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 서대문구 연희동",
       "latlng": {
         "lat": 37.5675446845976,
@@ -270,6 +315,8 @@
       "name": "매치스",
       "food": "와인바",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 성동구 성수동2가",
       "latlng": {
         "lat": 37.5413178745918,
@@ -282,6 +329,8 @@
       "name": "초원",
       "food": "우설",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 남영동",
       "latlng": {
         "lat": 37.5427605404136,
@@ -294,6 +343,8 @@
       "name": "잔비워",
       "food": "치킨",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 청담동",
       "latlng": {
         "lat": 37.5266735389328,
@@ -306,6 +357,8 @@
       "name": "이남장",
       "food": "수육",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 삼성동",
       "latlng": {
         "lat": 37.5136041356779,
@@ -318,6 +371,8 @@
       "name": "가담",
       "food": "난자완스 고추탕수육",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 신사동",
       "latlng": {
         "lat": 37.5263661402159,
@@ -330,6 +385,8 @@
       "name": "진동세꼬시",
       "food": "세꼬시",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 후암동",
       "latlng": {
         "lat": 37.5500358913535,
@@ -342,6 +399,8 @@
       "name": "충북순대",
       "food": "곱창전골",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 동작구 흑석동",
       "latlng": {
         "lat": 37.5078713792896,
@@ -354,6 +413,8 @@
       "name": "진미순대",
       "food": "순대국밥",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 동작구 흑석동",
       "latlng": {
         "lat": 37.5066369329911,
@@ -366,6 +427,8 @@
       "name": "오소록",
       "food": "순대국밥",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 동대문구 답십리동",
       "latlng": {
         "lat": 37.5679441329777,
@@ -378,6 +441,8 @@
       "name": "스테이지 바이 고디바",
       "food": "디저트 코스",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 신사동",
       "latlng": {
         "lat": 37.5238779875217,
@@ -390,6 +455,8 @@
       "name": "향미",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 명동2가",
       "latlng": {
         "lat": 37.5621198047309,
@@ -402,6 +469,8 @@
       "name": "개화",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 명동2가",
       "latlng": {
         "lat": 37.5621137,
@@ -414,6 +483,8 @@
       "name": "함덕골목",
       "food": "해장국 내장탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "제주특별자치도 제주시 조천읍",
       "latlng": {
         "lat": 33.5393574441934,
@@ -426,6 +497,8 @@
       "name": "해녀촌",
       "food": "회국수 성게국수",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "제주특별자치도 제주시 구좌읍",
       "latlng": {
         "lat": 33.55366594917,
@@ -438,6 +511,8 @@
       "name": "돌다메",
       "food": "돼지고기",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "제주특별자치도 제주시 외도일동",
       "latlng": {
         "lat": 33.4914464423885,
@@ -450,6 +525,8 @@
       "name": "굴과찜사랑",
       "food": "바지락칼국수 석화",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 성동구 행당동",
       "latlng": {
         "lat": 37.5603529338675,
@@ -462,6 +539,8 @@
       "name": "권영수 대가전골",
       "food": "곱창전골",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 동대문구 제기동",
       "latlng": {
         "lat": 37.5790377655561,
@@ -474,6 +553,8 @@
       "name": "돈키돈까스",
       "food": "돈까스",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 서초구 방배동",
       "latlng": {
         "lat": 37.4825912,
@@ -486,6 +567,8 @@
       "name": "도량",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 종로구 통의동",
       "latlng": {
         "lat": 37.5779680592302,
@@ -498,6 +581,8 @@
       "name": "오쁘띠베르",
       "food": "까페",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 종로구 통인동",
       "latlng": {
         "lat": 37.5802603634986,
@@ -510,6 +595,8 @@
       "name": "파이브가이즈",
       "food": "햄버거",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 서초구 서초동",
       "latlng": {
         "lat": 37.5011776111829,
@@ -522,6 +609,8 @@
       "name": "윤밀원",
       "food": "족발",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "경기도 성남시 분당구 정자동",
       "latlng": {
         "lat": 37.372662879865,
@@ -534,6 +623,8 @@
       "name": "로코스 비비큐",
       "food": "쪽갈비",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 이태원동",
       "latlng": {
         "lat": 37.5409871411854,
@@ -546,6 +637,8 @@
       "name": "야스노야",
       "food": "양고기",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 후암동",
       "latlng": {
         "lat": 37.546726600027,
@@ -558,6 +651,8 @@
       "name": "청화집",
       "food": "순대국밥",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "충청남도 천안시 동남구 병천면",
       "latlng": {
         "lat": 36.7623467490991,
@@ -570,6 +665,8 @@
       "name": "묵호회집",
       "food": "회",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 북창동",
       "latlng": {
         "lat": 37.5627128537817,
@@ -582,6 +679,8 @@
       "name": "안동집",
       "food": "수육",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 동대문구 제기동",
       "latlng": {
         "lat": 37.5790377655561,
@@ -594,6 +693,8 @@
       "name": "김제식당",
       "food": "아귀탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 동대문구 제기동",
       "latlng": {
         "lat": 37.5790377655561,
@@ -606,6 +707,8 @@
       "name": "남원통닭",
       "food": "치킨",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 동대문구 제기동",
       "latlng": {
         "lat": 37.5804162833524,
@@ -618,6 +721,8 @@
       "name": "별미순대국",
       "food": "순대국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "경기도 의정부시 의정부동",
       "latlng": {
         "lat": 37.7370656518487,
@@ -630,6 +735,8 @@
       "name": "월드양념통닭",
       "food": "치킨",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "부산광역시 사하구 장림동",
       "latlng": {
         "lat": 35.0809322673242,
@@ -642,6 +749,8 @@
       "name": "원조신촌설렁탕",
       "food": "설렁탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 마포구 공덕동",
       "latlng": {
         "lat": 37.5482869552281,
@@ -654,6 +763,8 @@
       "name": "와일드버팔로",
       "food": "버팔로윙",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 신사동",
       "latlng": {
         "lat": 37.5272184688508,
@@ -666,6 +777,8 @@
       "name": "진미식당",
       "food": "비빈밥",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "전북특별자치도 익산시 황등면",
       "latlng": {
         "lat": 36.0058655389872,
@@ -678,6 +791,8 @@
       "name": "딸랏",
       "food": "태국음식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 신사동",
       "latlng": {
         "lat": 37.5268588307107,
@@ -690,6 +805,8 @@
       "name": "삼호짱뚱이",
       "food": "홍어삼합",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 논현동",
       "latlng": {
         "lat": 37.5196323891314,
@@ -702,6 +819,8 @@
       "name": "오띠젤리",
       "food": "브런치",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 이태원동",
       "latlng": {
         "lat": 37.5332553510698,
@@ -714,6 +833,8 @@
       "name": "야래향",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 이촌동",
       "latlng": {
         "lat": 37.520847506274,
@@ -726,6 +847,8 @@
       "name": "진영면옥",
       "food": "평양냉면",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 금천구 독산동",
       "latlng": {
         "lat": 37.4715699238483,
@@ -738,6 +861,8 @@
       "name": "원조추어탕",
       "food": "추어탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 동작구 사당동",
       "latlng": {
         "lat": 37.4896346549597,
@@ -750,6 +875,8 @@
       "name": "이가네가마솥설렁탕",
       "food": "꼬리찜전골",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 은평구 녹번동",
       "latlng": {
         "lat": 37.6075120898331,
@@ -762,6 +889,8 @@
       "name": "미남옥",
       "food": "곰탕 수육",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 신사동",
       "latlng": {
         "lat": 37.522945604676,
@@ -774,6 +903,8 @@
       "name": "금천문&오향족발",
       "food": "오향족발 유린기",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 남영동",
       "latlng": {
         "lat": 37.5422078947316,
@@ -786,6 +917,8 @@
       "name": "진미식당",
       "food": "콩국수",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 문배동",
       "latlng": {
         "lat": 37.5366958702301,
@@ -798,6 +931,8 @@
       "name": "홍탁 목포집",
       "food": "콩국수",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 신당동",
       "latlng": {
         "lat": 37.5606996570554,
@@ -810,6 +945,8 @@
       "name": "신촌 즉석 생우동",
       "food": "콩국수",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 마포구 대흥동",
       "latlng": {
         "lat": 37.5441384384603,
@@ -822,6 +959,8 @@
       "name": "농부와닭동네",
       "food": "치킨",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 영등포구 여의도동",
       "latlng": {
         "lat": 37.5260558187275,
@@ -834,6 +973,8 @@
       "name": "옛날칼국수",
       "food": "바지락칼국수",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 노원구 상계동",
       "latlng": {
         "lat": 37.6550688080345,
@@ -846,6 +987,8 @@
       "name": "홍명",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 논현동",
       "latlng": {
         "lat": 37.514527434771,
@@ -858,6 +1001,8 @@
       "name": "이조순대국",
       "food": "수육 편육 순대국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 원효로2가",
       "latlng": {
         "lat": 37.5352349684248,
@@ -870,6 +1015,8 @@
       "name": "해남순대국",
       "food": "수육 순대국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 신당동",
       "latlng": {
         "lat": 37.5528759445731,
@@ -882,6 +1029,8 @@
       "name": "춘향미엔",
       "food": "비빔면 온면",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 성동구 행당동",
       "latlng": {
         "lat": 37.5605553626977,
@@ -894,6 +1043,8 @@
       "name": "한옥정",
       "food": "삼겹살",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 동대문구 답십리동",
       "latlng": {
         "lat": 37.5725856773053,
@@ -906,6 +1057,8 @@
       "name": "함흥면옥",
       "food": "함흥냉면",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 신사동",
       "latlng": {
         "lat": 37.5222271811671,
@@ -918,6 +1071,8 @@
       "name": "우미26",
       "food": "한우",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 서대문구 냉천동",
       "latlng": {
         "lat": 37.5679361176982,
@@ -930,6 +1085,8 @@
       "name": "남영돈",
       "food": "돼지고기",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 남영동",
       "latlng": {
         "lat": 37.5427493719708,
@@ -939,9 +1096,11 @@
       "youtubeEmbed": "https://www.youtube.com/embed/0b2vSvwVra8"
     },
     {
-      "name": "주은감자탕",
+      "name": "주은감자탕",
       "food": "감자탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 송파구 삼전동",
       "latlng": {
         "lat": 37.5036784041247,
@@ -954,6 +1113,8 @@
       "name": "바바라스키친",
       "food": "바지락찜 순대볶음",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 한남동",
       "latlng": {
         "lat": 37.5349726865538,
@@ -966,6 +1127,8 @@
       "name": "서부감자국",
       "food": "감자국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 은평구 녹번동",
       "latlng": {
         "lat": 37.602260750611,
@@ -978,6 +1141,8 @@
       "name": "주막",
       "food": "전 막걸리",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강북구 미아동",
       "latlng": {
         "lat": 37.6127653759564,
@@ -990,6 +1155,8 @@
       "name": "영동장어",
       "food": "갯벌장어",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 논현동",
       "latlng": {
         "lat": 37.5203167504681,
@@ -1002,6 +1169,8 @@
       "name": "대운식당",
       "food": "갑오징어제육볶음 동태전 생태탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 역삼동",
       "latlng": {
         "lat": 37.4943033103841,
@@ -1014,6 +1183,8 @@
       "name": "첼시스하이볼",
       "food": "하이볼 피쉬앤칩스 칠리핫도그",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 청담동",
       "latlng": {
         "lat": 37.5254308344451,
@@ -1026,6 +1197,8 @@
       "name": "진미평양냉면",
       "food": "어복쟁반",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 논현동",
       "latlng": {
         "lat": 37.5161452524981,
@@ -1038,6 +1211,8 @@
       "name": "왕스덕",
       "food": "북경오리 꿔바로우 공심채볶음",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 논현동",
       "latlng": {
         "lat": 37.5171894466777,
@@ -1050,6 +1225,8 @@
       "name": "춘천막국수",
       "food": "닭죽 닭도리탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 신당동",
       "latlng": {
         "lat": 37.5534393895316,
@@ -1062,6 +1239,8 @@
       "name": "발산한우진곱창",
       "food": "소곱창",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강서구 마곡동",
       "latlng": {
         "lat": 37.561058561996,
@@ -1074,6 +1253,8 @@
       "name": "편의방",
       "food": "탕수육 중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 서대문구 연희동",
       "latlng": {
         "lat": 37.5618289324287,
@@ -1086,6 +1267,8 @@
       "name": "강남 진해장",
       "food": "내장탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 역삼동",
       "latlng": {
         "lat": 37.4994948439229,
@@ -1098,6 +1281,8 @@
       "name": "부자피자",
       "food": "피자",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 용산구 한남동",
       "latlng": {
         "lat": 37.537264562943,
@@ -1110,6 +1295,8 @@
       "name": "서대문 양꼬치",
       "food": "돼지쪽갈비",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 마포구 연남동",
       "latlng": {
         "lat": 37.5624010661205,
@@ -1122,6 +1309,8 @@
       "name": "동강나루터",
       "food": "민물매운탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 수표동",
       "latlng": {
         "lat": 37.5668468441493,
@@ -1134,6 +1323,8 @@
       "name": "이남장",
       "food": "설렁탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 삼성동",
       "latlng": {
         "lat": 37.5136041356779,
@@ -1146,6 +1337,8 @@
       "name": "부흥왕족발",
       "food": "족발 멸치된장국 쟁반막국수",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 청담동",
       "latlng": {
         "lat": 37.5253082820986,
@@ -1158,6 +1351,8 @@
       "name": "미소의 집",
       "food": "떡볶이",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 서초구 반포동",
       "latlng": {
         "lat": 37.502007409189,
@@ -1170,6 +1365,8 @@
       "name": "신림정",
       "food": "생고기",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 관악구 신림동",
       "latlng": {
         "lat": 37.4886506348622,
@@ -1182,6 +1379,8 @@
       "name": "진미언양불고기",
       "food": "언양불고기",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "부산광역시 수영구 광안동",
       "latlng": {
         "lat": 35.1488789299552,
@@ -1194,6 +1393,8 @@
       "name": "군위식당",
       "food": "순대국밥",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "대구광역시 중구 포정동",
       "latlng": {
         "lat": 35.8723692432573,
@@ -1206,6 +1407,8 @@
       "name": "산동교자",
       "food": "오향장육",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 명동2가",
       "latlng": {
         "lat": 37.5622822740445,
@@ -1218,6 +1421,8 @@
       "name": "참조은 생고기",
       "food": "뭉태기",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "대구광역시 북구 복현동",
       "latlng": {
         "lat": 35.8987216383657,
@@ -1230,6 +1435,8 @@
       "name": "복춘식당",
       "food": "아귀탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "전라남도 여수시 교동",
       "latlng": {
         "lat": 34.7395742584956,
@@ -1242,6 +1449,8 @@
       "name": "나진국밥",
       "food": "수육 돼지국밥",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "전라남도 여수시 화양면",
       "latlng": {
         "lat": 34.7069293210192,
@@ -1254,6 +1463,8 @@
       "name": "태화장",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "대전광역시 동구 정동",
       "latlng": {
         "lat": 36.3338483103715,
@@ -1266,6 +1477,8 @@
       "name": "신촌즉석생우동",
       "food": "우동",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 마포구 대흥동",
       "latlng": {
         "lat": 37.5441384384603,
@@ -1278,6 +1491,8 @@
       "name": "녹동뻘낙지",
       "food": "연포탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 신당동",
       "latlng": {
         "lat": 37.557988621045,
@@ -1290,6 +1505,8 @@
       "name": "스시스미레",
       "food": "오마카세",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 강남구 청담동",
       "latlng": {
         "lat": 37.5246288889829,
@@ -1302,6 +1519,8 @@
       "name": "을지칼국수",
       "food": "칼국수",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 을지로3가",
       "latlng": {
         "lat": 37.5660351259604,
@@ -1314,6 +1533,8 @@
       "name": "만포막국수",
       "food": "이북식찜닭 막국수",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 신당동",
       "latlng": {
         "lat": 37.5557964004471,
@@ -1326,6 +1547,8 @@
       "name": "영미오리탕",
       "food": "오리탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 광진구 군자동",
       "latlng": {
         "lat": 37.5576742981063,
@@ -1339,6 +1562,8 @@
       "name": "일광쪽갈비",
       "food": "쪽갈비",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 동대문구 전농로 48 (답십리동 265-1)",
       "latlng": {
         "lat": 37.5690633562141,
@@ -1351,6 +1576,8 @@
       "name": "청실홍실",
       "food": "감자국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 서초구 서래로10길 9",
       "latlng": {
         "lat": 37.4995386480963 ,
@@ -1363,6 +1590,8 @@
       "name": "코치",
       "food": "야키토리",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 성동구 성덕정17길 11",
       "latlng": {
         "lat": 37.5382493640186 ,
@@ -1375,6 +1604,8 @@
       "name": "넘버원양꼬치",
       "food": "양꼬치",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 용산구 우사단로 2",
       "latlng": {
         "lat": 37.530478094133 ,
@@ -1387,6 +1618,8 @@
       "name": "시골집",
       "food": "LA갈비",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 중구 을지로20길 36 ",
       "latlng": {
         "lat": 37.5648374542597 ,
@@ -1399,6 +1632,8 @@
       "name": "샤오롱바오",
       "food": "만두",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 광진구 자양번영로 20",
       "latlng": {
         "lat": 37.5313918517588 ,
@@ -1411,6 +1646,8 @@
       "name": "현대순대국",
       "food": "순대국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 강남구 강남대로124길 20 ",
       "latlng": {
         "lat": 37.5090490769969  ,
@@ -1423,6 +1660,8 @@
       "name": "성천막국수",
       "food": "막국수",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 서초구 강남대로 545-12",
       "latlng": {
         "lat": 37.5104317043076,
@@ -1435,6 +1674,8 @@
       "name": "서이 축산",
       "food": "삼겹살",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 서초구 서래로 29 ",
       "latlng": {
         "lat": 37.4975866985411 ,
@@ -1447,6 +1688,8 @@
       "name": "완도 전복",
       "food": "전복",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 중구 동호로5길 2",
       "latlng": {
         "lat": 37.5526859078184 ,
@@ -1459,6 +1702,8 @@
       "name": "영동 설렁탕",
       "food": "설렁탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 서초구 강남대로101안길 24",
       "latlng": {
         "lat": 37.5161529888478,
@@ -1471,6 +1716,8 @@
       "name": "필동면옥",
       "food": "평양냉면",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 중구 서애로 26",
       "latlng": {
         "lat": 37.5603931606505,
@@ -1483,6 +1730,8 @@
       "name": "서린낙지",
       "food": "낙지볶음",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 종로구 종로 19 ",
       "latlng": {
         "lat": 37.5708444878121,
@@ -1495,6 +1744,8 @@
       "name": "반구정나루터집",
       "food": "장어",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "경기 파주시 문산읍 반구정로85번길 13 ",
       "latlng": {
         "lat": 37.8684147965013,
@@ -1507,6 +1758,8 @@
       "name": "교동짬뽕",
       "food": "짬뽕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 강서구 금낭화로24나길 21 ",
       "latlng": {
         "lat": 37.5773240954771,
@@ -1519,6 +1772,8 @@
       "name": "맛 좋은 순대국",
       "food": "순대국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 광진구 자양번영로1길 22",
       "latlng": {
         "lat": 37.5308786947476,
@@ -1531,6 +1786,8 @@
       "name": "히말라야 어죽",
       "food": "어죽",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 마포구 도화길 20-6",
       "latlng": {
         "lat":  37.5400690217844,
@@ -1543,6 +1800,8 @@
       "name": "버거스낵",
       "food": "햄버거",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 용산구 녹사평대로46길 13",
       "latlng": {
         "lat":  37.5373177051739,
@@ -1555,6 +1814,8 @@
       "name": "우정",
       "food": "등골 우개장 수육",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 강남구 도산대로55길 23",
       "latlng": {
         "lat":  37.5250678429106 ,
@@ -1567,6 +1828,8 @@
       "name": "가연",
       "food": "북어구이 국수",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 강남구 테헤란로51길 15 ",
       "latlng": {
         "lat":  37.5048973343193 ,
@@ -1579,6 +1842,8 @@
       "name": "육개옥",
       "food": "한우육개장",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 강남구 봉은사로 167 ",
       "latlng": {
         "lat":  37.507246947003,
@@ -1591,6 +1856,8 @@
       "name": "소문난성수감자탕",
       "food": "감자탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 성동구 연무장길 45 ",
       "latlng": {
         "lat": 37.5428826481781 ,
@@ -1603,6 +1870,8 @@
       "name": "부영각",
       "food": "중식",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 마포구 토정로 268 ",
       "latlng": {
         "lat": 37.5425186574132 ,
@@ -1615,6 +1884,8 @@
       "name": "이태원숯불구이",
       "food": "숯불구이",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 용산구 녹사평대로32길 43 ",
       "latlng": {
         "lat": 37.5328479505042 ,
@@ -1627,6 +1898,8 @@
       "name": "안동국시",
       "food": "국수 수육",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 강남구 언주로167길 46 ",
       "latlng": {
         "lat": 37.5266063858882  ,
@@ -1639,6 +1912,8 @@
       "name": "경원식당",
       "food": "부대찌개",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "경기도 의정부시 둔야로49번길 21 ",
       "latlng": {
         "lat": 37.7402781723324,
@@ -1651,6 +1926,8 @@
       "name": "옥경이네 건생선",
       "food": "갑오징어",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 중구 퇴계로85길 7 ",
       "latlng": {
         "lat": 37.5661001157126 ,
@@ -1663,6 +1940,8 @@
       "name": "산전",
       "food": "어묵",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울특별시 중구 퇴계로85길 27",
       "latlng": {
         "lat": 37.5670107551452  ,
@@ -1675,6 +1954,8 @@
       "name": "영미식당",
       "food": "백반",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 중구 퇴계로83길 10-19",
       "latlng": {
         "lat": 37.5662637124854  ,
@@ -1687,6 +1968,8 @@
       "name": "신미식당",
       "food": "감자탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 강남구 압구정로 214 ",
       "latlng": {
         "lat": 37.5662637124854  ,
@@ -1699,6 +1982,8 @@
       "name": "화목순대국",
       "food": "순대국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 영등포구 여의대방로 383",
       "latlng": {
         "lat":  37.5193436883433  ,
@@ -1711,6 +1996,8 @@
       "name": "약수순대",
       "food": "순대국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 중구 다산로8길 7",
       "latlng": {
         "lat":  37.5530172068858   ,
@@ -1723,6 +2010,8 @@
       "name": "어머니 대성집",
       "food": "해장국",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 동대문구 왕산로11길 4",
       "latlng": {
         "lat": 37.5774742408426   ,
@@ -1735,6 +2024,8 @@
       "name": "대성집",
       "food": "도가니탕",
       "stars": 0,
+      "program": "seongsikyeong",
+      "programKor": "먹을텐데",
       "address": "서울 종로구 행촌동 209-35 ",
       "latlng": {
         "lat": 37.5727060585216   ,
