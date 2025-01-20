@@ -38,3 +38,6 @@ next-env.d.ts
 # commit rule
 .commit
 *storybook.log
+
+# memo
+memo.txt
