@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import GNB from "../components/GNB";
+// import GNB from "../components/GNB";
+import GNB2 from "../components/GNB2";
 import Footer from "../components/Footer";
 export const viewport = {
   width: 'device-width',
@@ -24,7 +25,9 @@ export default function RootLayout({
   return (
     <html>
       <body className="min-h-screen flex flex-col justify-between">
-        <GNB />
+        {/* 검색 기능과 로그인 기능 구현 전 까지는 GNB2만 보이게 함 */}
+        {/* <GNB /> */}
+        <GNB2 />
         {children}
         <Footer />
       </body>
