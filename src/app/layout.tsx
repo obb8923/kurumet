@@ -3,7 +3,8 @@ import "./globals.css";
 import GNB from "../components/GNB";
 import Footer from "../components/Footer";
 export const viewport = {
-  themeColor: "#ffffff",
+  width: 'device-width',
+  initialScale: 1
 };
 export const metadata: Metadata = {
   title: "kurumet",
