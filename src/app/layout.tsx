@@ -3,21 +3,24 @@ import "./globals.css";
 // import GNB from "../components/GNB";
 import GNB2 from "../components/GNB2";
 import Footer from "../components/Footer";
+
 export const viewport = {
   width: 'device-width',
-  initialScale: 1
+  initialScale: 1,
+  minimumScale: 1,
+  shrinkToFit: 'no',
+  viewportFit: 'cover'
 };
+
 export const metadata: Metadata = {
   title: "kurumet",
   description: "kurumet main page",
-  viewport:
-    "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
   icons: [
     { rel: "icon", url: "/icons/kurumet-logo-192.png", sizes: "192x192" }
   ],
   manifest: "/manifest.json",
-
 };
+
 
 export default function RootLayout({
   children,
