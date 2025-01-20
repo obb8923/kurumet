@@ -2,32 +2,8 @@
 
 ## 👋프로젝트 소개
 
-## 📋사용법
+우리 동네 맛집은 어디에 있을까?
 
-### 사용자 매뉴얼
+광고는 믿을 수 없지만 내가 보는 유튜버는 믿을 수 있어!
 
-### 운영자 매뉴얼
-s
-#### 요구사항
-
-#### 환경설정
-
-## 📢주요 기능
-
-## ⛓️시스템 구조
-
-### 시스템 구조도
-
-## 📂자료 모음
-
-## 🪡사용한 기술
-
-- ### IDE
-
-  <img src="https://img.shields.io/badge/vscode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
-
-- ### LANGUAGE
-
-    <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-
-- ### Tech
+유튜버가 추천해 주는 맛집을 한 눈에 볼 수 있는 kurumet!
