@@ -1,8 +1,5 @@
-interface KaKaoMapInfoWindowProps {
-  position: any;
-  setInfoWindowState: React.Dispatch<React.SetStateAction<{ isOpen: boolean }[]>>;
-  index: number;
-}
+import { KaKaoMapInfoWindowProps } from "@/types/props/KaKaoMapInfoWindowProps";
+
 const KaKaoMapInfoWindow = ({position, setInfoWindowState, index}: KaKaoMapInfoWindowProps) => {
   return (<div className="flex flex-col pb-4 gap-1 rounded">
     <iframe
