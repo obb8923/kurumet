@@ -2,10 +2,10 @@ import Image from "next/image";
 import { useActions } from "@/store/StateCon";
 import { YoutuberConProps } from "@/types/props/YoutuberConProps";
 
-const YoutuberCon = ({ name }: YoutuberConProps) => {
+const YoutuberCon = ({ program, programKor, isSelected }: YoutuberConProps) => {
   const { pushList, popList, findList } = useActions();
   const clickHandler = () => {
-    findList(name) ? popList(name) : pushList(name);
+    findList(program) ? popList(program) : pushList(program);
   };
 
   return (
@@ -15,12 +15,12 @@ const YoutuberCon = ({ name }: YoutuberConProps) => {
         onClick={() => clickHandler()}
       >
         <Image
-          src={require(`../../public/profileImg/${name}.jpg`)}
-          alt={`프로필사진 ${name}}`}
+          src={require(`../../public/profileImg/${program}.jpg`)}
+          alt={`프로필사진 ${program}}`}
           className="rounded-full w-8 h-8 bg-gray-300 object-cover"
         />
       </div>
-      <small className="hidden lg:block">{name}</small>
+      {!isSelected && <small className="hidden lg:block">{programKor}</small> }
     </div>
   );
 };
