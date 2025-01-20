@@ -26,7 +26,10 @@ export default function GNB() {
       <div className="flex gap-4 flex-1 my-2 px-4 lg:px-8">
         <SelectedConList />
       </div>
-     
+      {/* add Con Section */}
+      <div className="hidden lg:block flex justify-center items-center mx-4">
+        <AddConButton />
+      </div>
     
       {/* 모바일에서만 보이는 햄버거 Section */}
       <div className="relative lg:hidden">
