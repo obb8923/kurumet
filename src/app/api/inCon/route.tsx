@@ -18,7 +18,7 @@ export async function POST(request: Request) {
   const basePath = process.cwd();
   // public/list 폴더의 절대 경로
   const dirPath = path.join(basePath, "public", "list");
-  console.log("basePath", basePath, "dirPath: ", dirPath);
+  // console.log("basePath", basePath, "dirPath: ", dirPath);
 
   try {
     // list 디렉토리의 모든 파일 읽기
