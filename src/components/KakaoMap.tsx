@@ -2,15 +2,11 @@ import { useEffect, useState } from "react";
 import Script from "next/script";
 import { useList, useActions } from "@/store/StateCon";
 import { Map as KakaoMap, ZoomControl, MapMarker } from "react-kakao-maps-sdk";
+import KaKaoMapInfoWindow from "./KaKaoMapInfoWindow";
+import { listType } from "@/types/listType";
+
 const KAKAO_SDK_URL = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAO_APP_JS_KEY}&autoload=false`;
-type listType = {
-  name: string;
-  food: string;
-  address: string;
-  latlng: { lat: number; lng: number };
-  youtubeEmbed: string;
-  program: string;
-};
+
 export default function KaKaoMap() {
   //전역 상태-선택된 유튭콘
   const l = useList();
@@ -69,51 +65,7 @@ export default function KaKaoMap() {
             onClick={() => handleMarkerClick(index)}
           >
             {infoWindowState[index].isOpen && (
-              <div className="flex flex-col pb-4 gap-1 rounded">
-                <iframe
-                  src={position.youtubeEmbed}
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                />
-                <div className="flex justify-between pt-2">
-                  <p className="pl-4 text-lg font-medium">{position.name}</p>
-                  <button
-                    className="pr-4"
-                    onClick={() => {
-                      setInfoWindowState((prev) =>
-                        prev.map((v, i) =>
-                          i === index ? { isOpen: false } : v
-                        )
-                      );
-                    }}
-                  >
-                    닫기
-                  </button>
-                </div>
-                <p className="pl-4 font-normal">{position.food}</p>
-                <p className="pl-4">
-                  <a
-                    href={`https://map.kakao.com/link/map/${position.name},${position.latlng.lat},${position.latlng.lng}`}
-                    target="_blank"
-                    rel="nooppener noreferrer"
-                    className="hover:bg-gray-100 rounded-full"
-                  >
-                    카카오 지도에서 보기
-                  </a>
-                  <span>{"  |  "}</span>
-                  <a
-                    href={`https://map.kakao.com/link/to/${position.name},${position.latlng.lat},${position.latlng.lng}`}
-                    target="_blank"
-                    rel="nooppener noreferrer"
-                    className="hover:bg-gray-100 rounded-full"
-                  >
-                    길찾기
-                  </a>
-                </p>
-              </div>
+              <KaKaoMapInfoWindow position={position} setInfoWindowState={setInfoWindowState} index={index} />
             )}
           </MapMarker>
         ))}
