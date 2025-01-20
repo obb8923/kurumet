@@ -15,7 +15,7 @@ const YoutuberCon = ({ program, programKor, isSelected }: YoutuberConProps) => {
         onClick={() => clickHandler()}
       >
         <Image
-          src={require(`../../public/profileImg/${program}.jpg`)}
+          src={require(`../../public/profileImg/${program}.png`)}
           alt={`프로필사진 ${program}}`}
           className="rounded-full w-8 h-8 bg-gray-300 object-cover"
         />

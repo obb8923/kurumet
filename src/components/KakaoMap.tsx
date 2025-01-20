@@ -1,9 +1,34 @@
 import { useEffect, useState } from "react";
 import Script from "next/script";
-import { useList, useActions } from "@/store/StateCon";
+import { useList } from "@/store/StateCon";
 import { Map as KakaoMap, ZoomControl, MapMarker } from "react-kakao-maps-sdk";
 import KaKaoMapInfoWindow from "./KaKaoMapInfoWindow";
 import { listType } from "@/types/listType";
+//프로필 이미지
+import seongsikyeong from "../../public/profileImg/seongsikyeong.png";
+import gonghyeokjun from "../../public/profileImg/gonghyeokjun.png";
+import choeja from "../../public/profileImg/choeja.png";
+
+function getProfileImg(program: string | undefined) :string {
+  if (program === "seongsikyeong") return seongsikyeong.src;
+  
+  if (program === "gonghyeokjun") return gonghyeokjun.src;
+  
+  if (program === "choeja") return choeja.src;
+  
+  return seongsikyeong.src;
+}
+
+// getProfileImg 함수 아래에 새로운 스타일 상수 추가
+const MARKER_STYLE = {
+  width: '64px',
+  height: '64px',
+  border: '3px solid white',
+  borderRadius: '50%',
+  overflow: 'hidden',
+  boxShadow: '0 3px 6px rgba(0,0,0,0.16)',
+  background: '#fff'
+};
 
 const KAKAO_SDK_URL = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAO_APP_JS_KEY}&autoload=false`;
 
@@ -63,6 +88,20 @@ export default function KaKaoMap() {
             title={position.name}
             clickable={true} // 마커를 클릭했을 때 지도의 클릭 이벤트가 발생하지 않도록 설정합니다
             onClick={() => handleMarkerClick(index)}
+            image={{
+              src: getProfileImg(position.program),
+              size: {
+                width: 34,
+                height: 34, 
+              },
+              options: {
+                offset: {
+                  x: 17, // 중앙 정렬을 위해 수정
+                  y: 17, // 중앙 정렬을 위해 수정
+                },
+                shape: 'circle', // 원형 모양 지정
+              },
+            }}
           >
             {infoWindowState[index].isOpen && (
               <KaKaoMapInfoWindow position={position} setInfoWindowState={setInfoWindowState} index={index} />
