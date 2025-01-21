@@ -10,6 +10,10 @@ export const programs = [
     {
         program: "choeja",
         programKor: "최자로드",
+    },
+    {
+        program: "poongja",
+        programKor: "또간집",
     }
 ];
 

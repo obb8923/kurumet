@@ -8,13 +8,15 @@ import { listType } from "@/types/listType";
 import seongsikyeong from "../../public/profileImg/seongsikyeong.png";
 import gonghyeokjun from "../../public/profileImg/gonghyeokjun.png";
 import choeja from "../../public/profileImg/choeja.png";
-
+import poongja from "../../public/profileImg/poongja.png";
 function getProfileImg(program: string | undefined) :string {
   if (program === "seongsikyeong") return seongsikyeong.src;
   
   if (program === "gonghyeokjun") return gonghyeokjun.src;
   
   if (program === "choeja") return choeja.src;
+  
+  if (program === "poongja") return poongja.src;
   
   return seongsikyeong.src;
 }
