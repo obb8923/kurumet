@@ -1,27 +1,14 @@
 "use client";
-import Search from "./Search";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import AddConButton from "./AddConButton";
 import SelectedConList from "./SelectedConList";
-import LoginButton from "./LoginButton";
+import Logo from "./Logo";
 export default function GNB() {
-  const router = useRouter();
   const [ham, setHam] = useState(false);
-
   return (
     <nav className="flex shadow items-center">
       {/* logo Section */}
-      <div className="flex justify-center items-center my-1 py-1 px-4 lg:px-8 border-r border-black border-solid hover:cursor-pointer">
-        <div
-          className="logo text-xl"
-          onClick={() => {
-            router.push("/");
-          }}
-        >
-          kurumet
-        </div>
-      </div>
+      <Logo />
       {/* youtuberCon Section */}
       <div className="flex gap-4 flex-1 my-2 px-4 lg:px-8">
         <SelectedConList />
@@ -30,7 +17,7 @@ export default function GNB() {
       <div className="hidden lg:block flex justify-center items-center mx-4">
         <AddConButton />
       </div>
-    
+      <div className="h-full w-14 flex"/>
       {/* 모바일에서만 보이는 햄버거 Section */}
       <div className="relative lg:hidden">
         {/* 햄버거 버튼 */}
