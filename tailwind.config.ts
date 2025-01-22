@@ -13,6 +13,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        'ping-slow': 'ping 2s cubic-bezier(0, 0, 0.2, 1) infinite',  // 더 느리고 작게
+      },
     },
   },
   plugins: [],
