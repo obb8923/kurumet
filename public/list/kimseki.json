@@ -483,6 +483,306 @@
           "lng": 126.9721721367
         },
         "youtubeEmbed": "https://www.youtube.com/embed/HSzcICZT_fg"
+      },
+      {
+        "name": "스시나마",
+        "food": "초밥",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 마포구 망원로 88 102호",
+        "latlng": {
+          "lat": 37.5575746140462  ,
+          "lng": 126.906607605494
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/Fk8LVTvVGw4"
+      },
+      {
+        "name": "이한진숙성회",
+        "food": "생선회",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 강동구 구천면로 247-1",
+        "latlng": {
+          "lat": 37.542586791937  ,
+          "lng": 127.131104623707
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/99IwQ0_N0fM"
+      },
+      {
+        "name": "마장 한우리",
+        "food": "소고기구이",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 동대문구 홍릉로5길 14 1층",
+        "latlng": {
+          "lat": 37.5827099613219  ,
+          "lng": 127.043474864298
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/xA2B48ts2v8"
+      },
+      {
+        "name": "섬마을횟집",
+        "food": "생선회",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 동대문구 홍릉로5길 8",
+        "latlng": {
+          "lat": 37.5827258535761  ,
+          "lng": 127.04386795474
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/xA2B48ts2v8"
+      },
+      {
+        "name": "호수집",
+        "food": "닭꼬치 닭도리탕",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 중구 청파로 443",
+        "latlng": {
+          "lat": 37.5590454261506  ,
+          "lng": 126.968485816049
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/DQR4mbJCtJ0"
+      },
+      {
+        "name": "영수분식",
+        "food": "곱창",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 성동구 성덕정15길 4-8",
+        "latlng": {
+          "lat": 37.5379652023636  ,
+          "lng": 127.053947436898
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/67BMBswDrJ4"
+      },
+      {
+        "name": "소문난성수감자탕",
+        "food": "감자탕",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 성동구 연무장길 45",
+        "latlng": {
+          "lat": 37.5428826481781  ,
+          "lng": 127.054408010395
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/67BMBswDrJ4"
+      },
+      {
+        "name": "진진바리횟집",
+        "food": "생선회",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 강서구 공항대로46길 13-12",
+        "latlng": {
+          "lat": 37.5541588760705  ,
+          "lng": 126.853147687826
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/dJ0jJJQo_Dw"
+      },
+      {
+        "name": "나리의 집",
+        "food": "삼겹살",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 용산구 이태원로 245",
+        "latlng": {
+          "lat": 37.5369083075217  ,
+          "lng": 127.000040053449
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/gocLoz-4Sog"
+      },
+      {
+        "name": "나들목식당",
+        "food": "백반",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 영등포구 양평로30길 51",
+        "latlng": {
+          "lat": 37.544262342449 ,
+          "lng": 126.887745992739
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/viwLib-XQNk"
+      },
+      {
+        "name": "산수갑산",
+        "food": "순대정식 순대국밥",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 중구 을지로20길 24",
+        "latlng": {
+          "lat": 37.5654116565534  ,
+          "lng": 126.995323167195
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/LKukMbqe-cA"
+      },
+      {
+        "name": "필동해물",
+        "food": "해물",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 중구 필동로 30",
+        "latlng": {
+          "lat": 37.5590167690854  ,
+          "lng": 126.996035461307
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/jzU5RgFwbVE"
+      },
+      {
+        "name": "선미네마트",
+        "food": "가맥집",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 중구 필동로 31-1 (필동3가) 선미슈퍼",
+        "latlng": {
+          "lat": 37.558836760605 ,
+          "lng": 126.996369460554
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/jzU5RgFwbVE"
+      },
+      {
+        "name": "송옥",
+        "food": "메밀국수",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 중구 남대문로1길 11",
+        "latlng": {
+          "lat": 37.5615611548427  ,
+          "lng": 126.977372193969
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/wC4tePnrb7w"
+      },
+      {
+        "name": "광화문미진",
+        "food": "메밀국수",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 종로구 종로 19",
+        "latlng": {
+          "lat": 37.5708444878121 ,
+          "lng": 126.979923668151
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/wC4tePnrb7w"
+      },
+      {
+        "name": "지우정",
+        "food": "소고기구이 돼지고기구이",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 강북구 삼각산로 130 1층",
+        "latlng": {
+          "lat": 37.6408273105342,
+          "lng": 127.01865915039
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/ql12C4pRaW0"
+      },
+      {
+        "name": "냐옹지마",
+        "food": "이자카야",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 영등포구 도림로141다길 13-2",
+        "latlng": {
+          "lat": 37.5146817750863 ,
+          "lng": 126.890650682526
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/ABO5O43w3CM"
+      },
+      {
+        "name": "일등식당",
+        "food": "해장국",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 마포구 방울내로 82",
+        "latlng": {
+          "lat": 37.5605651073381 ,
+          "lng": 126.904350324808
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/agsqPTAcWNg"
+      },
+      {
+        "name": "진주회관",
+        "food": "국수",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 중구 세종대로11길 26",
+        "latlng": {
+          "lat": 37.5623140006705 ,
+          "lng": 126.974582779311
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/7FmoBfaL45g"
+      },
+      {
+        "name": "중림장설렁탕",
+        "food": "설렁탕",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 중구 청파로 459-1",
+        "latlng": {
+          "lat": 37.5602762481224 ,
+          "lng": 126.967707972892
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/7FmoBfaL45g"
+      },
+      {
+        "name": "삼거리먼지막순대국",
+        "food": "순대국",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 영등포구 시흥대로185길 11",
+        "latlng": {
+          "lat": 37.491720153466 ,
+          "lng": 126.907241817617
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/7FmoBfaL45g"
+      },
+      {
+        "name": "충무로쭈꾸미불고기",
+        "food": "쭈꾸미불고기",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 중구 퇴계로31길 11",
+        "latlng": {
+          "lat": 37.5617620959161 ,
+          "lng": 126.992203055689
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/vR8ZLVRjcBY"
+      },
+      {
+        "name": "전주식당",
+        "food": "한식 문어보쌈",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 금천구 독산로109길 27 1층 전주식당",
+        "latlng": {
+          "lat": 37.4787933598376,
+          "lng": 126.902394059645
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/BmdbBqaW0cU"
+      },
+      {
+        "name": "포석정",
+        "food": "삼겹살",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 서초구 신반포로 194 서울고속버스터미널 10층",
+        "latlng": {
+          "lat": 37.5064357442307 ,
+          "lng": 127.006834366246
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/DtVVFWA1TyA"
+      },
+      {
+        "name": "소나무",
+        "food": "소고기구이",
+        "program" : "kimseki",
+        "programKor" : "김사원세끼",
+        "address": "서울 성동구 행당로17길 20",
+        "latlng": {
+          "lat": 37.5601207362776 ,
+          "lng": 127.033264858904
+        },
+        "youtubeEmbed": "https://www.youtube.com/embed/R2Kv_Is5-YE"
       }
     ]
 }
