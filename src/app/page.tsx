@@ -4,20 +4,20 @@ import Dropdown from "@/components/Dropdown";
 import { useMapState } from "@/store/StateMap";
 import List from "@/components/List";
 import { useList } from "@/store/StateCon";
-
 import FirebaseAnalytics from "@/components/FirebaseAnalytics";
-
+import PWAInstallPrompt from '../components/PWAInstallPrompt';
 
 export default function Home() {
 
   const l = useList();
   const mapState = useMapState();
 
-
   return (
     <main className="flex flex-col items-center">
       {/* 파이어베이스 애널리틱스 */}
       <FirebaseAnalytics />
+      {/* PWA 설치 프롬프트 */}
+      <PWAInstallPrompt />
       {/* 지도 위 메뉴 */}
       <div className="m-2 flex justify-end" style={{ width: "90vw" }}>
         <Dropdown />
