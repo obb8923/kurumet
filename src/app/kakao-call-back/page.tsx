@@ -5,7 +5,8 @@ import { useSearchParams } from "next/navigation";
 
 const KakaoCallbackComponent = () => {
   const searchParams = useSearchParams();
-  const code = searchParams.get("code");
+  // searchParams가 null이 아닌 것을 보장
+  const code = searchParams?.get("code") ?? null;
 
   useEffect(() => {
     if (code) {
