@@ -46,9 +46,23 @@ const PWAInstallPrompt = () => {
 
   return (
     showPrompt && (
-      <div className="install-banner">
-        <p>더 나은 사용 경험을 위해 앱을 설치해주세요.</p>
-        <button onClick={handleInstallClick}>설치하기</button>
+      <div className="fixed left-1/2 top-[30%] -translate-x-1/2 bg-white rounded-lg shadow-lg p-4 w-[90%] max-w-sm z-[1000]">
+        <div className="flex justify-between items-center mb-4">
+          <p className="text-lg font-medium">앱 설치 안내</p>
+          <button 
+            onClick={() => setShowPrompt(false)}
+            className="text-gray-500 hover:text-gray-700"
+          >
+            ✕
+          </button>
+        </div>
+        <p className="text-gray-600 mb-4">더 나은 사용 경험을 위해 앱을 설치할 수 있습니다.</p>
+        <button 
+          onClick={handleInstallClick}
+          className="w-full text-gray-900 bg-gray-100 border border-gray-300 hover:bg-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex justify-center items-center"
+        >
+          설치하기
+        </button>
       </div>
     )
   );
