@@ -1,11 +1,11 @@
 {
   "name": "Kurumet",
   "short_name": "Kurumet",
-  "description": "Kurumet main page",
+  "description": "맛집탐방 어플리케이션",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "theme_color": "#fafafa",
   "icons": [
     {
       "src": "/icons/kurumet-logo-192.png",
