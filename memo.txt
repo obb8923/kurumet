@@ -1,0 +1,34 @@
+프로그램 추가 규칙
+1. json 파일 추가
+2. 이미지 파일 추가
+3. constants/programs.js 에 내용 프로그램 추가
+4. KakaoMap.tsx 에 내용 프로그램 추가 (getProfileImg 함수 추가)
+
+
+공슐랭가이드
+> 가장 밑이 제일 최신 영상
+> 링크
+https://www.youtube.com/watch?v=ioNZvqInbg0&t=223s
+
+먹을텐데
+> 가장 위가 제일 최신 영상
+> 링크
+https://www.youtube.com/watch?v=llHQEbY28a4&list=PLuMuHAJh9g_Py_PSm8gmHdlcil6CQ9QCM&index=3
+
+최자로드 (최자로드 4까지 함)
+> 가장 밑이 제일 최신 영상
+> 링크
+https://www.youtube.com/watch?v=QxErY8Pl3mI
+
+또간집 (10화까지 함)
+> 가장 밑이 제일 최신 영상
+> 링크
+https://www.youtube.com/watch?v=3flBnJ7gfGU&list=PL8ZmFxF9Ts5yZY-RlNAG51MqkURwYBBk5&index=60
+> 블로그
+https://blog.naver.com/morning_ginger/222874407840
+
+김사원세끼 
+> [서울 맛집] 재생목록의 최신 영상부터 기입 중 가장 위가 제일 최신 영상
+첫 영상 링크 https://www.youtube.com/watch?v=2HsmLgSdh2w&list=PLCNYoGrzVJuUWTlwZ2CH9nfQF08959pIj
+> 링크 77번째 부터 하면 됨
+https://www.youtube.com/watch?v=pwAmLtpYaRg&list=PLCNYoGrzVJuUWTlwZ2CH9nfQF08959pIj&index=77
