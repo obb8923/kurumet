@@ -6,7 +6,7 @@ import List from "@/components/List";
 import { useList } from "@/store/StateCon";
 import FirebaseAnalytics from "@/components/FirebaseAnalytics";
 import PWAInstallPrompt from '../components/PWAInstallPrompt';
-
+import { GAPageView } from "@/components/GAPageView";
 export default function Home() {
 
   const l = useList();
@@ -18,6 +18,8 @@ export default function Home() {
       <FirebaseAnalytics />
       {/* PWA 설치 프롬프트 */}
       <PWAInstallPrompt />
+      {/* 페이지뷰 이벤트 */}
+      <GAPageView />
       {/* 지도 위 메뉴 */}
       <div className="m-2 flex justify-end" style={{ width: "90vw" }}>
         <Dropdown />
