@@ -9,7 +9,6 @@ const AddConButton = () => {
 
   // 모달이 열리면 바깥 스크롤이 작동하지 않도록 한다.
   useEffect(() => {
-    console.log('이즈오픈', isOpen);
     if (isOpen) {
       document.body.style.overflow = "hidden";
     } else {
