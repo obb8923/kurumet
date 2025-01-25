@@ -25,17 +25,6 @@ function getProfileImg(program: string | undefined) :string {
   return seongsikyeong.src;
 }
 
-// getProfileImg 함수 아래에 새로운 스타일 상수 추가
-const MARKER_STYLE = {
-  width: '64px',
-  height: '64px',
-  border: '3px solid white',
-  borderRadius: '50%',
-  overflow: 'hidden',
-  boxShadow: '0 3px 6px rgba(0,0,0,0.16)',
-  background: '#fff'
-};
-
 const KAKAO_SDK_URL = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAO_APP_JS_KEY}&autoload=false`;
 
 export default function KaKaoMap() {
@@ -47,6 +36,7 @@ export default function KaKaoMap() {
   const [infoWindowState, setInfoWindowState] = useState(
     items?.map(() => ({ isOpen: false }))
   );
+
   //전역상태에 존재하는 유튭콘을 json파일과 비교하여
   //json파일의 list들을 가져옴
   //마커도 추가
@@ -78,6 +68,7 @@ export default function KaKaoMap() {
     );
   };
 
+ 
   return (
     <section className="w-full h-full">
       <Script src={KAKAO_SDK_URL} strategy="beforeInteractive" />
@@ -85,7 +76,9 @@ export default function KaKaoMap() {
         center={{ lat: 37.574187, lng: 126.976882 }} //위도(latitude), 경도(longitude)
         style={{ width: "100%", height: "100%" }}
         level={10}
+        
       >
+       
         <ZoomControl position={"RIGHT"} />
         {items.map((position, index) => (
           <MapMarker

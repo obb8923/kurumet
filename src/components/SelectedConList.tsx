@@ -9,7 +9,7 @@ const SelectedConList = () => {
 
   return (
     // 가로 스크롤이 가능한 유튜버 리스트 컨테이너
-    <div className="w-auto h-full flex gap-4 overflow-y-auto min-h-12 items-center">
+    <div className="w-auto h-full flex gap-4 overflow-x-auto min-h-12 items-center">
       {l.size == 0 ? (
         // 선택된 유튜버가 없을 경우 메시지 표시
         <small>선택된 유튜버가 없습니다.</small>

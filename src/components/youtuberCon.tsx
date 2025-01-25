@@ -20,7 +20,7 @@ const YoutuberCon = ({ program, programKor, isSelected }: YoutuberConProps) => {
           className="rounded-full w-8 h-8 bg-gray-300 object-cover"
         />
       </div>
-      {!isSelected && <small className="hidden lg:block">{programKor}</small> }
+      {!isSelected && <small className="whitespace-nowrap">{programKor}</small>}
     </div>
   );
 };
