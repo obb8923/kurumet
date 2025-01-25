@@ -1,9 +1,10 @@
 import { useState, useRef, useEffect } from "react";
 import AddConButton from "./AddConButton";
-
+import { useList } from "@/store/StateCon";
 const HamButton = () => {
     const [ham, setHam] = useState(false);
     const menuRef = useRef<HTMLDivElement>(null);
+    const l  = useList();
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
@@ -19,7 +20,7 @@ const HamButton = () => {
     }, []);
 
   return (
-    <div className="relative lg:hidden" ref={menuRef}>
+    <div className="relative lg:hidden " ref={menuRef}>
     {/* 햄버거 버튼 */}
     <button
       type="button"
@@ -45,6 +46,8 @@ const HamButton = () => {
         />
       </svg>
     </button>
+    <div className={`rounded-lg opacity-75 z-[-10] absolute inset-0 ${l.size === 0 && 'animate-ping-slow border border-red-500'}`} />
+
     {/* <!-- 내비게이션 메뉴 --> */}
     {ham && (
       <div className="w-[95vw] md:w-[55vw] border border-gray-300 bg-white px-8 py-4 absolute top-full right-0 z-20 lg:hidden">
