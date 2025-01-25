@@ -87,7 +87,7 @@ export default function Search() {
         <div className="flex">
           <label
             htmlFor="search-dropdown"
-            className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+            className="mb-2 text-sm font-medium text-gray-900 sr-only "
           ></label>
           {/* 카테고리 선택 */}
           <button
@@ -96,7 +96,7 @@ export default function Search() {
               toggleDropdown("");
             }}
             data-dropdown-toggle="#dropdown"
-            className="relative flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200  focus:outline-none dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600"
+            className="relative flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200  focus:outline-none"
             type="button"
           >
             {toggleSellected}
@@ -120,14 +120,14 @@ export default function Search() {
               <div
                 id="dropdown"
                 ref={dropdownRef}
-                className="absolute top-full left-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
+                className="absolute top-full left-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 "
               >
                 <ul
-                  className="py-2 text-sm text-gray-700 dark:text-gray-200"
+                  className="py-2 text-sm text-gray-700 "
                   aria-labelledby="dropdown-button"
                 >
                   <li
-                    className="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    className="inline-flex w-full px-4 py-2 hover:bg-gray-100 "
                     onClick={() => {
                       toggleDropdown("프로그램 이름");
                     }}
@@ -135,7 +135,7 @@ export default function Search() {
                     프로그램 이름
                   </li>
                   <li
-                    className="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    className="inline-flex w-full px-4 py-2 hover:bg-gray-100 "
                     onClick={() => {
                       toggleDropdown("지역명");
                     }}
@@ -152,7 +152,7 @@ export default function Search() {
             <input
               type="search"
               id="search-dropdown"
-              className="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-e-lg border-s-gray-50 border-s-2 border border-gray-300  focus:outline-none  dark:bg-gray-700 dark:border-s-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
+              className="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-e-lg border-s-gray-50 border-s-2 border border-gray-300  focus:outline-none "
               placeholder="검색"
               {...register("search", {
                 required: "검색어를 입력해주세요",
@@ -162,10 +162,10 @@ export default function Search() {
 
             {/* 검색 결과 */}
             {isSearchResultOpen && (
-              <div className="absolute top-12 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
+              <div className="absolute top-12 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow ">
                 <button
                   type="button"
-                  className="inline-flex w-full px-4 py-2 hover:bg-gray-100 hover:rounded-lg dark:hover:bg-gray-600 dark:hover:text-white"
+                  className="inline-flex w-full px-4 py-2 hover:bg-gray-100 hover:rounded-lg "
                   onClick={searchResultClickHandler}
                 >
                   {searchResult.length < 2 ? (
@@ -182,7 +182,7 @@ export default function Search() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-white rounded-e-lg border border-gray-300 hover:bg-gray-100 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-white rounded-e-lg border border-gray-300 hover:bg-gray-100 "
             >
               <svg
                 className="w-4 h-4"
