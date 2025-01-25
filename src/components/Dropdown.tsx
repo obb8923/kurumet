@@ -87,7 +87,7 @@ const Dropdown = () => {
               </li>
               {/* 리스트 메뉴 아이템 */}
               <li
-                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:textWhite"
+                className="block px-4 py-2 hover:bg-gray-100"
                 onClick={() => {
                   toggleDropdown("리스트");
                 }}
