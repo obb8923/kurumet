@@ -1,5 +1,5 @@
-import SelectedConList from "./SelectedConList";
-import EveryConList from "./EveryConList";
+import SelectedConList from "../SelectedConList";
+import EveryConList from "../EveryConList";
 import { useList } from "@/store/StateCon";
 const AddConModal = ({setIsOpen}: {setIsOpen: (isOpen: boolean) => void}) => {
   const l = useList();

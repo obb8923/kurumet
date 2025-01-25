@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 // import GNB from "../components/GNB";
-import GNB2 from "../components/GNB2";
+import GNB2 from "../components/GNB/GNB2";
 import Footer from "../components/Footer";
 import Script from 'next/script';
 
