@@ -18,6 +18,10 @@ export const programs = [
     {
         program: "kimseki",
         programKor: "김사원세끼",
+    },
+    {
+        program: "hongseokcheon",
+        programKor: "줄 서는 맛집 앞",
     }
 ];
 

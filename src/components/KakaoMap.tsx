@@ -10,6 +10,7 @@ import gonghyeokjun from "../../public/profileImg/gonghyeokjun.png";
 import choeja from "../../public/profileImg/choeja.png";
 import poongja from "../../public/profileImg/poongja.png";
 import kimseki from "../../public/profileImg/kimseki.png";
+import hongseokcheon from "../../public/profileImg/hongseokcheon.png";
 
 function getProfileImg(program: string | undefined) :string {
   if (program === "seongsikyeong") return seongsikyeong.src;
@@ -21,6 +22,8 @@ function getProfileImg(program: string | undefined) :string {
   if (program === "poongja") return poongja.src;
 
   if (program === "kimseki") return kimseki.src;
+
+  if (program === "hongseokcheon") return hongseokcheon.src;
 
   return seongsikyeong.src;
 }
